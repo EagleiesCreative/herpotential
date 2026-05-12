@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keamanan & Perlindungan Diri — HerPotential</title>
+  <meta name="description" content="Panduan keamanan digital, cara melindungi diri dari kekerasan berbasis gender online, self-defense dasar, dan nomor darurat yang perlu kamu simpan.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--pink-1:#ffd6e8;--pink-2:#ffb3d4;--pink-3:#ff8fbe;--pink-4:#f06292;--pink-5:#c2185b;--blush:#fce4ec;--offwhite:#fdf8fa;--text-dark:#2a1520;--text-mid:#6d3b52;--text-muted:#b07490;--accent-lilac:#e8d5f5;--accent-mint:#d4f0e8;--accent-peach:#ffe0cc}
+    html{scroll-behavior:smooth}
+    body{background:var(--offwhite);font-family:'DM Sans',sans-serif;color:var(--text-dark);line-height:1.7}
+    nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.9);backdrop-filter:blur(18px);border-bottom:1px solid var(--pink-1);padding:0 2.5rem;display:flex;align-items:center;justify-content:space-between;height:66px}
+    .logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.2rem;color:var(--pink-5);text-decoration:none;display:flex;align-items:center;gap:.5rem}
+    .logo img{height:1.8em;width:auto}
+    .back-link{font-size:.85rem;color:var(--text-mid);text-decoration:none;display:flex;align-items:center;gap:.4rem;transition:color .2s}
+    .back-link:hover{color:var(--pink-4)}
+    .article-hero{background:linear-gradient(135deg,var(--accent-mint),#a8e0d0);padding:5rem 4rem 4rem;text-align:center}
+    .hero-badge{display:inline-flex;align-items:center;gap:.4rem;background:white;color:#0a6644;font-size:.72rem;font-weight:500;padding:.35rem .9rem;border-radius:999px;margin-bottom:1.5rem;border:1px solid #a5d6a7;letter-spacing:.8px;text-transform:uppercase}
+    .article-hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.9rem,4vw,3rem);line-height:1.2;color:var(--text-dark);max-width:800px;margin:0 auto 1.5rem;letter-spacing:-.5px}
+    .article-hero .lead{font-size:1.05rem;color:var(--text-mid);max-width:660px;margin:0 auto 2rem;font-weight:300}
+    .author-row{display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap}
+    .avatar{width:44px;height:44px;border-radius:50%;background:#26a69a;display:flex;align-items:center;justify-content:center;font-size:.85rem;color:white;font-weight:700}
+    .author-info{text-align:left}
+    .author-name{font-size:.9rem;font-weight:500;color:var(--text-dark)}
+    .author-meta{font-size:.78rem;color:var(--text-muted)}
+    .divider{width:1px;height:30px;background:#a5d6a7}
+    .article-wrap{max-width:760px;margin:0 auto;padding:4rem 2rem}
+    .article-wrap p{font-size:1.02rem;color:var(--text-dark);margin-bottom:1.5rem;font-weight:300}
+    .article-wrap h2{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--text-dark);margin:3rem 0 1rem;letter-spacing:-.3px}
+    .article-wrap h3{font-family:'Playfair Display',serif;font-size:1.2rem;color:var(--text-dark);margin:2rem 0 .7rem}
+    .pullquote{background:var(--accent-mint);border-left:4px solid #26a69a;padding:1.5rem 2rem;border-radius:0 16px 16px 0;margin:2.5rem 0;font-family:'Playfair Display',serif;font-size:1.2rem;font-style:italic;color:var(--text-dark);line-height:1.5}
+    .pullquote cite{display:block;font-family:'DM Sans',sans-serif;font-size:.78rem;font-style:normal;color:var(--text-muted);margin-top:.8rem}
+    .section-card{background:white;border:1.5px solid #a5d6a7;border-radius:18px;padding:1.6rem 2rem;margin:1.5rem 0}
+    .section-card h3{font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--text-dark);margin-bottom:.8rem}
+    .section-card p{font-size:.9rem;color:var(--text-mid);margin-bottom:.8rem}
+    .section-card ul{padding-left:1.2rem}
+    .section-card li{font-size:.88rem;color:var(--text-mid);margin-bottom:.5rem;line-height:1.6}
+    .highlight-box{background:white;border:1.5px solid #a5d6a7;border-radius:16px;padding:1.5rem 2rem;margin:2.5rem 0}
+    .highlight-box h4{font-family:'Playfair Display',serif;font-size:1rem;color:#0a6644;margin-bottom:.8rem}
+    .highlight-box ul{padding-left:1.2rem}
+    .highlight-box li{font-size:.9rem;color:var(--text-mid);margin-bottom:.6rem;line-height:1.6}
+    .checklist-card{background:#e8f5e9;border-radius:16px;padding:1.5rem 2rem;margin:1.5rem 0}
+    .checklist-card h4{font-size:.9rem;font-weight:600;color:#2e7d32;margin-bottom:1rem;text-transform:uppercase;letter-spacing:.5px}
+    .check-item{display:flex;gap:.8rem;align-items:flex-start;margin-bottom:.8rem;font-size:.9rem;color:var(--text-mid)}
+    .check-item .check-icon{color:#43a047;font-weight:700;flex-shrink:0;margin-top:.05rem}
+    .emergency-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin:2rem 0}
+    .em-card{background:#1b5e20;border-radius:14px;padding:1.3rem;color:white}
+    .em-card .em-num{font-family:'Syne',sans-serif;font-size:1.6rem;font-weight:800;color:#a5d6a7;margin-bottom:.3rem}
+    .em-card .em-name{font-size:.88rem;font-weight:500;margin-bottom:.2rem}
+    .em-card .em-desc{font-size:.75rem;color:rgba(255,255,255,.6)}
+    .ref-section{background:var(--accent-mint);border-radius:16px;padding:1.5rem 2rem;margin:3rem 0}
+    .ref-section h4{font-size:.85rem;font-weight:600;color:var(--text-mid);margin-bottom:.8rem;text-transform:uppercase;letter-spacing:.5px}
+    .ref-section ul{padding-left:1.2rem}
+    .ref-section li{font-size:.8rem;color:var(--text-muted);margin-bottom:.4rem}
+    .ref-section a{color:#0a6644;text-decoration:none}
+    .related{background:white;padding:4rem;border-top:1px solid var(--pink-1)}
+    .related h3{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--text-dark);margin-bottom:2rem}
+    .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+    .related-card{border:1px solid var(--pink-1);border-radius:16px;padding:1.2rem;text-decoration:none;color:inherit;transition:all .2s;display:block}
+    .related-card:hover{border-color:var(--pink-3);transform:translateY(-3px)}
+    .badge{font-size:.66rem;font-weight:500;padding:.2rem .6rem;border-radius:999px;text-transform:uppercase;letter-spacing:.4px}
+    .badge-pink{background:var(--blush);color:var(--pink-5)}
+    .badge-lilac{background:var(--accent-lilac);color:#7c3aed}
+    .badge-mint{background:var(--accent-mint);color:#0a6644}
+    .related-card h4{font-family:'Playfair Display',serif;font-size:.95rem;line-height:1.4;color:var(--text-dark);margin:.5rem 0}
+    .related-card p{font-size:.75rem;color:var(--text-muted)}
+    footer{background:var(--text-dark);color:white;padding:2.5rem 4rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+    footer p{font-size:.82rem;color:rgba(255,255,255,.45)}
+    footer a{color:var(--pink-2);text-decoration:none;font-size:.82rem}
+    @media(max-width:768px){nav{padding:0 1.2rem;height:auto;min-height:60px}.article-hero{padding:3rem 1.5rem}.article-wrap{padding:2.5rem 1.2rem}.emergency-grid{grid-template-columns:1fr}.related-grid{grid-template-columns:1fr}footer{flex-direction:column;text-align:center;padding:2rem 1.5rem}}
+    @media(max-width:480px){.pullquote{padding:1rem 1.2rem;font-size:1rem}}
+  </style>
+</head>
+<body>
+  <nav>
+    <a class="logo" href="index.html"><img src="a.svg" alt="HerPotential"> HerPotential</a>
+    <a class="back-link" href="index.html">← Kembali ke Beranda</a>
+  </nav>
+
+  <header class="article-hero">
+    <div class="hero-badge">🛡️ Keamanan & Perlindungan</div>
+    <h1>Keamanan & Perlindungan Diri: Panduan Praktis</h1>
+    <p class="lead">Panduan keamanan digital, cara melindungi diri dari kekerasan berbasis gender online, self-defense dasar, dan nomor darurat yang perlu kamu simpan sekarang.</p>
+    <div class="author-row">
+      <div class="avatar">HP</div>
+      <div class="author-info">
+        <div class="author-name">Tim Redaksi HerPotential</div>
+        <div class="author-meta">Keamanan & Hak Perempuan</div>
+      </div>
+      <div class="divider"></div>
+      <div class="author-meta">7 menit baca · Mei 2025</div>
+    </div>
+  </header>
+
+  <article class="article-wrap">
+
+    <p>Keamanan perempuan bukan hanya soal fisik. Di era digital, ancaman bisa datang dari layar HP yang kamu genggam setiap hari. Panduan ini mencakup keduanya — agar kamu siap menghadapi berbagai situasi.</p>
+
+    <div class="pullquote">
+      "Keamanan adalah hak, bukan kemewahan. Dan kesiapan adalah bentuk perawatan diri yang paling fundamental."
+      <cite>— SAFEnet Indonesia, dalam Panduan Keamanan Digital untuk Perempuan (2024)</cite>
+    </div>
+
+    <h2>Keamanan Digital — Lindungi Dirimu Online</h2>
+
+    <div class="section-card">
+      <h3>🔐 Fondasi Keamanan Akun Digital</h3>
+      <ul>
+        <li><strong>Gunakan password yang kuat dan unik</strong> untuk setiap akun — minimal 12 karakter, kombinasi huruf besar/kecil, angka, dan simbol. Gunakan password manager seperti Bitwarden (gratis) atau 1Password</li>
+        <li><strong>Aktifkan Two-Factor Authentication (2FA)</strong> di semua akun penting: email, media sosial, perbankan. Gunakan aplikasi authenticator (bukan SMS) untuk keamanan lebih tinggi</li>
+        <li><strong>Periksa pengaturan privasi</strong> media sosialmu — siapa yang bisa melihat postingan, lokasi, dan informasi pribadi</li>
+        <li><strong>Jangan bagikan lokasi real-time</strong> secara publik atau ke orang yang belum kamu percaya sepenuhnya</li>
+        <li><strong>Hati-hati dengan link asing</strong> — jangan klik link dari nomor tidak dikenal, meskipun mengatasnamakan bank atau pemerintah</li>
+      </ul>
+    </div>
+
+    <h2>Kekerasan Berbasis Gender Online (KBGO)</h2>
+
+    <div class="section-card">
+      <h3>📱 Mengenali & Merespons KBGO</h3>
+      <p>KBGO mencakup pelecehan digital, stalking online, doxxing, revenge porn, dan manipulasi berbasis teknologi. Data SAFEnet (2024) mencatat 935 kasus KBGO yang dilaporkan di Indonesia — dan ini hanya puncak gunung es.</p>
+      <ul>
+        <li><strong>Jangan hapus bukti dulu</strong> — screenshot percakapan, profil pelaku, dan URL konten sebelum melaporkan atau memblokir</li>
+        <li><strong>Blokir dan laporkan</strong> di platform terkait — hampir semua platform punya fitur report untuk konten berbahaya</li>
+        <li><strong>Laporkan ke Siber Polri</strong> melalui patrolisiber.id untuk kasus yang sudah masuk ranah pidana</li>
+        <li><strong>Hubungi SAFEnet</strong> — mereka menyediakan pendampingan gratis dan panduan teknis untuk korban KBGO</li>
+        <li>Untuk <strong>konten intim yang tersebar tanpa izin (NCII)</strong>, StopNCII.org (tersedia di Indonesia) memiliki teknologi untuk membantu menghapus konten dari platform besar</li>
+      </ul>
+    </div>
+
+    <h2>Keamanan Fisik — Situasi Sehari-hari</h2>
+
+    <div class="section-card">
+      <h3>🚶‍♀️ Kewaspadaan Situasional</h3>
+      <ul>
+        <li><strong>Bagikan lokasi real-time</strong> ke orang terpercaya saat bepergian sendirian malam hari — fitur share location di WhatsApp atau Google Maps</li>
+        <li><strong>Percayai instingmu</strong> — jika suatu situasi terasa tidak nyaman, tinggalkan. Kamu tidak perlu sopan saat merasa tidak aman</li>
+        <li><strong>Kenali titik aman</strong> di lingkunganmu: minimarket buka 24 jam, kantor polisi terdekat, tempat ramai</li>
+        <li><strong>Saat naik transportasi online</strong>, selalu screenshot detail driver + kendaraan dan kirim ke kontak terpercaya sebelum berangkat</li>
+      </ul>
+    </div>
+
+    <h2>Self-Defense Dasar — 3 Prinsip Utama</h2>
+
+    <div class="highlight-box">
+      <h4>⚡ Prinsip self-defense untuk perempuan:</h4>
+      <ul>
+        <li><strong>Hindari dulu</strong> — kesadaran situasional adalah pertahanan terbaik. Deteksi risiko sebelum terjadi</li>
+        <li><strong>Berisik dan tegas</strong> — teriakan keras, kontak mata langsung, dan berkata "PERGI!" dengan lantang mengejutkan banyak pelaku dan menarik perhatian</li>
+        <li><strong>Targetkan titik lemah</strong> jika terpaksa: mata, tenggorokan, selangkangan, lutut. Tidak perlu kuat — perlu tepat dan cepat</li>
+        <li>Pertimbangkan mengikuti kelas self-defense — banyak komunitas perempuan dan Kodam/Polda di berbagai kota mengadakan pelatihan gratis</li>
+      </ul>
+    </div>
+
+    <div class="checklist-card">
+      <h4>✅ Daftar keamanan yang harus kamu siapkan sekarang</h4>
+      <div class="check-item"><span class="check-icon">✓</span><span>Simpan nomor darurat (di bawah) di kontakmu sebagai "DARURAT [kota]"</span></div>
+      <div class="check-item"><span class="check-icon">✓</span><span>Aktifkan fitur SOS di smartphone (biasanya tekan tombol power 5 kali)</span></div>
+      <div class="check-item"><span class="check-icon">✓</span><span>Pasang 2FA di semua akun email dan media sosial utama</span></div>
+      <div class="check-item"><span class="check-icon">✓</span><span>Beritahu 1-2 orang terpercaya rute perjalananmu saat bepergian malam</span></div>
+      <div class="check-item"><span class="check-icon">✓</span><span>Download aplikasi SAFEnet atau simpan nomor hotline di bawah ini</span></div>
+    </div>
+
+    <h2>Nomor Darurat yang Wajib Kamu Simpan</h2>
+
+    <div class="emergency-grid">
+      <div class="em-card">
+        <div class="em-num">110</div>
+        <div class="em-name">Polisi</div>
+        <div class="em-desc">Untuk situasi darurat, ancaman keselamatan, dan pelaporan kejahatan</div>
+      </div>
+      <div class="em-card">
+        <div class="em-num">119</div>
+        <div class="em-name">Darurat Medis & Ambulans</div>
+        <div class="em-desc">Termasuk layanan kesehatan mental (ext. 8 untuk Into The Light)</div>
+      </div>
+      <div class="em-card">
+        <div class="em-num">129</div>
+        <div class="em-name">SIMFONI PPA</div>
+        <div class="em-desc">Kekerasan perempuan & anak — 24 jam, gratis</div>
+      </div>
+      <div class="em-card">
+        <div class="em-num">1500-454</div>
+        <div class="em-name">Into The Light Indonesia</div>
+        <div class="em-desc">Krisis mental, termasuk ancaman bunuh diri</div>
+      </div>
+      <div class="em-card">
+        <div class="em-num">021-7822-594</div>
+        <div class="em-name">LBH APIK</div>
+        <div class="em-desc">Bantuan hukum untuk perempuan — termasuk KBGO</div>
+      </div>
+      <div class="em-card">
+        <div class="em-num">patrolisiber.id</div>
+        <div class="em-name">Siber Polri</div>
+        <div class="em-desc">Laporan kejahatan siber, KBGO, penipuan online</div>
+      </div>
+    </div>
+
+    <div class="ref-section">
+      <h4>📚 Sumber & Referensi</h4>
+      <ul>
+        <li>SAFEnet. (2024). <a href="https://safenet.or.id" target="_blank" rel="noopener">Panduan Keamanan Digital untuk Perempuan Indonesia.</a></li>
+        <li>Komnas Perempuan. (2024). <em>Catatan Tahunan 2024: Data Kekerasan Berbasis Gender Online.</em></li>
+        <li>Kementerian Komunikasi dan Informatika. (2023). <em>Panduan Keamanan Siber untuk Masyarakat.</em></li>
+        <li>UU No. 12 Tahun 2022 (UU TPKS) — Pasal 14 tentang KBGO.</li>
+        <li>Into The Light Indonesia. (2024). <a href="https://intothelightid.org" target="_blank" rel="noopener">Layanan Krisis dan Dukungan Kesehatan Mental.</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <section class="related">
+    <div style="max-width:760px;margin:0 auto">
+      <h3>Baca Juga</h3>
+      <div class="related-grid">
+        <a href="tips-dokumentasi-kekerasan.html" class="related-card">
+          <span class="badge badge-lilac">Perlindungan</span>
+          <h4>Cara dokumentasi kekerasan untuk laporan hukum</h4>
+          <p>Tim Redaksi · 6 mnt</p>
+        </a>
+        <a href="info-hak-hukum.html" class="related-card">
+          <span class="badge badge-pink">Hukum</span>
+          <h4>Hak hukum perempuan Indonesia: panduan lengkap</h4>
+          <p>Tim Redaksi · 8 mnt</p>
+        </a>
+        <a href="tips-red-flags.html" class="related-card">
+          <span class="badge badge-pink">Relasi</span>
+          <h4>Red flags hubungan yang sering diabaikan perempuan</h4>
+          <p>Tim Redaksi · 4 mnt</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <a class="logo" href="index.html" style="color:var(--pink-2)"><img src="a.svg" alt="" style="height:1.6em;filter:brightness(2)"> HerPotential</a>
+    <p>© 2025 HerPotential. Platform cerita & pemberdayaan perempuan Indonesia.</p>
+    <a href="index.html">← Kembali ke Beranda</a>
+  </footer>
+</body>
+</html>

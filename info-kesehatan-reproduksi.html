@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kesehatan Reproduksi & Tubuhmu — HerPotential</title>
+  <meta name="description" content="Semua yang perlu kamu tahu tentang siklus menstruasi, PCOS, endometriosis, kontrasepsi, dan cara berbicara dengan doktermu secara efektif.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--pink-1:#ffd6e8;--pink-2:#ffb3d4;--pink-3:#ff8fbe;--pink-4:#f06292;--pink-5:#c2185b;--blush:#fce4ec;--offwhite:#fdf8fa;--text-dark:#2a1520;--text-mid:#6d3b52;--text-muted:#b07490;--accent-lilac:#e8d5f5;--accent-mint:#d4f0e8;--accent-peach:#ffe0cc}
+    html{scroll-behavior:smooth}
+    body{background:var(--offwhite);font-family:'DM Sans',sans-serif;color:var(--text-dark);line-height:1.7}
+    nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.9);backdrop-filter:blur(18px);border-bottom:1px solid var(--pink-1);padding:0 2.5rem;display:flex;align-items:center;justify-content:space-between;height:66px}
+    .logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.2rem;color:var(--pink-5);text-decoration:none;display:flex;align-items:center;gap:.5rem}
+    .logo img{height:1.8em;width:auto}
+    .back-link{font-size:.85rem;color:var(--text-mid);text-decoration:none;display:flex;align-items:center;gap:.4rem;transition:color .2s}
+    .back-link:hover{color:var(--pink-4)}
+    .article-hero{background:linear-gradient(135deg,var(--accent-lilac),#d4b8f0);padding:5rem 4rem 4rem;text-align:center}
+    .hero-badge{display:inline-flex;align-items:center;gap:.4rem;background:white;color:#7c3aed;font-size:.72rem;font-weight:500;padding:.35rem .9rem;border-radius:999px;margin-bottom:1.5rem;border:1px solid #d8b8f0;letter-spacing:.8px;text-transform:uppercase}
+    .article-hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.9rem,4vw,3rem);line-height:1.2;color:var(--text-dark);max-width:800px;margin:0 auto 1.5rem;letter-spacing:-.5px}
+    .article-hero .lead{font-size:1.05rem;color:var(--text-mid);max-width:660px;margin:0 auto 2rem;font-weight:300}
+    .author-row{display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap}
+    .avatar{width:44px;height:44px;border-radius:50%;background:#9c6dd8;display:flex;align-items:center;justify-content:center;font-size:.85rem;color:white;font-weight:700}
+    .author-info{text-align:left}
+    .author-name{font-size:.9rem;font-weight:500;color:var(--text-dark)}
+    .author-meta{font-size:.78rem;color:var(--text-muted)}
+    .divider{width:1px;height:30px;background:#d8b8f0}
+    .article-wrap{max-width:760px;margin:0 auto;padding:4rem 2rem}
+    .article-wrap p{font-size:1.02rem;color:var(--text-dark);margin-bottom:1.5rem;font-weight:300}
+    .article-wrap h2{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--text-dark);margin:3rem 0 1rem;letter-spacing:-.3px}
+    .article-wrap h3{font-family:'Playfair Display',serif;font-size:1.2rem;color:var(--text-dark);margin:2rem 0 .7rem}
+    .pullquote{background:var(--accent-lilac);border-left:4px solid #9c6dd8;padding:1.5rem 2rem;border-radius:0 16px 16px 0;margin:2.5rem 0;font-family:'Playfair Display',serif;font-size:1.2rem;font-style:italic;color:var(--text-dark);line-height:1.5}
+    .pullquote cite{display:block;font-family:'DM Sans',sans-serif;font-size:.78rem;font-style:normal;color:var(--text-muted);margin-top:.8rem}
+    .topic-card{background:white;border:1.5px solid #d8b8f0;border-radius:18px;padding:1.6rem 2rem;margin:1.5rem 0}
+    .topic-card .topic-tag{display:inline-flex;background:var(--accent-lilac);color:#7c3aed;font-size:.7rem;font-weight:600;padding:.25rem .7rem;border-radius:999px;letter-spacing:.5px;text-transform:uppercase;margin-bottom:.8rem}
+    .topic-card h3{font-family:'Playfair Display',serif;font-size:1.1rem;color:var(--text-dark);margin-bottom:.8rem}
+    .topic-card p{font-size:.9rem;color:var(--text-mid);margin-bottom:.8rem}
+    .topic-card ul{padding-left:1.2rem}
+    .topic-card li{font-size:.88rem;color:var(--text-mid);margin-bottom:.5rem;line-height:1.6}
+    .highlight-box{background:white;border:1.5px solid #d8b8f0;border-radius:16px;padding:1.5rem 2rem;margin:2.5rem 0}
+    .highlight-box h4{font-family:'Playfair Display',serif;font-size:1rem;color:#7c3aed;margin-bottom:.8rem}
+    .highlight-box ul{padding-left:1.2rem}
+    .highlight-box li{font-size:.9rem;color:var(--text-mid);margin-bottom:.6rem;line-height:1.6}
+    .kontrasepsi-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1rem;margin:2rem 0}
+    .k-card{background:white;border:1.5px solid #d8b8f0;border-radius:14px;padding:1.2rem}
+    .k-card .k-name{font-family:'Playfair Display',serif;font-size:.95rem;color:var(--text-dark);margin-bottom:.4rem}
+    .k-card .k-eff{font-size:.75rem;font-weight:600;color:#7c3aed;margin-bottom:.5rem}
+    .k-card p{font-size:.82rem;color:var(--text-mid)}
+    .ref-section{background:var(--accent-lilac);border-radius:16px;padding:1.5rem 2rem;margin:3rem 0}
+    .ref-section h4{font-size:.85rem;font-weight:600;color:var(--text-mid);margin-bottom:.8rem;text-transform:uppercase;letter-spacing:.5px}
+    .ref-section ul{padding-left:1.2rem}
+    .ref-section li{font-size:.8rem;color:var(--text-muted);margin-bottom:.4rem}
+    .ref-section a{color:#7c3aed;text-decoration:none}
+    .related{background:white;padding:4rem;border-top:1px solid var(--pink-1)}
+    .related h3{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--text-dark);margin-bottom:2rem}
+    .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+    .related-card{border:1px solid var(--pink-1);border-radius:16px;padding:1.2rem;text-decoration:none;color:inherit;transition:all .2s;display:block}
+    .related-card:hover{border-color:var(--pink-3);transform:translateY(-3px)}
+    .badge{font-size:.66rem;font-weight:500;padding:.2rem .6rem;border-radius:999px;text-transform:uppercase;letter-spacing:.4px}
+    .badge-pink{background:var(--blush);color:var(--pink-5)}
+    .badge-lilac{background:var(--accent-lilac);color:#7c3aed}
+    .badge-mint{background:var(--accent-mint);color:#0a6644}
+    .related-card h4{font-family:'Playfair Display',serif;font-size:.95rem;line-height:1.4;color:var(--text-dark);margin:.5rem 0}
+    .related-card p{font-size:.75rem;color:var(--text-muted)}
+    footer{background:var(--text-dark);color:white;padding:2.5rem 4rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+    footer p{font-size:.82rem;color:rgba(255,255,255,.45)}
+    footer a{color:var(--pink-2);text-decoration:none;font-size:.82rem}
+    @media(max-width:768px){
+      nav{padding:0 1.2rem;height:auto;min-height:60px}
+      .article-hero{padding:3rem 1.5rem}
+      .article-wrap{padding:2.5rem 1.2rem}
+      .kontrasepsi-grid{grid-template-columns:1fr}
+      .related-grid{grid-template-columns:1fr}
+      footer{flex-direction:column;text-align:center;padding:2rem 1.5rem}
+    }
+    @media(max-width:480px){.pullquote{padding:1rem 1.2rem;font-size:1rem}}
+  </style>
+</head>
+<body>
+  <nav>
+    <a class="logo" href="index.html"><img src="a.svg" alt="HerPotential"> HerPotential</a>
+    <a class="back-link" href="index.html">← Kembali ke Beranda</a>
+  </nav>
+
+  <header class="article-hero">
+    <div class="hero-badge">🫀 Kesehatan Reproduksi</div>
+    <h1>Kesehatan Reproduksi & Tubuhmu: Panduan yang Jujur</h1>
+    <p class="lead">Semua yang perlu kamu tahu tentang siklus menstruasi, PCOS, endometriosis, kontrasepsi, dan cara berbicara dengan doktermu secara efektif — tanpa tabu.</p>
+    <div class="author-row">
+      <div class="avatar">HP</div>
+      <div class="author-info">
+        <div class="author-name">Tim Redaksi HerPotential</div>
+        <div class="author-meta">Ditinjau oleh dr. Nadia Octavia, Sp.OG</div>
+      </div>
+      <div class="divider"></div>
+      <div class="author-meta">9 menit baca · Mei 2025</div>
+    </div>
+  </header>
+
+  <article class="article-wrap">
+
+    <p>Banyak perempuan Indonesia tumbuh tanpa pendidikan kesehatan reproduksi yang memadai. Akibatnya, gejala yang serius — seperti nyeri haid ekstrem atau siklus yang sangat tidak teratur — dianggap normal dan dibiarkan bertahun-tahun tanpa penanganan.</p>
+
+    <p>Panduan ini dirancang untuk mengisi kekosongan itu: informatif, berbasis bukti ilmiah, dan menggunakan bahasa yang mudah dipahami.</p>
+
+    <div class="pullquote">
+      "Tubuhmu bukan misteri. Ia punya bahasa sendiri — dan kamu berhak belajar memahaminya."
+      <cite>— dr. Inge Permadhi, SpGK, dalam webinar Yayasan Kanker Indonesia (2024)</cite>
+    </div>
+
+    <h2>Menstruasi: Apa yang Normal, Apa yang Tidak</h2>
+
+    <div class="topic-card">
+      <div class="topic-tag">Menstruasi</div>
+      <h3>Siklus Haid yang Sehat</h3>
+      <p>Menstruasi yang sehat berlangsung <strong>21-35 hari sekali</strong>, dengan durasi <strong>2-7 hari</strong> dan volume darah <strong>30-80 ml</strong> per siklus.</p>
+      <ul>
+        <li><strong>Normal:</strong> Kram ringan-sedang pada hari pertama, PMS ringan (mood swing, payudara sensitif), warna darah merah terang hingga merah tua</li>
+        <li><strong>Perlu diperiksa:</strong> Kram yang tidak bisa ditahan walau sudah minum obat, haid lebih dari 7 hari, jarak antar haid kurang dari 21 hari atau lebih dari 35 hari, bercak di luar jadwal haid</li>
+        <li><strong>Segera ke dokter:</strong> Perdarahan yang sangat banyak (ganti pembalut setiap jam selama beberapa jam), pingsan karena nyeri, atau tidak haid lebih dari 90 hari tanpa kehamilan</li>
+      </ul>
+    </div>
+
+    <h2>PCOS — Sindrom Ovarium Polikistik</h2>
+
+    <div class="topic-card">
+      <div class="topic-tag">PCOS</div>
+      <h3>Kondisi yang Sangat Umum tapi Sering Tidak Terdiagnosis</h3>
+      <p>PCOS mempengaruhi <strong>1 dari 10 perempuan</strong> di usia reproduktif. Di Indonesia, banyak yang tidak terdiagnosis hingga bertahun-tahun karena gejalanya dianggap "biasa."</p>
+      <ul>
+        <li><strong>Gejala umum:</strong> Haid tidak teratur atau tidak datang berbulan-bulan, pertumbuhan rambut di wajah/tubuh yang tidak biasa, jerawat yang resisten terhadap pengobatan biasa, kesulitan menurunkan berat badan</li>
+        <li><strong>Diagnosis:</strong> Pemeriksaan USG ovarium + tes hormon (FSH, LH, AMH, androgen) — minta rujukan ke Sp.OG jika curiga PCOS</li>
+        <li><strong>Pengelolaan:</strong> Perubahan gaya hidup (olahraga teratur + diet anti-inflamasi), metformin, atau pil KB untuk mengatur hormon — sesuai rekomendasi dokter</li>
+        <li>PCOS <strong>dapat dikelola dengan baik</strong> — banyak perempuan dengan PCOS hamil secara alami</li>
+      </ul>
+    </div>
+
+    <h2>Endometriosis</h2>
+
+    <div class="topic-card">
+      <div class="topic-tag">Endometriosis</div>
+      <h3>Kondisi yang Butuh 7-10 Tahun untuk Terdiagnosis di Indonesia</h3>
+      <p>Endometriosis terjadi ketika jaringan mirip lapisan rahim tumbuh di luar rahim. Kondisi ini mempengaruhi sekitar <strong>1 dari 10 perempuan</strong> dan merupakan salah satu penyebab nyeri haid ekstrem.</p>
+      <ul>
+        <li><strong>Tanda-tanda:</strong> Nyeri haid yang sangat berat (dismenore berat), nyeri saat berhubungan seksual, nyeri saat buang air besar atau kecil saat haid, kelelahan kronis</li>
+        <li><strong>Diagnosis membutuhkan:</strong> USG khusus, MRI, atau laparoskopi (tindakan bedah minimal)</li>
+        <li><strong>Pengelolaan:</strong> Hormonal (pil KB, injeksi progestin, IUD hormonal), pembedahan laparoskopi, atau kombinasi keduanya</li>
+        <li>Endometriosis <strong>bukan hambatan untuk kehamilan</strong> — tapi perlu penanganan tepat dan sedini mungkin</li>
+      </ul>
+    </div>
+
+    <h2>Panduan Kontrasepsi</h2>
+
+    <div class="kontrasepsi-grid">
+      <div class="k-card">
+        <div class="k-name">🩺 Pil KB Kombinasi</div>
+        <div class="k-eff">Efektivitas: 91-99% (jika diminum tepat)</div>
+        <p>Mengatur siklus, mengurangi jerawat & nyeri haid. Harus diminum setiap hari pada jam yang sama. Tidak cocok untuk perokok usia >35 tahun.</p>
+      </div>
+      <div class="k-card">
+        <div class="k-name">🔄 IUD (Spiral)</div>
+        <div class="k-eff">Efektivitas: >99% — berlaku 5-10 tahun</div>
+        <p>Dua jenis: tembaga (non-hormonal) dan hormonal (Mirena). Tidak perlu diingat setiap hari. Dipasang oleh tenaga medis.</p>
+      </div>
+      <div class="k-card">
+        <div class="k-name">💉 Suntik KB</div>
+        <div class="k-eff">Efektivitas: >99% (jika tepat waktu)</div>
+        <p>Suntik 1 bulan atau 3 bulan. Mudah dan terjangkau. Kesuburan bisa kembali 3-12 bulan setelah berhenti.</p>
+      </div>
+      <div class="k-card">
+        <div class="k-name">🛡️ Kondom</div>
+        <div class="k-eff">Efektivitas: 85-98% + perlindungan IMS</div>
+        <p>Satu-satunya kontrasepsi yang melindungi dari infeksi menular seksual (IMS). Efektivitas tertinggi saat digunakan dengan benar dan konsisten.</p>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <h4>💡 Pertanyaan penting untuk ditanyakan ke dokter/bidan:</h4>
+      <ul>
+        <li>"Kontrasepsi mana yang paling cocok untuk kondisi kesehatan dan gaya hidup saya?"</li>
+        <li>"Apakah ada efek samping yang perlu saya waspadai untuk pilihan ini?"</li>
+        <li>"Berapa lama waktu yang dibutuhkan untuk kesuburan kembali jika saya berhenti?"</li>
+        <li>"Apakah kontrasepsi ini tersedia dan ditanggung BPJS?"</li>
+      </ul>
+    </div>
+
+    <div class="ref-section">
+      <h4>📚 Sumber & Referensi</h4>
+      <ul>
+        <li>Perkumpulan Obstetri dan Ginekologi Indonesia (POGI). (2023). <em>Panduan Klinis PCOS.</em></li>
+        <li>Endometriosis Indonesia. (2024). <a href="https://endometriosisindonesia.com" target="_blank" rel="noopener">Fakta tentang Endometriosis di Indonesia.</a></li>
+        <li>BKKBN. (2024). <em>Buku Panduan Kontrasepsi Nasional 2024.</em></li>
+        <li>Kementerian Kesehatan RI. (2023). <em>Pedoman Pelayanan Kesehatan Reproduksi.</em></li>
+        <li>The Conversation Indonesia. (2024). <a href="https://theconversation.com/id" target="_blank" rel="noopener">Mengapa PCOS Sering Tidak Terdiagnosis di Indonesia.</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <section class="related">
+    <div style="max-width:760px;margin:0 auto">
+      <h3>Baca Juga</h3>
+      <div class="related-grid">
+        <a href="cerita-rahma.html" class="related-card">
+          <span class="badge badge-lilac">Kesehatan</span>
+          <h4>Didiagnosis PCOS di usia 24 — dan tidak ada yang mau menjelaskan apa itu</h4>
+          <p>Rahma A. · 9 mnt</p>
+        </a>
+        <a href="tips-self-advocacy-kesehatan.html" class="related-card">
+          <span class="badge badge-mint">Kesehatan</span>
+          <h4>Self-advocacy di fasilitas kesehatan: cara ngomongnya</h4>
+          <p>Tim Redaksi · 4 mnt</p>
+        </a>
+        <a href="tips-menstruasi-kerja.html" class="related-card">
+          <span class="badge badge-pink">Hak Kerja</span>
+          <h4>Cara bicara soal menstruasi di tempat kerja</h4>
+          <p>Tim Redaksi · 4 mnt</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <a class="logo" href="index.html" style="color:var(--pink-2)"><img src="a.svg" alt="" style="height:1.6em;filter:brightness(2)"> HerPotential</a>
+    <p>© 2025 HerPotential. Platform cerita & pemberdayaan perempuan Indonesia.</p>
+    <a href="index.html">← Kembali ke Beranda</a>
+  </footer>
+</body>
+</html>
