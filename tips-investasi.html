@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mulai Investasi dengan Rp 10.000 per Hari — HerPotential</title>
+  <meta name="description" content="Panduan reksa dana, saham, dan tabungan emas untuk pemula — khusus buat kamu yang merasa 'nanti dulu kalau sudah ada lebih.' Mulai dari Rp 10.000 per hari.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--pink-1:#ffd6e8;--pink-2:#ffb3d4;--pink-3:#ff8fbe;--pink-4:#f06292;--pink-5:#c2185b;--blush:#fce4ec;--offwhite:#fdf8fa;--text-dark:#2a1520;--text-mid:#6d3b52;--text-muted:#b07490;--accent-lilac:#e8d5f5;--accent-mint:#d4f0e8;--accent-peach:#ffe0cc}
+    html{scroll-behavior:smooth}
+    body{background:var(--offwhite);font-family:'DM Sans',sans-serif;color:var(--text-dark);line-height:1.7}
+    nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.9);backdrop-filter:blur(18px);border-bottom:1px solid var(--pink-1);padding:0 2.5rem;display:flex;align-items:center;justify-content:space-between;height:66px}
+    .logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.2rem;color:var(--pink-5);text-decoration:none;display:flex;align-items:center;gap:.5rem}
+    .logo img{height:1.8em;width:auto}
+    .back-link{font-size:.85rem;color:var(--text-mid);text-decoration:none;display:flex;align-items:center;gap:.4rem;transition:color .2s}
+    .back-link:hover{color:var(--pink-4)}
+    .article-hero{background:linear-gradient(135deg,var(--accent-mint),#a8e0d0);padding:5rem 4rem 4rem;text-align:center}
+    .hero-badge{display:inline-flex;align-items:center;gap:.4rem;background:white;color:#0a6644;font-size:.72rem;font-weight:500;padding:.35rem .9rem;border-radius:999px;margin-bottom:1.5rem;border:1px solid #a5d6a7;letter-spacing:.8px;text-transform:uppercase}
+    .article-hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.9rem,4vw,3rem);line-height:1.2;color:var(--text-dark);max-width:760px;margin:0 auto 1.5rem;letter-spacing:-.5px}
+    .article-hero .lead{font-size:1.05rem;color:var(--text-mid);max-width:640px;margin:0 auto 2rem;font-weight:300}
+    .author-row{display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap}
+    .avatar{width:44px;height:44px;border-radius:50%;background:#26a69a;display:flex;align-items:center;justify-content:center;font-size:.85rem;color:white;font-weight:700}
+    .author-info{text-align:left}
+    .author-name{font-size:.9rem;font-weight:500;color:var(--text-dark)}
+    .author-meta{font-size:.78rem;color:var(--text-muted)}
+    .divider{width:1px;height:30px;background:#a5d6a7}
+    .article-wrap{max-width:720px;margin:0 auto;padding:4rem 2rem}
+    .article-wrap p{font-size:1.02rem;color:var(--text-dark);margin-bottom:1.5rem;font-weight:300}
+    .article-wrap h2{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--text-dark);margin:3rem 0 1rem;letter-spacing:-.3px}
+    .article-wrap h3{font-family:'Playfair Display',serif;font-size:1.15rem;color:var(--text-dark);margin:2rem 0 .7rem}
+    .pullquote{background:var(--accent-mint);border-left:4px solid #26a69a;padding:1.5rem 2rem;border-radius:0 16px 16px 0;margin:2.5rem 0;font-family:'Playfair Display',serif;font-size:1.2rem;font-style:italic;color:var(--text-dark);line-height:1.5}
+    .pullquote cite{display:block;font-family:'DM Sans',sans-serif;font-size:.78rem;font-style:normal;color:var(--text-muted);margin-top:.8rem}
+    .highlight-box{background:white;border:1.5px solid #a5d6a7;border-radius:16px;padding:1.5rem 2rem;margin:2.5rem 0}
+    .highlight-box h4{font-family:'Playfair Display',serif;font-size:1rem;color:#0a6644;margin-bottom:.8rem}
+    .highlight-box ul{padding-left:1.2rem}
+    .highlight-box li{font-size:.9rem;color:var(--text-mid);margin-bottom:.6rem;line-height:1.6}
+    .product-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.2rem;margin:2rem 0}
+    .product-card{background:white;border:1.5px solid #a5d6a7;border-radius:16px;padding:1.4rem}
+    .product-card .emoji{font-size:1.8rem;margin-bottom:.7rem}
+    .product-card h4{font-family:'Playfair Display',serif;font-size:1rem;color:var(--text-dark);margin-bottom:.4rem}
+    .product-card .min-invest{font-size:.75rem;font-weight:600;color:#0a6644;background:#e8f5e9;padding:.2rem .6rem;border-radius:999px;display:inline-block;margin-bottom:.6rem}
+    .product-card p{font-size:.82rem;color:var(--text-mid)}
+    .stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin:2.5rem 0}
+    .stat-box{background:white;border-radius:16px;padding:1.5rem;text-align:center;border:1px solid #a5d6a7}
+    .stat-num{font-family:'Syne',sans-serif;font-size:2rem;font-weight:800;color:#26a69a}
+    .stat-label{font-size:.78rem;color:var(--text-muted);margin-top:.3rem}
+    .ref-section{background:var(--accent-mint);border-radius:16px;padding:1.5rem 2rem;margin:3rem 0}
+    .ref-section h4{font-size:.85rem;font-weight:600;color:var(--text-mid);margin-bottom:.8rem;text-transform:uppercase;letter-spacing:.5px}
+    .ref-section ul{padding-left:1.2rem}
+    .ref-section li{font-size:.8rem;color:var(--text-muted);margin-bottom:.4rem}
+    .ref-section a{color:#0a6644;text-decoration:none}
+    .related{background:white;padding:4rem;border-top:1px solid var(--pink-1)}
+    .related h3{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--text-dark);margin-bottom:2rem}
+    .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+    .related-card{border:1px solid var(--pink-1);border-radius:16px;padding:1.2rem;text-decoration:none;color:inherit;transition:all .2s;display:block}
+    .related-card:hover{border-color:var(--pink-3);transform:translateY(-3px)}
+    .badge{font-size:.66rem;font-weight:500;padding:.2rem .6rem;border-radius:999px;text-transform:uppercase;letter-spacing:.4px}
+    .badge-pink{background:var(--blush);color:var(--pink-5)}
+    .badge-mint{background:var(--accent-mint);color:#0a6644}
+    .badge-peach{background:var(--accent-peach);color:#9a4a00}
+    .related-card h4{font-family:'Playfair Display',serif;font-size:.95rem;line-height:1.4;color:var(--text-dark);margin:.5rem 0}
+    .related-card p{font-size:.75rem;color:var(--text-muted)}
+    footer{background:var(--text-dark);color:white;padding:2.5rem 4rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+    footer p{font-size:.82rem;color:rgba(255,255,255,.45)}
+    footer a{color:var(--pink-2);text-decoration:none;font-size:.82rem}
+    @media(max-width:768px){
+      nav{padding:0 1.2rem;height:auto;min-height:60px}
+      .article-hero{padding:3rem 1.5rem}
+      .article-wrap{padding:2.5rem 1.2rem}
+      .stat-row{grid-template-columns:1fr 1fr}
+      .product-grid{grid-template-columns:1fr}
+      .related-grid{grid-template-columns:1fr}
+      footer{flex-direction:column;text-align:center;padding:2rem 1.5rem}
+    }
+    @media(max-width:480px){.stat-row{grid-template-columns:1fr}.pullquote{padding:1rem 1.2rem;font-size:1rem}}
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a class="logo" href="index.html"><img src="a.svg" alt="HerPotential"> HerPotential</a>
+    <a class="back-link" href="index.html">← Kembali ke Beranda</a>
+  </nav>
+
+  <header class="article-hero">
+    <div class="hero-badge">💸 Finansial</div>
+    <h1>Mulai Investasi dengan Rp 10.000 per Hari</h1>
+    <p class="lead">Reksa dana, saham, dan tabungan emas untuk pemula — khusus buat kamu yang masih bilang "nanti dulu kalau sudah ada lebih." Rahasianya: mulai sekarang, mulai kecil.</p>
+    <div class="author-row">
+      <div class="avatar">HP</div>
+      <div class="author-info">
+        <div class="author-name">Tim Redaksi HerPotential</div>
+        <div class="author-meta">Kebebasan Finansial</div>
+      </div>
+      <div class="divider"></div>
+      <div class="author-meta">6 menit baca · Mei 2025</div>
+    </div>
+  </header>
+
+  <article class="article-wrap">
+
+    <p>Rp 10.000. Harga segelas kopi kekinian. Tapi jika diinvestasikan konsisten setiap hari selama 20 tahun dengan imbal hasil reksa dana saham rata-rata 12% per tahun, uang itu bisa tumbuh menjadi lebih dari <strong>Rp 266 juta</strong>.</p>
+
+    <p>Menurut data OJK (2024), hanya 11,2% perempuan Indonesia yang aktif berinvestasi di pasar modal — jauh di bawah 19,4% laki-laki. Padahal, perempuan secara statistik adalah investor yang lebih disiplin dan memiliki toleransi risiko yang lebih terukur.</p>
+
+    <div class="stat-row">
+      <div class="stat-box">
+        <div class="stat-num">11%</div>
+        <div class="stat-label">perempuan Indonesia yang aktif berinvestasi di pasar modal</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">Rp 266 jt</div>
+        <div class="stat-label">potensi Rp 10rb/hari selama 20 tahun di reksa dana saham</div>
+      </div>
+      <div class="stat-box">
+        <div class="stat-num">12%</div>
+        <div class="stat-label">rata-rata imbal hasil reksa dana saham Indonesia per tahun</div>
+      </div>
+    </div>
+
+    <div class="pullquote">
+      "Investasi terbaik adalah investasi yang kamu mulai hari ini, bukan yang sempurna di masa depan."
+      <cite>— Annisa Zulianti, Perencana Keuangan Bersertifikat (CFP), dalam webinar OJK Literasi Keuangan Perempuan (2024)</cite>
+    </div>
+
+    <h2>Pilihan Investasi untuk Pemula: Mulai dari Rp 10.000</h2>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="emoji">📈</div>
+        <h4>Reksa Dana Pasar Uang</h4>
+        <span class="min-invest">Min. Rp 10.000</span>
+        <p>Paling aman untuk pemula. Imbal hasil ~4-6% per tahun. Cocok untuk dana darurat. Bisa mulai di Bibit, Bareksa, atau Ajaib.</p>
+      </div>
+      <div class="product-card">
+        <div class="emoji">🥇</div>
+        <h4>Tabungan Emas Digital</h4>
+        <span class="min-invest">Min. Rp 5.000</span>
+        <p>Beli emas per gram lewat Pegadaian Digital, Tokopedia, atau Shopee. Lindungi aset dari inflasi dengan cara paling sederhana.</p>
+      </div>
+      <div class="product-card">
+        <div class="emoji">🏦</div>
+        <h4>SBN (Surat Berharga Negara)</h4>
+        <span class="min-invest">Min. Rp 1 juta</span>
+        <p>Investasi di obligasi pemerintah. Kupon tetap 6-7%, risiko sangat rendah, langsung beli di aplikasi bank atau platform resmi.</p>
+      </div>
+      <div class="product-card">
+        <div class="emoji">💹</div>
+        <h4>Reksa Dana Saham</h4>
+        <span class="min-invest">Min. Rp 10.000</span>
+        <p>Potensi return lebih tinggi (10-14%/tahun), cocok untuk tujuan jangka panjang 5+ tahun. Fluktuatif, tapi historis selalu naik.</p>
+      </div>
+    </div>
+
+    <h2>Strategi 3 Ember: Cara Sederhana Mengatur Uang</h2>
+
+    <div class="highlight-box">
+      <h4>🪣 Bagi penghasilanmu dalam 3 "ember":</h4>
+      <ul>
+        <li><strong>Ember 1 — Kebutuhan (50%)</strong>: Sewa, makan, transportasi, tagihan rutin</li>
+        <li><strong>Ember 2 — Dana Darurat & Investasi (30%)</strong>: Bangun dulu dana darurat 3-6x pengeluaran bulanan, lalu alihkan ke investasi</li>
+        <li><strong>Ember 3 — Hiburan & Keinginan (20%)</strong>: Kafe, belanja, liburan — tanpa rasa bersalah, karena sudah dialokasikan</li>
+      </ul>
+    </div>
+
+    <h2>Langkah Pertama yang Bisa Kamu Lakukan Hari Ini</h2>
+
+    <div class="highlight-box">
+      <h4>✅ Checklist memulai investasi:</h4>
+      <ul>
+        <li>Download aplikasi Bibit atau Bareksa — gratis dan resmi terdaftar OJK</li>
+        <li>Buat rekening terpisah khusus investasi (jangan campur dengan rekening sehari-hari)</li>
+        <li>Aktifkan fitur "auto-invest" atau "nabung rutin" — bayar dirimu sendiri dulu sebelum belanja</li>
+        <li>Mulai dengan reksa dana pasar uang, lalu tambah diversifikasi setelah 3 bulan rutin</li>
+        <li>Jangan panik saat harga turun — ini normal dan bagian dari investasi jangka panjang</li>
+      </ul>
+    </div>
+
+    <div class="ref-section">
+      <h4>📚 Sumber & Referensi</h4>
+      <ul>
+        <li>OJK (Otoritas Jasa Keuangan). (2024). <a href="https://ojk.go.id" target="_blank" rel="noopener">Survei Nasional Literasi dan Inklusi Keuangan 2024.</a></li>
+        <li>Bibit.id. (2024). <em>Panduan Investasi untuk Pemula.</em></li>
+        <li>Tirto.id. (2023). <a href="https://tirto.id" target="_blank" rel="noopener">Mengapa Perempuan Indonesia Masih Minim Investasi.</a></li>
+        <li>Pegadaian Digital. (2024). <em>Cara Mulai Tabungan Emas dari Rp 5.000.</em></li>
+        <li>IDN Times. (2024). <a href="https://idntimes.com" target="_blank" rel="noopener">Strategi Investasi Rp 10.000 per Hari untuk Generasi Muda.</a></li>
+      </ul>
+    </div>
+
+  </article>
+
+  <section class="related">
+    <div style="max-width:720px;margin:0 auto">
+      <h3>Baca Juga</h3>
+      <div class="related-grid">
+        <a href="tips-negosiasi-gaji.html" class="related-card">
+          <span class="badge badge-peach">Karier</span>
+          <h4>Negosiasi gaji: template kalimat yang terbukti berhasil</h4>
+          <p>Tim Redaksi · 5 mnt</p>
+        </a>
+        <a href="artikel-ekonomi-perawatan.html" class="related-card">
+          <span class="badge badge-mint">Ekonomi</span>
+          <h4>Ekonomi perawatan: pekerjaan perempuan yang tidak kelihatan</h4>
+          <p>Dr. Dina Marlina · 11 mnt</p>
+        </a>
+        <a href="tips-personal-branding.html" class="related-card">
+          <span class="badge badge-peach">Karier</span>
+          <h4>Bangun personal branding tanpa kehilangan dirimu</h4>
+          <p>Tim Redaksi · 4 mnt</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <a class="logo" href="index.html" style="color:var(--pink-2)"><img src="a.svg" alt="" style="height:1.6em;filter:brightness(2)"> HerPotential</a>
+    <p>© 2025 HerPotential. Platform cerita & pemberdayaan perempuan Indonesia.</p>
+    <a href="index.html">← Kembali ke Beranda</a>
+  </footer>
+
+</body>
+</html>
