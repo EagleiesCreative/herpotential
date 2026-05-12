@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saya Jadi Kepala Desa Perempuan Pertama — Bu Lies | HerPotential</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--pink-1:#ffd6e8;--pink-2:#ffb3d4;--pink-3:#ff8fbe;--pink-4:#f06292;--pink-5:#c2185b;--blush:#fce4ec;--offwhite:#fdf8fa;--text-dark:#2a1520;--text-mid:#6d3b52;--text-muted:#b07490;--accent-lilac:#e8d5f5;--accent-peach:#ffe0cc;--accent-mint:#d4f0e8}
+    html{scroll-behavior:smooth}body{background:var(--offwhite);font-family:'DM Sans',sans-serif;color:var(--text-dark);line-height:1.85}
+    nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.9);backdrop-filter:blur(18px);border-bottom:1px solid var(--pink-1);padding:0 2.5rem;display:flex;align-items:center;justify-content:space-between;height:66px}
+    .logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.2rem;color:var(--pink-5);text-decoration:none;display:flex;align-items:center;gap:.5rem}.logo img{height:1.8em;width:auto}
+    .back-link{font-size:.85rem;color:var(--text-mid);text-decoration:none;transition:color .2s}.back-link:hover{color:var(--pink-4)}
+    .article-hero{background:linear-gradient(135deg,var(--pink-1),var(--blush));padding:5rem 4rem 4rem;text-align:center}
+    .hero-badge{display:inline-flex;align-items:center;gap:.4rem;background:white;color:var(--pink-5);font-size:.72rem;font-weight:500;padding:.35rem .9rem;border-radius:999px;margin-bottom:1.5rem;border:1px solid var(--pink-2);letter-spacing:.8px;text-transform:uppercase}
+    .article-hero h1{font-family:'Playfair Display',serif;font-size:clamp(1.8rem,4vw,2.9rem);line-height:1.2;color:var(--text-dark);max-width:740px;margin:0 auto 1.5rem}
+    .article-hero .lead{font-size:1.05rem;color:var(--text-mid);max-width:620px;margin:0 auto 2rem;font-weight:300}
+    .author-row{display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap}
+    .avatar{width:44px;height:44px;border-radius:50%;background:var(--pink-4);display:flex;align-items:center;justify-content:center;font-size:.85rem;color:white;font-weight:700}
+    .author-info{text-align:left}.author-name{font-size:.9rem;font-weight:500;color:var(--text-dark)}.author-meta{font-size:.78rem;color:var(--text-muted)}.divider{width:1px;height:30px;background:var(--pink-2)}
+    .article-wrap{max-width:680px;margin:0 auto;padding:4rem 2rem}
+    .article-wrap p{font-size:1.05rem;color:var(--text-dark);margin-bottom:1.6rem;font-weight:300;line-height:1.85}
+    .article-wrap h2{font-family:'Playfair Display',serif;font-size:1.55rem;color:var(--text-dark);margin:3rem 0 1rem}
+    .pullquote{background:var(--blush);border-left:4px solid var(--pink-4);padding:1.5rem 2rem;border-radius:0 16px 16px 0;margin:2.5rem 0;font-family:'Playfair Display',serif;font-size:1.25rem;font-style:italic;color:var(--text-dark);line-height:1.5}
+    .achievement-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin:2.5rem 0}
+    .achievement{background:white;border:1px solid var(--pink-1);border-radius:16px;padding:1.2rem;text-align:center}
+    .achievement .num{font-family:'Syne',sans-serif;font-size:2rem;font-weight:800;color:var(--pink-4)}
+    .achievement .label{font-size:.78rem;color:var(--text-muted);margin-top:.3rem}
+    .highlight-box{background:white;border:1.5px solid var(--pink-1);border-radius:16px;padding:1.5rem 2rem;margin:2.5rem 0}
+    .highlight-box h4{font-family:'Playfair Display',serif;font-size:1rem;color:var(--pink-5);margin-bottom:.8rem}
+    .highlight-box ul{padding-left:1.2rem}.highlight-box li{font-size:.9rem;color:var(--text-mid);margin-bottom:.6rem}
+    .like-section{text-align:center;padding:2rem;border-top:1px solid var(--pink-1);border-bottom:1px solid var(--pink-1);margin:3rem 0}
+    .like-section p{font-size:.9rem;color:var(--text-muted);margin-bottom:1rem}
+    .like-btn{background:var(--pink-4);color:white;border:none;border-radius:999px;padding:.7rem 2rem;font-family:'DM Sans',sans-serif;font-size:.9rem;cursor:pointer;transition:all .2s}
+    .like-btn:hover{background:var(--pink-5);transform:scale(1.05)}
+    .related{background:white;padding:4rem;border-top:1px solid var(--pink-1)}
+    .related h3{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--text-dark);margin-bottom:2rem}
+    .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+    .related-card{border:1px solid var(--pink-1);border-radius:16px;padding:1.2rem;text-decoration:none;color:inherit;transition:all .2s;display:block}
+    .related-card:hover{border-color:var(--pink-3);transform:translateY(-3px)}
+    .badge{font-size:.66rem;font-weight:500;padding:.2rem .6rem;border-radius:999px;text-transform:uppercase;letter-spacing:.4px;display:inline-block}
+    .badge-pink{background:var(--blush);color:var(--pink-5)}.badge-lilac{background:var(--accent-lilac);color:#7c3aed}.badge-mint{background:var(--accent-mint);color:#0a6644}.badge-peach{background:var(--accent-peach);color:#9a4a00}
+    .related-card h4{font-family:'Playfair Display',serif;font-size:.95rem;line-height:1.4;color:var(--text-dark);margin:.5rem 0}.related-card p{font-size:.75rem;color:var(--text-muted)}
+    footer{background:var(--text-dark);color:white;padding:2.5rem 4rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+    footer p{font-size:.82rem;color:rgba(255,255,255,.45)}footer a{color:var(--pink-2);text-decoration:none;font-size:.82rem}
+    @media(max-width:768px){.article-hero{padding:3rem 1.5rem}.article-wrap{padding:2.5rem 1.2rem}.achievement-row{grid-template-columns:1fr 1fr}.related-grid{grid-template-columns:1fr}footer{flex-direction:column;text-align:center;padding:2rem 1.5rem}}
+  </style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="index.html"><img src="a.svg" alt="HerPotential"> HerPotential</a>
+  <a class="back-link" href="index.html">← Kembali ke Beranda</a>
+</nav>
+<header class="article-hero">
+  <div class="hero-badge">🏡 Kepemimpinan · Cerita Perempuan</div>
+  <h1>"Saya Jadi Kepala Desa Perempuan Pertama di Daerah Saya — Apa yang Terjadi Setelahnya"</h1>
+  <p class="lead">Bu Lies mencalonkan diri ketika semua orang bilang ini bukan tempatnya. Tiga tahun kemudian, desanya punya posyandu baru, jalan yang diperbaiki, dan yang pertama kalinya: dana desa yang diaudit secara transparan.</p>
+  <div class="author-row">
+    <div class="avatar">BL</div>
+    <div class="author-info">
+      <div class="author-name">Lies Handayani</div>
+      <div class="author-meta">Wonogiri, Jawa Tengah · Agustus 2024</div>
+    </div>
+    <div class="divider"></div>
+    <div class="author-meta">7 menit baca · ♡ 5.834 suka</div>
+  </div>
+</header>
+<article class="article-wrap">
+
+  <p>Ketika saya mengumumkan niat saya untuk maju sebagai calon kepala desa, reaksi pertama yang saya terima dari tetangga adalah tawa. Bukan tawa jahat — tapi tawa heran. "Bu Lies, serius?" kata salah satu tokoh RT sambil menggeleng. "Kepala desa itu berat, Bu. Urusan laki-laki."</p>
+
+  <p>Saya sudah 47 tahun waktu itu. Sudah 20 tahun aktif di PKK, pernah jadi Sekretaris BPD selama dua periode, dan hafal setiap masalah di desa ini lebih baik dari siapapun. Saya tahu kondisi sumur yang mulai kering di RT 04. Saya tahu mengapa ibu-ibu takut melahirkan karena bidan terdekat 15 kilometer jauhnya. Dan saya tahu dana desa tahun kemarin dipakai untuk apa — atau lebih tepatnya, tidak tahu, karena tidak ada yang pernah menjelaskan.</p>
+
+  <p>Saya maju bukan karena ingin jadi penting. Saya maju karena tidak ada yang mau mengurus hal-hal yang saya tahu perlu diurus.</p>
+
+  <div class="pullquote">
+    "Orang bilang kepala desa itu urusan laki-laki. Saya pikir, kepala desa itu urusan desa. Dan desa ini adalah rumah saya juga."
+  </div>
+
+  <h2>Kampanye yang Tidak Seperti Biasanya</h2>
+
+  <p>Ada tiga calon dalam pemilihan itu: saya, mantan kepala desa yang sudah dua periode dan ingin kembali, dan seorang pemuda berusia 30 tahun yang didukung oleh salah satu tokoh berpengaruh.</p>
+
+  <p>Saya tidak punya tim kampanye profesional. Saya punya 40 anggota PKK yang pergi dari pintu ke pintu bersama saya. Saya tidak punya baliho besar — saya punya sesi "ngobrol bareng" di rumah-rumah warga yang kami adakan hampir setiap malam selama tiga minggu.</p>
+
+  <p>Dalam setiap sesi itu, saya bicara tentang tiga hal: posyandu yang perlu direnovasi, jalan desa yang sudah berlubang selama enam tahun, dan transparansi dana desa. Bukan janji-janji besar. Hanya tiga hal konkret yang bisa saya kerjakan.</p>
+
+  <p>Saya menang dengan selisih 47 suara dari 2.341 pemilih. Tipis sekali. Tapi menang.</p>
+
+  <h2>Tiga Tahun Menjabat: Yang Sudah Berubah</h2>
+
+  <div class="achievement-row">
+    <div class="achievement"><div class="num">1</div><div class="label">posyandu baru dibangun dengan dana desa tahun pertama</div></div>
+    <div class="achievement"><div class="num">3.2 km</div><div class="label">jalan desa yang diperbaiki dan diaspal</div></div>
+    <div class="achievement"><div class="num">100%</div><div class="label">laporan penggunaan dana desa dipublikasikan di papan desa dan grup WhatsApp warga</div></div>
+  </div>
+
+  <p>Ini bukan pencapaian besar dalam ukuran nasional. Tapi untuk 1.800 warga desa kami, ini berarti ibu-ibu tidak perlu berjalan berlumpur untuk periksa balita, anak-anak bisa bersepeda ke sekolah tanpa takut jatuh di lubang jalan, dan untuk pertama kalinya dalam ingatan orang-orang tua di sini, mereka tahu uang desa mereka digunakan untuk apa.</p>
+
+  <div class="pullquote">
+    "Transparansi bukan ancaman bagi pemimpin yang jujur. Ia adalah perlindungan."
+  </div>
+
+  <h2>Tantangan yang Tidak Ada di Buku Panduan</h2>
+
+  <p>Bukan semua mulus. Ada tokoh masyarakat yang selama bertahun-tahun terbiasa "dilibatkan" dalam keputusan-keputusan desa yang menguntungkan mereka secara pribadi. Dengan sistem pengadaan yang lebih transparan, "kebiasaan" itu terhenti — dan mereka tidak senang.</p>
+
+  <p>Ada rapat BPD di mana saya satu-satunya perempuan di ruangan, dan saya harus terus-menerus membuktikan bahwa keputusan saya didasarkan pada data dan kebutuhan warga, bukan "perasaan perempuan."</p>
+
+  <p>Dan ada malam-malam ketika saya duduk di meja kerja di rumah, di antara tumpukan berkas, dan bertanya-tanya apakah saya cukup kuat untuk periode berikutnya.</p>
+
+  <p>Tapi kemudian ada pagi-pagi ketika saya melihat ibu-ibu menggendong bayi mereka ke posyandu baru. Ada sore-sore ketika anak-anak SD berlari di jalan yang sudah diaspal. Dan ada sms dari warga yang dikirim jam 11 malam: "Terima kasih Bu Lies. Untuk pertama kalinya saya tidak malu bilang desa saya punya kepala desa yang jujur."</p>
+
+  <h2>Untuk Perempuan yang Mempertimbangkan Terjun ke Dunia Politik</h2>
+
+  <div class="highlight-box">
+    <h4>🗳️ Dari pengalaman 3 tahun di pemerintahan desa:</h4>
+    <ul>
+      <li><strong>Mulai dari yang kamu tahu</strong> — saya menang bukan karena saya paling karismatik, tapi karena saya paling tahu masalah desa ini</li>
+      <li><strong>Bangun koalisi sebelum mencalonkan diri</strong> — 40 anggota PKK yang percaya padamu lebih kuat dari 100 pendukung yang bayar</li>
+      <li><strong>Fokus pada hal-hal konkret</strong> — janji abstrak mudah dilupakan; tiga hal spesifik yang bisa dieksekusi akan diingat</li>
+      <li><strong>Dokumentasikan semua</strong> — setiap keputusan, setiap pengeluaran, setiap rapat. Transparansi adalah perlindungan terbaik</li>
+      <li><strong>Cari mentor yang sudah pernah</strong> — saya banyak belajar dari kepala desa perempuan lain melalui forum APDESI</li>
+      <li><strong>Jangan minta izin untuk memimpin</strong> — izin itu akan datang dari hasil kerjamu, bukan dari yang meragukan kemampuanmu</li>
+    </ul>
+  </div>
+
+  <p>Saya tidak tahu apakah saya akan maju lagi untuk periode berikutnya. Tubuh saya sudah tidak semuda dua tahun lalu, dan pekerjaan ini benar-benar menyita waktu dan energi.</p>
+
+  <p>Yang saya tahu: setelah saya, ada dua perempuan lain di kecamatan ini yang mencalonkan diri sebagai kepala desa — dan keduanya menang. Mereka bilang kisah saya membuat mereka berani mencoba.</p>
+
+  <p>Jika itu satu-satunya warisan dari masa jabatan saya, itu sudah lebih dari cukup.</p>
+
+  <div class="like-section">
+    <p>Bu Lies menginspirasimu? Tunjukkan apresiasimu!</p>
+    <button class="like-btn" onclick="this.textContent='♡ 5.835 ❤️ Terima kasih Bu Lies!'">♡ 5.834 Suka</button>
+  </div>
+
+</article>
+
+<section class="related">
+  <div style="max-width:680px;margin:0 auto">
+    <h3>Cerita & Artikel Terkait</h3>
+    <div class="related-grid">
+      <a href="artikel-parlemen.html" class="related-card">
+        <span class="badge badge-pink">Politik</span>
+        <h4>Keterwakilan perempuan di parlemen Indonesia</h4>
+        <p>Nur Priyanti · 14 mnt</p>
+      </a>
+      <a href="cerita-fatimah.html" class="related-card">
+        <span class="badge badge-lilac">Identitas</span>
+        <h4>Berhijab di perusahaan multinasional — Fatimah H.</h4>
+        <p>10 mnt · ♡ 6.2k</p>
+      </a>
+      <a href="artikel-direktur.html" class="related-card">
+        <span class="badge badge-peach">Karier</span>
+        <h4>Saya perempuan pertama yang jadi direktur di perusahaan ini</h4>
+        <p>Dewi Kusuma · 12 mnt</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a class="logo" href="index.html" style="color:var(--pink-2)"><img src="a.svg" alt="" style="height:1.6em;filter:brightness(2)"> HerPotential</a>
+  <p>© 2025 HerPotential. Platform cerita & pemberdayaan perempuan Indonesia.</p>
+  <a href="index.html">← Kembali ke Beranda</a>
+</footer>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saya Kuliah Sambil Kerja 2 Shift — Sari R. | HerPotential</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--pink-1:#ffd6e8;--pink-2:#ffb3d4;--pink-3:#ff8fbe;--pink-4:#f06292;--pink-5:#c2185b;--blush:#fce4ec;--offwhite:#fdf8fa;--text-dark:#2a1520;--text-mid:#6d3b52;--text-muted:#b07490;--accent-lilac:#e8d5f5;--accent-peach:#ffe0cc;--accent-mint:#d4f0e8}
+    html{scroll-behavior:smooth}body{background:var(--offwhite);font-family:'DM Sans',sans-serif;color:var(--text-dark);line-height:1.8}
+    nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.9);backdrop-filter:blur(18px);border-bottom:1px solid var(--pink-1);padding:0 2.5rem;display:flex;align-items:center;justify-content:space-between;height:66px}
+    .logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.2rem;color:var(--pink-5);text-decoration:none;display:flex;align-items:center;gap:.5rem}.logo img{height:1.8em;width:auto}
+    .back-link{font-size:.85rem;color:var(--text-mid);text-decoration:none;transition:color .2s}.back-link:hover{color:var(--pink-4)}
+    .article-hero{background:linear-gradient(135deg,var(--pink-1),#ffd6e8);padding:5rem 4rem 4rem;text-align:center}
+    .hero-badge{display:inline-flex;align-items:center;gap:.4rem;background:white;color:var(--pink-5);font-size:.72rem;font-weight:500;padding:.35rem .9rem;border-radius:999px;margin-bottom:1.5rem;border:1px solid var(--pink-2);letter-spacing:.8px;text-transform:uppercase}
+    .article-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,4vw,3rem);line-height:1.2;color:var(--text-dark);max-width:760px;margin:0 auto 1.5rem;letter-spacing:-.5px}
+    .article-hero .lead{font-size:1.05rem;color:var(--text-mid);max-width:620px;margin:0 auto 2rem;font-weight:300}
+    .author-row{display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap}
+    .avatar{width:44px;height:44px;border-radius:50%;background:var(--pink-3);display:flex;align-items:center;justify-content:center;font-size:.85rem;color:white;font-weight:700}
+    .author-info{text-align:left}.author-name{font-size:.9rem;font-weight:500;color:var(--text-dark)}.author-meta{font-size:.78rem;color:var(--text-muted)}
+    .divider{width:1px;height:30px;background:var(--pink-2)}
+    .article-wrap{max-width:680px;margin:0 auto;padding:4rem 2rem}
+    .article-wrap p{font-size:1.05rem;color:var(--text-dark);margin-bottom:1.6rem;font-weight:300;line-height:1.85}
+    .article-wrap h2{font-family:'Playfair Display',serif;font-size:1.55rem;color:var(--text-dark);margin:3rem 0 1rem}
+    .pullquote{background:var(--blush);border-left:4px solid var(--pink-4);padding:1.5rem 2rem;border-radius:0 16px 16px 0;margin:2.5rem 0;font-family:'Playfair Display',serif;font-size:1.25rem;font-style:italic;color:var(--text-dark);line-height:1.5}
+    .highlight-box{background:white;border:1.5px solid var(--pink-1);border-radius:16px;padding:1.5rem 2rem;margin:2.5rem 0}
+    .highlight-box h4{font-family:'Playfair Display',serif;font-size:1rem;color:var(--pink-5);margin-bottom:.8rem}
+    .highlight-box ul{padding-left:1.2rem}.highlight-box li{font-size:.9rem;color:var(--text-mid);margin-bottom:.5rem}
+    .like-section{text-align:center;padding:2rem;border-top:1px solid var(--pink-1);border-bottom:1px solid var(--pink-1);margin:3rem 0}
+    .like-section p{font-size:.9rem;color:var(--text-muted);margin-bottom:1rem}
+    .like-btn{background:var(--pink-4);color:white;border:none;border-radius:999px;padding:.7rem 2rem;font-family:'DM Sans',sans-serif;font-size:.9rem;cursor:pointer;transition:all .2s}
+    .like-btn:hover{background:var(--pink-5);transform:scale(1.05)}
+    .related{background:white;padding:4rem;border-top:1px solid var(--pink-1)}
+    .related h3{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--text-dark);margin-bottom:2rem}
+    .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+    .related-card{border:1px solid var(--pink-1);border-radius:16px;padding:1.2rem;text-decoration:none;color:inherit;transition:all .2s;display:block}
+    .related-card:hover{border-color:var(--pink-3);transform:translateY(-3px)}
+    .badge{font-size:.66rem;font-weight:500;padding:.2rem .6rem;border-radius:999px;text-transform:uppercase;letter-spacing:.4px;display:inline-block}
+    .badge-pink{background:var(--blush);color:var(--pink-5)}.badge-lilac{background:var(--accent-lilac);color:#7c3aed}.badge-mint{background:var(--accent-mint);color:#0a6644}.badge-peach{background:var(--accent-peach);color:#9a4a00}
+    .related-card h4{font-family:'Playfair Display',serif;font-size:.95rem;line-height:1.4;color:var(--text-dark);margin:.5rem 0}.related-card p{font-size:.75rem;color:var(--text-muted)}
+    footer{background:var(--text-dark);color:white;padding:2.5rem 4rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+    footer p{font-size:.82rem;color:rgba(255,255,255,.45)}footer a{color:var(--pink-2);text-decoration:none;font-size:.82rem}
+    @media(max-width:768px){.article-hero{padding:3rem 1.5rem}.article-wrap{padding:2.5rem 1.2rem}.related-grid{grid-template-columns:1fr}footer{flex-direction:column;text-align:center;padding:2rem 1.5rem}}
+  </style>
+</head>
+<body>
+<nav>
+  <a class="logo" href="index.html"><img src="a.svg" alt="HerPotential"> HerPotential</a>
+  <a class="back-link" href="index.html">← Kembali ke Beranda</a>
+</nav>
+<header class="article-hero">
+  <div class="hero-badge">🎓 Pendidikan · Cerita Perempuan</div>
+  <h1>"Saya Kuliah Sambil Kerja 2 Shift — dan Tidak Ada yang Percaya Saya Bisa Lulus Cumlaude"</h1>
+  <p class="lead">Kisah Sari dari Makassar yang membuktikan bahwa kemiskinan bukan penghalang mimpi — hanya peta yang berbeda untuk sampai ke tujuan yang sama.</p>
+  <div class="author-row">
+    <div class="avatar">SR</div>
+    <div class="author-info">
+      <div class="author-name">Sari Rahayu</div>
+      <div class="author-meta">Makassar · Desember 2024</div>
+    </div>
+    <div class="divider"></div>
+    <div class="author-meta">8 menit baca · ♡ 1.247 suka</div>
+  </div>
+</header>
+<article class="article-wrap">
+
+  <p>Alarm pertama berbunyi jam 04.30. Saya sudah tidak tidur sejak jam 2 — bukan karena insomnia, tapi karena ada laporan akuntansi yang harus selesai sebelum shift pertama di kafe dimulai jam 06.00.</p>
+
+  <p>Saat teman-teman sekelas saya masih tidur di kos yang dibiayai orang tua, saya sedang menyiapkan kopi untuk pelanggan pagi, sambil menghafal rumus akuntansi di secarik kertas yang saya tempel di mesin kasir.</p>
+
+  <p>Nama saya Sari. Saya lahir sebagai anak sulung dari empat bersaudara di sebuah kelurahan di Makassar. Ayah saya tukang ojek. Ibu saya jual kue di pasar. Dan ketika saya diterima di Universitas Hasanuddin jurusan Akuntansi — nilai tertinggi di SMA saya — mereka bangga tapi juga bingung: uang dari mana?</p>
+
+  <div class="pullquote">
+    "Saya tidak punya pilihan untuk tidak berhasil. Terlalu banyak yang sudah dikorbankan untuk membuat saya sampai di titik itu."
+  </div>
+
+  <p>KIP-K (Kartu Indonesia Pintar Kuliah) menutup biaya pendidikan. Tapi hidup di kota tetap butuh biaya. Kos, makan, transportasi, buku. Dan begitulah saya memulai kehidupan ganda: mahasiswa di siang hari, barista di pagi dan malam.</p>
+
+  <h2>Pagi: Kafe. Siang: Kampus. Malam: Warung Makan.</h2>
+
+  <p>Shift pertama di kafe dari jam 06.00 sampai 10.00. Kuliah dari jam 08.00 — artinya saya selalu terlambat masuk kelas pertama, atau harus minta izin keluar menit-menit awal. Saya menjelaskan situasi saya ke dosen di minggu pertama, dan sebagian besar mengerti. Sebagian tidak.</p>
+
+  <p>"Kalau tidak bisa komitmen penuh, lebih baik tidak usah kuliah di sini," kata seorang dosen di semester dua. Saya diam. Saya mengangguk. Dan saya kembali ke bangku tanpa niat sedikitpun untuk berhenti.</p>
+
+  <p>Kuliah selesai sekitar jam 15.00-16.00. Saya punya waktu 30-45 menit untuk makan dan istirahat sebelum shift malam di warung makan seorang tante — dari jam 17.00 hingga 22.00. Total jam kerja dalam sehari: sekitar 9-10 jam. Ditambah belajar. Ditambah kuliah. Ditambah mengerjakan tugas kelompok via WhatsApp sampai larut malam.</p>
+
+  <div class="pullquote">
+    "Istirahat bukan kemewahan. Itu kebutuhan. Saya belajar tidur dengan sangat efisien — 5 jam yang berkualitas lebih baik dari 8 jam yang gelisah."
+  </div>
+
+  <h2>Tantangan yang Tidak Pernah Ada di Silabus</h2>
+
+  <p>Bukan hanya soal waktu. Ada hal-hal yang lebih berat dari itu.</p>
+
+  <p>Ada tugas kelompok yang perlu diskusi sampai malam — tapi saya sedang di warung makan. Ada presentasi pagi yang butuh persiapan — tapi saya tidak punya laptop sendiri sampai semester tiga (pinjam teman, perpustakaan, lab komputer kampus). Ada saat-saat ketika tubuh saya benar-benar menyerah — demam di tengah minggu ujian, tapi tidak ada yang bisa menggantikan saya di shift karena uang sewanya untuk kos bulan depan.</p>
+
+  <p>Yang paling menyakitkan bukan kelelahan fisik. Tapi perasaan tidak pernah "cukup" di tempat manapun. Di tempat kerja, saya tidak bisa fokus penuh karena memikirkan ujian. Di kampus, saya tidak bisa fokus penuh karena memikirkan tagihan. Di kos, saya terlalu lelah untuk benar-benar istirahat.</p>
+
+  <h2>Sistem yang Membantu — dan yang Tidak</h2>
+
+  <p>Ada beberapa hal yang benar-benar membuat perbedaan. Perpustakaan kampus yang buka sampai jam 22.00 — saya belajar di sana hampir setiap malam setelah shift. KIP-K yang tidak hanya menanggung SPP tapi juga memberikan biaya hidup bulanan. Seorang dosen pembimbing, Bu Hasni, yang pernah menghentikan saya di koridor dan bertanya, "Kamu baik-baik saja, Sari?" — bukan soal nilai, tapi soal saya sebagai manusia.</p>
+
+  <div class="highlight-box">
+    <h4>💡 Untuk adik-adik yang berada di posisi yang sama:</h4>
+    <ul>
+      <li>Manfaatkan semua program beasiswa yang ada — KIP-K, beasiswa dari yayasan swasta, beasiswa jurusan. Jangan malu untuk apply.</li>
+      <li>Ceritakan situasimu kepada dosen yang kamu percaya. Tidak semua dosen bisa mengerti, tapi cukup satu yang benar-benar peduli sudah bisa mengubah segalanya.</li>
+      <li>Cari komunitas mahasiswa pekerja — kamu tidak sendirian. Di kampus saya, ada grup WhatsApp informal yang saling bantu soal jadwal dan tugas.</li>
+      <li>Prioritaskan tidur. Produktivitas yang konsisten lebih baik dari satu malam all-nighter sebelum ujian.</li>
+      <li>Setiap rupiah yang kamu hasilkan sendiri adalah bukti bahwa kamu bisa. Jangan pernah malu dengan pekerjaan yang kamu lakukan.</li>
+    </ul>
+  </div>
+
+  <h2>Hari Wisuda: Yang Paling Saya Ingat</h2>
+
+  <p>IPK akhir saya: 3.87. Cumlaude.</p>
+
+  <p>Ketika nama saya dipanggil di atas panggung wisuda, ibu saya menangis di barisan penonton. Bukan karena nilai saya — tapi karena ia ingat semua pagi yang saya lewatkan tanpanya, semua ulang tahun yang kami rayakan lewat telepon, semua kali ia mengirim kue ke Makassar agar saya tidak lapar.</p>
+
+  <p>Dosen yang pernah bilang saya tidak akan bisa berkomitmen tidak hadir di wisuda. Tapi Bu Hasni ada di barisan dosen, dan ia melambaikan tangan ketika melihat saya. Itu sudah cukup.</p>
+
+  <p>Hari ini saya bekerja sebagai staf keuangan di sebuah perusahaan di Makassar, sambil mempersiapkan diri untuk melanjutkan studi dengan beasiswa. Dan setiap kali saya merasa lelah dengan jalan yang masih panjang, saya ingat satu hal:</p>
+
+  <p>Jika saya bisa melewati empat tahun itu — saya bisa melewati apapun.</p>
+
+  <div class="like-section">
+    <p>Cerita ini menyentuh hatimu? Berikan apresiasi untuk Sari.</p>
+    <button class="like-btn" onclick="this.textContent='♡ 1.248 ❤️ Terima kasih!'">♡ 1.247 Suka</button>
+  </div>
+
+</article>
+
+<section class="related">
+  <div style="max-width:680px;margin:0 auto">
+    <h3>Cerita Lainnya</h3>
+    <div class="related-grid">
+      <a href="cerita-ina.html" class="related-card">
+        <span class="badge badge-peach">UMKM</span>
+        <h4>Dari dapur rumah ke 50 reseller — Ina N., Yogyakarta</h4>
+        <p>6 mnt · ♡ 2.1k</p>
+      </a>
+      <a href="cerita-maya.html" class="related-card">
+        <span class="badge badge-lilac">Keberanian</span>
+        <h4>Saya keluar dari pernikahan yang toxic — Maya Y., Jakarta</h4>
+        <p>11 mnt · ♡ 3.4k</p>
+      </a>
+      <a href="artikel-pernikahan-dini.html" class="related-card">
+        <span class="badge badge-pink">Artikel</span>
+        <h4>Pernikahan dini masih merampas masa depan jutaan perempuan</h4>
+        <p>18 mnt · Annisa Syahputri</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a class="logo" href="index.html" style="color:var(--pink-2)"><img src="a.svg" alt="" style="height:1.6em;filter:brightness(2)"> HerPotential</a>
+  <p>© 2025 HerPotential. Platform cerita & pemberdayaan perempuan Indonesia.</p>
+  <a href="index.html">← Kembali ke Beranda</a>
+</footer>
+</body>
+</html>

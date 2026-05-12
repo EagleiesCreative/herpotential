@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keterwakilan Perempuan di Parlemen Indonesia — HerPotential</title>
+  <meta name="description" content="Dengan hanya 21% kursi legislatif yang dipegang perempuan, apa yang perlu berubah di sistem politik kita — dan siapa yang harus mendorongnya?">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{--pink-1:#ffd6e8;--pink-2:#ffb3d4;--pink-3:#ff8fbe;--pink-4:#f06292;--pink-5:#c2185b;--blush:#fce4ec;--white:#ffffff;--offwhite:#fdf8fa;--text-dark:#2a1520;--text-mid:#6d3b52;--text-muted:#b07490;--accent-lilac:#e8d5f5;--accent-peach:#ffe0cc;--accent-mint:#d4f0e8}
+    html{scroll-behavior:smooth}body{background:var(--offwhite);font-family:'DM Sans',sans-serif;color:var(--text-dark);line-height:1.7}
+    nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.9);backdrop-filter:blur(18px);border-bottom:1px solid var(--pink-1);padding:0 2.5rem;display:flex;align-items:center;justify-content:space-between;height:66px}
+    .logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.2rem;color:var(--pink-5);text-decoration:none;display:flex;align-items:center;gap:.5rem}
+    .logo img{height:1.8em;width:auto}
+    .back-link{font-size:.85rem;color:var(--text-mid);text-decoration:none;display:flex;align-items:center;gap:.4rem;transition:color .2s}
+    .back-link:hover{color:var(--pink-4)}
+    .article-hero{background:linear-gradient(135deg,var(--pink-1),var(--accent-lilac));padding:5rem 4rem 4rem;text-align:center}
+    .hero-badge{display:inline-flex;align-items:center;gap:.4rem;background:white;color:var(--pink-5);font-size:.72rem;font-weight:500;padding:.35rem .9rem;border-radius:999px;margin-bottom:1.5rem;border:1px solid var(--pink-2);letter-spacing:.8px;text-transform:uppercase}
+    .article-hero h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,4vw,3rem);line-height:1.2;color:var(--text-dark);max-width:760px;margin:0 auto 1.5rem;letter-spacing:-.5px}
+    .article-hero .lead{font-size:1.05rem;color:var(--text-mid);max-width:640px;margin:0 auto 2rem;font-weight:300}
+    .author-row{display:flex;align-items:center;justify-content:center;gap:1rem;flex-wrap:wrap}
+    .avatar{width:44px;height:44px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.85rem;color:white;font-weight:700}
+    .author-info{text-align:left}.author-name{font-size:.9rem;font-weight:500;color:var(--text-dark)}.author-meta{font-size:.78rem;color:var(--text-muted)}
+    .divider{width:1px;height:30px;background:var(--pink-2)}
+    .article-wrap{max-width:720px;margin:0 auto;padding:4rem 2rem}
+    .article-wrap p{font-size:1.02rem;color:var(--text-dark);margin-bottom:1.5rem;font-weight:300}
+    .article-wrap h2{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--text-dark);margin:3rem 0 1rem;letter-spacing:-.3px}
+    .article-wrap h3{font-family:'Playfair Display',serif;font-size:1.2rem;color:var(--text-dark);margin:2rem 0 .8rem}
+    .pullquote{background:var(--blush);border-left:4px solid var(--pink-4);padding:1.5rem 2rem;border-radius:0 16px 16px 0;margin:2.5rem 0;font-family:'Playfair Display',serif;font-size:1.2rem;font-style:italic;color:var(--text-dark);line-height:1.5}
+    .pullquote cite{display:block;font-family:'DM Sans',sans-serif;font-size:.78rem;font-style:normal;color:var(--text-muted);margin-top:.8rem}
+    .highlight-box{background:white;border:1.5px solid var(--pink-1);border-radius:16px;padding:1.5rem 2rem;margin:2.5rem 0}
+    .highlight-box h4{font-family:'Playfair Display',serif;font-size:1rem;color:var(--pink-5);margin-bottom:.8rem}
+    .highlight-box ul{padding-left:1.2rem}.highlight-box li{font-size:.9rem;color:var(--text-mid);margin-bottom:.5rem}
+    .data-table{width:100%;border-collapse:collapse;margin:2rem 0;border-radius:12px;overflow:hidden}
+    .data-table th{background:var(--pink-4);color:white;padding:.8rem 1rem;text-align:left;font-size:.82rem;font-weight:500}
+    .data-table td{padding:.75rem 1rem;font-size:.88rem;color:var(--text-dark);border-bottom:1px solid var(--pink-1)}
+    .data-table tr:last-child td{border-bottom:none}
+    .data-table tr:nth-child(even) td{background:var(--offwhite)}
+    .stat-row{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin:2.5rem 0}
+    .stat-box{background:white;border-radius:16px;padding:1.5rem;text-align:center;border:1px solid var(--pink-1)}
+    .stat-num{font-family:'Syne',sans-serif;font-size:2.2rem;font-weight:800;color:var(--pink-4)}
+    .stat-label{font-size:.78rem;color:var(--text-muted);margin-top:.3rem}
+    .related{background:white;padding:4rem;border-top:1px solid var(--pink-1)}
+    .related h3{font-family:'Playfair Display',serif;font-size:1.6rem;color:var(--text-dark);margin-bottom:2rem}
+    .related-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem}
+    .related-card{border:1px solid var(--pink-1);border-radius:16px;padding:1.2rem;text-decoration:none;color:inherit;transition:all .2s;display:block}
+    .related-card:hover{border-color:var(--pink-3);transform:translateY(-3px)}
+    .badge{font-size:.66rem;font-weight:500;padding:.2rem .6rem;border-radius:999px;text-transform:uppercase;letter-spacing:.4px}
+    .badge-pink{background:var(--blush);color:var(--pink-5)}.badge-lilac{background:var(--accent-lilac);color:#7c3aed}.badge-mint{background:var(--accent-mint);color:#0a6644}.badge-peach{background:var(--accent-peach);color:#9a4a00}
+    .related-card h4{font-family:'Playfair Display',serif;font-size:.95rem;line-height:1.4;color:var(--text-dark);margin:.5rem 0}
+    .related-card p{font-size:.75rem;color:var(--text-muted)}
+    footer{background:var(--text-dark);color:white;padding:2.5rem 4rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+    footer p{font-size:.82rem;color:rgba(255,255,255,.45)}
+    footer a{color:var(--pink-2);text-decoration:none;font-size:.82rem}
+    @media(max-width:768px){.article-hero{padding:3rem 1.5rem}.article-wrap{padding:2.5rem 1.2rem}.stat-row{grid-template-columns:1fr 1fr}.related-grid{grid-template-columns:1fr}footer{flex-direction:column;text-align:center;padding:2rem 1.5rem}}
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="logo" href="index.html"><img src="a.svg" alt="HerPotential"> HerPotential</a>
+  <a class="back-link" href="index.html">← Kembali ke Beranda</a>
+</nav>
+
+<header class="article-hero">
+  <div class="hero-badge">✊ Politik</div>
+  <h1>Keterwakilan Perempuan di Parlemen Indonesia: Angka, Hambatan, dan Jalan ke Depan</h1>
+  <p class="lead">Dengan hanya 21% kursi legislatif yang dipegang perempuan, apa yang perlu berubah di sistem politik kita — dan siapa yang harus mendorongnya?</p>
+  <div class="author-row">
+    <div class="avatar" style="background:var(--pink-4)">NP</div>
+    <div class="author-info">
+      <div class="author-name">Nur Priyanti</div>
+      <div class="author-meta">Peneliti Senior, LIPI · Spesialisasi Gender & Politik</div>
+    </div>
+    <div class="divider"></div>
+    <div class="author-meta">14 menit baca · April 2025</div>
+  </div>
+</header>
+
+<article class="article-wrap">
+
+  <p>Pada Pemilu 2024, Indonesia berhasil meningkatkan keterwakilan perempuan di DPR RI menjadi 21,8% — angka tertinggi dalam sejarah negara ini. Sebuah pencapaian yang patut dirayakan. Tapi mari kita juga jujur: 21,8% berarti hampir 4 dari 5 kursi di parlemen kita masih diduduki laki-laki. Dan di tingkat DPRD provinsi maupun kabupaten/kota, angka itu jauh lebih rendah.</p>
+
+  <p>Pertanyaannya bukan hanya "berapa banyak perempuan yang ada di parlemen?" tetapi "siapa yang membuat kebijakan yang memengaruhi jutaan perempuan Indonesia setiap harinya — dan apakah suara mereka benar-benar terwakili?"</p>
+
+  <div class="stat-row">
+    <div class="stat-box">
+      <div class="stat-num">21.8%</div>
+      <div class="stat-label">kursi DPR RI yang dipegang perempuan (2024)</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num">30%</div>
+      <div class="stat-label">target kuota affirmative action yang belum tercapai</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num">79</div>
+      <div class="stat-label">posisi Indonesia dalam indeks parlemen perempuan global (IPU 2024)</div>
+    </div>
+  </div>
+
+  <h2>Apa yang Kata Data</h2>
+
+  <p>Data Komisi Pemilihan Umum (KPU) menunjukkan bahwa meski ada aturan kuota 30% perempuan dalam daftar calon legislatif, implementasinya masih jauh dari ideal. Dari 9.917 caleg yang terdaftar dalam Pemilu 2024, 37% adalah perempuan — namun dari yang berhasil terpilih, angkanya anjlok drastis.</p>
+
+  <table class="data-table">
+    <tr><th>Tingkat Legislatif</th><th>Jumlah Kursi</th><th>% Perempuan 2024</th><th>Target Kuota</th></tr>
+    <tr><td>DPR RI</td><td>580</td><td>21,8%</td><td>30%</td></tr>
+    <tr><td>DPD RI</td><td>136</td><td>26,5%</td><td>30%</td></tr>
+    <tr><td>DPRD Provinsi</td><td>2.372</td><td>18,4%</td><td>30%</td></tr>
+    <tr><td>DPRD Kab/Kota</td><td>17.510</td><td>16,1%</td><td>30%</td></tr>
+  </table>
+
+  <p>Pola yang terlihat jelas: semakin dekat dengan akar rumput dan komunitas, semakin sedikit perempuan yang duduk di kursi pengambil keputusan. Padahal kebijakan di tingkat kabupaten dan kota — soal posyandu, pendidikan anak, pasar tradisional, keamanan lingkungan — adalah kebijakan yang paling langsung memengaruhi kehidupan sehari-hari perempuan.</p>
+
+  <h2>Lima Hambatan Sistemik yang Perlu Dipahami</h2>
+
+  <h3>1. Biaya Politik yang Sangat Tinggi</h3>
+  <p>Menjadi caleg di Indonesia bukan sekadar soal kapasitas dan visi. Ia memerlukan modal finansial yang besar — dari biaya administrasi, kampanye, hingga "setoran" ke partai yang tidak diakui secara resmi tapi nyata adanya. Rata-rata biaya kampanye caleg DPR RI berkisar antara Rp 500 juta hingga Rp 2 miliar. Perempuan, yang secara rata-rata masih memiliki akses lebih terbatas ke modal dan aset, menghadapi hambatan finansial yang lebih besar sejak awal.</p>
+
+  <h3>2. Norma Sosial dan Ekspektasi Ganda</h3>
+  <p>Perempuan yang terjun ke politik sering menghadapi pertanyaan yang tidak pernah ditanyakan kepada kandidat laki-laki: "Siapa yang jaga anakmu?" atau "Suamimu mendukung?" Ekspektasi ganda ini — untuk menjadi politisi yang efektif sekaligus ibu dan istri yang "sempurna" — menciptakan beban yang tidak setara.</p>
+
+  <h3>3. Budaya Partai yang Masih Patriarkal</h3>
+  <p>Proses pencalonan di banyak partai masih didominasi oleh jaringan laki-laki. Perempuan sering ditempatkan di nomor urut yang tidak strategis (nomor bawah dalam dapil yang kompetitif), atau di daerah pemilihan yang dianggap "tidak mungkin menang."</p>
+
+  <div class="pullquote">
+    "Kuota 30% perempuan dalam daftar caleg hanya berfungsi sebagai angka di atas kertas jika perempuan selalu diletakkan di posisi yang tidak memiliki peluang menang."
+    <cite>— Nur Priyanti, Peneliti LIPI</cite>
+  </div>
+
+  <h3>4. Minimnya Perempuan dalam Struktur Pengurus Partai</h3>
+  <p>Dari 18 partai peserta Pemilu 2024, hanya 3 yang memiliki ketua umum perempuan. Di tingkat kepengurusan DPP, rata-rata hanya 18% pengurus adalah perempuan. Ini penting karena struktur partai yang menentukan siapa yang masuk daftar caleg, mendapat dana kampanye, dan didukung oleh mesin partai.</p>
+
+  <h3>5. Kekerasan Politik Berbasis Gender (KPBG)</h3>
+  <p>Studi yang dilakukan oleh International IDEA Indonesia pada 2023 menemukan bahwa 67% perempuan anggota DPR/DPRD pernah mengalami setidaknya satu bentuk KPBG — mulai dari komentar seksis, pelecehan verbal dalam rapat, hingga ancaman dan serangan di media sosial. KPBG tidak hanya melukai individu; ia mengirimkan pesan kepada perempuan lain bahwa ruang politik bukan untuk mereka.</p>
+
+  <h2>Yang Bisa Berubah: Agenda Reformasi</h2>
+
+  <div class="highlight-box">
+    <h4>📋 Rekomendasi kebijakan berdasarkan riset komparatif 12 negara:</h4>
+    <ul>
+      <li><strong>Kuota zipper</strong> — wajibkan nomor urut ganjil untuk perempuan, bukan hanya 30% dalam daftar</li>
+      <li><strong>Subsidi kampanye berbasis gender</strong> — partai yang memenuhi kuota 30% caleg perempuan mendapat alokasi dana lebih besar dari negara</li>
+      <li><strong>Legislasi KPBG yang komprehensif</strong> — aturan yang jelas dan penegakan yang tegas terhadap kekerasan politik berbasis gender</li>
+      <li><strong>Program kepemimpinan perempuan</strong> — pendanaan untuk pelatihan caleg perempuan potensial dari daerah 3T</li>
+      <li><strong>Transparansi pencalonan partai</strong> — KPU wajib mempublikasikan posisi nomor urut caleg perempuan di setiap dapil</li>
+    </ul>
+  </div>
+
+  <h2>Belajar dari Rwanda: Bahwa 30% Hanyalah Titik Awal</h2>
+
+  <p>Rwanda hari ini memiliki parlemen dengan 61% anggota perempuan — tertinggi di dunia. Perubahan dramatis ini tidak terjadi karena kulturnya "lebih baik," tapi karena ada kombinasi kebijakan afirmatif yang kuat pasca-genosida 1994, kepemimpinan nasional yang komit, dan gerakan perempuan di akar rumput yang tidak berhenti mendorong.</p>
+
+  <p>Pelajaran dari Rwanda bukan bahwa kita harus meniru konteksnya — tapi bahwa perubahan fundamental dalam representasi politik perempuan adalah mungkin dalam satu generasi, jika ada komitmen kebijakan yang nyata.</p>
+
+  <h2>Apa yang Bisa Kamu Lakukan Sekarang?</h2>
+
+  <p>Kamu tidak perlu jadi caleg untuk mendorong perubahan ini. Beberapa hal yang bisa dimulai hari ini:</p>
+
+  <div class="highlight-box">
+    <h4>🗳️ Aksi nyata untuk mendukung representasi perempuan:</h4>
+    <ul>
+      <li>Pelajari rekam jejak anggota legislatif perempuan di daerahmu — dan dukung yang bekerja dengan baik</li>
+      <li>Tanyakan kepada partai favoritmu: berapa persen pengurus dan caleg mereka perempuan, dan di nomor urut berapa?</li>
+      <li>Dukung organisasi seperti Puskapol UI, CETRO, atau Women's Coalition yang mendorong reformasi elektoral</li>
+      <li>Jadilah pengawas pemilu yang berperspektif gender di pemilu berikutnya</li>
+      <li>Jika kamu berkecimpung di partai: advokasi untuk penempatan caleg perempuan di nomor strategis</li>
+    </ul>
+  </div>
+
+  <p>Indonesia telah menempuh jalan panjang. Dari nol perempuan di kabinet era Sukarno, hingga wakil presiden perempuan pertama yang dilantik pada 2024. Tapi setiap pencapaian itu tidak datang sendiri — ia datang karena ada perempuan dan laki-laki yang terus mendorong, bernegosiasi, dan menolak menerima status quo sebagai takdir.</p>
+
+  <p>Parlemen yang mewakili rakyat sepenuhnya berarti parlemen yang mewakili perempuan secara setara. Itu bukan angan-angan. Itu agenda politik yang harus kita perjuangkan bersama.</p>
+
+</article>
+
+<section class="related">
+  <div style="max-width:720px;margin:0 auto">
+    <h3>Artikel Terkait</h3>
+    <div class="related-grid">
+      <a href="artikel-direktur.html" class="related-card">
+        <span class="badge badge-pink">Karier</span>
+        <h4>Saya perempuan pertama yang jadi direktur di perusahaan ini</h4>
+        <p>Dewi Kusuma · 12 mnt</p>
+      </a>
+      <a href="artikel-pernikahan-dini.html" class="related-card">
+        <span class="badge badge-lilac">Pendidikan</span>
+        <h4>Pernikahan dini masih merampas masa depan jutaan perempuan muda Indonesia</h4>
+        <p>Annisa Syahputri · 18 mnt</p>
+      </a>
+      <a href="artikel-perempuan-tech.html" class="related-card">
+        <span class="badge badge-peach">Teknologi</span>
+        <h4>Perempuan di tech Indonesia: masuk lebih mudah, bertahan yang susah</h4>
+        <p>Rina Lestari · 16 mnt</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <a class="logo" href="index.html" style="color:var(--pink-2)"><img src="a.svg" alt="" style="height:1.6em;filter:brightness(2)"> HerPotential</a>
+  <p>© 2025 HerPotential. Platform cerita & pemberdayaan perempuan Indonesia.</p>
+  <a href="index.html">← Kembali ke Beranda</a>
+</footer>
+</body>
+</html>
