@@ -1368,6 +1368,200 @@
       border-color: var(--pink-2);
       color: var(--pink-2);
     }
+
+    /* ─── HAMBURGER MENU ─────────────────────────────────────────── */
+    .nav-hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 4px;
+    }
+
+    .nav-hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--text-mid);
+      border-radius: 2px;
+      transition: all 0.3s;
+    }
+
+    .nav-hamburger.open span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.open span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* ─── MOBILE RESPONSIVE ──────────────────────────────────────── */
+    @media (max-width: 768px) {
+
+      /* NAV */
+      nav {
+        padding: 0 1.2rem;
+        flex-wrap: wrap;
+        height: auto;
+        min-height: 60px;
+      }
+
+      .nav-hamburger {
+        display: flex;
+      }
+
+      .nav-links {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        gap: 0;
+        padding: 0.5rem 0 1rem;
+        border-top: 1px solid var(--pink-1);
+        order: 3;
+      }
+
+      .nav-links.open {
+        display: flex;
+      }
+
+      .nav-links li a {
+        display: block;
+        padding: 0.65rem 0;
+        font-size: 0.95rem;
+        border-bottom: 1px solid var(--pink-0);
+      }
+
+      .nav-pill {
+        display: none;
+      }
+
+      /* HERO */
+      .hero {
+        grid-template-columns: 1fr;
+        min-height: auto;
+        padding: 3rem 1.5rem 2rem;
+        gap: 2.5rem;
+      }
+
+      .hero-visual {
+        display: none;
+      }
+
+      h1 {
+        font-size: clamp(2.2rem, 9vw, 3rem);
+      }
+
+      /* SECTIONS */
+      section {
+        padding: 3rem 1.5rem;
+      }
+
+      /* FEATURED GRID */
+      .featured-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .article-big-body h2 {
+        font-size: 1.25rem;
+      }
+
+      /* STORY GRID */
+      .story-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .stories-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+      }
+
+      /* INFO GRID */
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+
+      /* HACKS GRID */
+      .hacks-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+
+      /* EMP GRID */
+      .emp-grid {
+        grid-template-columns: 1fr;
+      }
+
+      /* SHARE STORY */
+      .share-story {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 3.5rem 1.5rem;
+      }
+
+      /* RESOURCE BANNER */
+      .resource-banner {
+        padding: 1rem 1.2rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.8rem;
+      }
+
+      /* NEWSLETTER */
+      .newsletter {
+        padding: 3.5rem 1.5rem;
+      }
+
+      .email-form {
+        flex-direction: column;
+        border-radius: 16px;
+        padding: 0.75rem;
+        gap: 0.6rem;
+        max-width: 100%;
+      }
+
+      .email-form input {
+        padding: 0.5rem 0.5rem;
+      }
+
+      .email-form button {
+        width: 100%;
+        text-align: center;
+        padding: 0.75rem;
+      }
+
+      /* FOOTER */
+      footer {
+        padding: 3rem 1.5rem;
+      }
+
+      .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hacks-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        padding: 2rem 1.2rem 1.5rem;
+      }
+
+      .article-small {
+        flex-direction: column;
+      }
+
+      .article-small-thumb {
+        width: 100%;
+        height: 60px;
+      }
+    }
   </style>
 </head>
 
@@ -1377,12 +1571,15 @@
   <nav>
     <a class="logo" href="#"><img src="a.svg" alt="logo" style="height:2em;width:auto;vertical-align:middle;">
       HerPotential</a>
-    <ul class="nav-links">
-      <li><a href="#stories">Cerita</a></li>
-      <li><a href="#info">Info Penting</a></li>
-      <li><a href="#hacks">Life Hacks</a></li>
-      <li><a href="#empowerment">Pemberdayaan</a></li>
-      <li><a href="#share">Bagikan Ceritamu</a></li>
+    <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu" onclick="toggleNav()">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#stories" onclick="closeNav()">Cerita</a></li>
+      <li><a href="#info" onclick="closeNav()">Info Penting</a></li>
+      <li><a href="#hacks" onclick="closeNav()">Life Hacks</a></li>
+      <li><a href="#empowerment" onclick="closeNav()">Pemberdayaan</a></li>
+      <li><a href="#share" onclick="closeNav()">Bagikan Ceritamu</a></li>
     </ul>
     <a href="#share" class="nav-pill">Tulis Sekarang ♀</a>
   </nav>
@@ -1987,7 +2184,7 @@
        RESEND INTEGRATION — Story submission & Newsletter subscribe
   ═══════════════════════════════════════════════════════════════ -->
   <script>
-    const API_BASE = 'http://localhost:3001';
+    const API_BASE = '';
 
     function showMsg(el, text, isError) {
       el.textContent = text;
@@ -2062,6 +2259,17 @@
       } finally {
         setLoading(btn, false, originalText);
       }
+    }
+    function toggleNav() {
+      const btn = document.getElementById('nav-hamburger');
+      const links = document.getElementById('nav-links');
+      btn.classList.toggle('open');
+      links.classList.toggle('open');
+    }
+
+    function closeNav() {
+      document.getElementById('nav-hamburger').classList.remove('open');
+      document.getElementById('nav-links').classList.remove('open');
     }
   </script>
 
