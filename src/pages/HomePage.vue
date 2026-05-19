@@ -62,8 +62,13 @@
 
   <!-- FEATURED CERITA -->
   <section class="featured" id="stories">
-    <div class="section-label">pilihan editor</div>
-    <div class="section-title">Cerita yang Harus Kamu Baca</div>
+    <div class="stories-header" style="margin-bottom: 2rem;">
+      <div>
+        <div class="section-label">pilihan editor</div>
+        <div class="section-title" style="margin-bottom: 0;">Cerita yang Harus Kamu Baca</div>
+      </div>
+      <RouterLink to="/semua-cerita" class="btn-ghost">Semua cerita →</RouterLink>
+    </div>
 
     <div class="featured-grid">
       <RouterLink to="/post/reyva-210510250074-1" class="article-big">
@@ -137,7 +142,7 @@
         <p class="section-sub" style="margin-top: 0.4rem;">Cerita nyata dari perempuan Indonesia di seluruh penjuru
           negeri.</p>
       </div>
-      <RouterLink to="/semua-cerita" class="btn-ghost">Semua cerita →</RouterLink>
+      <RouterLink to="/semua-cerita" class="btn-ghost">Artikel Pemberdayaan</RouterLink>
     </div>
 
     <div class="story-grid">
