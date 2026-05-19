@@ -66,7 +66,7 @@
     <div class="section-title">Cerita yang Harus Kamu Baca</div>
 
     <div class="featured-grid">
-      <RouterLink to="/post/kayla-210510250072-1" class="article-big">
+      <RouterLink to="/post/reyva-210510250074-1" class="article-big">
         <div class="article-big-img" style="background: linear-gradient(135deg, var(--pink-1), var(--pink-2));">
           👩‍💼
           <span class="badge badge-white">Karier & Ambisi</span>
@@ -92,7 +92,7 @@
       </RouterLink>
 
       <div class="article-small-stack">
-        <RouterLink to="/post/kayla-210510250072-2" class="article-small">
+        <RouterLink to="/post/kayla-210510250072-1" class="article-small">
           <div class="article-small-thumb thumb-lilac">⚖️</div>
           <div class="article-small-info">
             <span class="badge badge-lilac">Hak & Hukum</span>
@@ -100,7 +100,7 @@
             <p>Panduan Hukum</p>
           </div>
         </RouterLink>
-        <RouterLink to="/post/kayla-210510250072-3" class="article-small">
+        <RouterLink to="/post/kayla-210510250072-2" class="article-small">
           <div class="article-small-thumb thumb-mint">🏥</div>
           <div class="article-small-info">
             <span class="badge badge-mint">Kesehatan</span>
@@ -108,7 +108,7 @@
             <p>Kesehatan</p>
           </div>
         </RouterLink>
-        <RouterLink to="/post/kayla-210510250072-4" class="article-small">
+        <RouterLink to="/post/kayla-210510250072-3" class="article-small">
           <div class="article-small-thumb thumb-peach">💰</div>
           <div class="article-small-info">
             <span class="badge badge-peach">Finansial</span>
@@ -116,7 +116,7 @@
             <p>Karier</p>
           </div>
         </RouterLink>
-        <RouterLink to="/post/kayla-210510250072-5" class="article-small">
+        <RouterLink to="/post/kayla-210510250072-4" class="article-small">
           <div class="article-small-thumb thumb-pink">🧠</div>
           <div class="article-small-info">
             <span class="badge badge-pink">Mental Health</span>
@@ -141,7 +141,7 @@
     </div>
 
     <div class="story-grid">
-      <RouterLink to="/post/reyva-210510250074-1" class="story-card">
+      <RouterLink to="/post/kayla-210510250080-1" class="story-card">
         <div class="story-card-top top-c1">
           🎓
           
@@ -163,7 +163,7 @@
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/reyva-210510250074-2" class="story-card">
+      <RouterLink to="/post/maira-210510250090-1" class="story-card">
         <div class="story-card-top top-c2">
           💔
           
@@ -185,7 +185,7 @@
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/reyva-210510250074-3" class="story-card">
+      <RouterLink to="/post/nadine-210510250073-1" class="story-card">
         <div class="story-card-top top-c3">
           🌾
           
@@ -207,7 +207,7 @@
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/reyva-210510250074-4" class="story-card">
+      <RouterLink to="/post/kayla-210510250072-1" class="story-card">
         <div class="story-card-top top-c4">
           🩺
           
@@ -229,7 +229,7 @@
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/reyva-210510250074-5" class="story-card">
+      <RouterLink to="/post/kesya-210510250069-1" class="story-card">
         <div class="story-card-top top-c5">
           🗳️
           
@@ -251,7 +251,7 @@
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/reyva-210510250074-6" class="story-card">
+      <RouterLink to="/post/nayfa-210510250055-1" class="story-card">
         <div class="story-card-top top-c6">
           🧕
           
@@ -422,7 +422,7 @@
       Indonesia.</p>
 
     <div class="emp-grid">
-      <RouterLink to="/post/nadine-210510250073-2" class="emp-card">
+      <RouterLink to="/post/reyva-210510250074-2" class="emp-card">
         <div class="emp-card-img" style="background: linear-gradient(135deg, var(--pink-1), var(--pink-2));">
           ✊
           <span class="badge badge-white">Politik</span>
@@ -444,7 +444,7 @@
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/nadine-210510250073-3" class="emp-card">
+      <RouterLink to="/post/kayla-210510250080-2" class="emp-card">
         <div class="emp-card-img" style="background: linear-gradient(135deg, var(--accent-lilac), #d4b8f0);">
           📚
           <span class="badge badge-lilac">Pendidikan</span>
@@ -466,7 +466,7 @@
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/nadine-210510250073-4" class="emp-card">
+      <RouterLink to="/post/maira-210510250090-2" class="emp-card">
         <div class="emp-card-img" style="background: linear-gradient(135deg, var(--accent-mint), #a8e0d0);">
           🌿
           <span class="badge badge-mint">Ekonomi</span>
@@ -488,7 +488,7 @@
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/nadine-210510250073-5" class="emp-card">
+      <RouterLink to="/post/nadine-210510250073-2" class="emp-card">
         <div class="emp-card-img" style="background: linear-gradient(135deg, var(--accent-peach), #ffc9a8);">
           💻
           <span class="badge badge-peach">Teknologi</span>
@@ -564,13 +564,13 @@
     <div class="section-title">Kamu Mau Baca Apa?</div>
 
     <div class="topic-pills">
-      <RouterLink to="/post/kayla-210510250080-1" class="topic-pill"><span class="emoji">💪</span> Pemberdayaan </RouterLink>
-      <RouterLink to="/post/kayla-210510250080-2" class="topic-pill"><span class="emoji">⚖️</span> Hak & Hukum </RouterLink>
-      <RouterLink to="/post/kayla-210510250080-3" class="topic-pill"><span class="emoji">💸</span> Finansial </RouterLink>
+      <RouterLink to="/post/kayla-210510250080-2" class="topic-pill"><span class="emoji">💪</span> Pemberdayaan </RouterLink>
+      <RouterLink to="/post/kayla-210510250080-3" class="topic-pill"><span class="emoji">⚖️</span> Hak & Hukum </RouterLink>
+      <RouterLink to="/post/kayla-210510250080-4" class="topic-pill"><span class="emoji">💸</span> Finansial </RouterLink>
 
-      <RouterLink to="/post/kayla-210510250080-4" class="topic-pill"><span class="emoji">🏥</span> Kesehatan </RouterLink>
-      <RouterLink to="/post/kayla-210510250080-5" class="topic-pill"><span class="emoji">🧠</span> Mental Health </RouterLink>
-      <RouterLink to="/post/kayla-210510250080-6" class="topic-pill"><span class="emoji">👩‍💼</span> Karier </RouterLink>
+      <RouterLink to="/post/kayla-210510250080-5" class="topic-pill"><span class="emoji">🏥</span> Kesehatan </RouterLink>
+      <RouterLink to="/post/kayla-210510250080-6" class="topic-pill"><span class="emoji">🧠</span> Mental Health </RouterLink>
+      <RouterLink to="/post/kayla-210510250080-1" class="topic-pill"><span class="emoji">👩‍💼</span> Karier </RouterLink>
       <RouterLink to="/post/kesya-210510250069-1" class="topic-pill"><span class="emoji">🎓</span> Pendidikan </RouterLink>
       <RouterLink to="/post/kesya-210510250069-2" class="topic-pill"><span class="emoji">🤝</span> Komunitas </RouterLink>
       <RouterLink to="/post/kesya-210510250069-3" class="topic-pill"><span class="emoji">🌿</span> UMKM & Wirausaha </RouterLink>
