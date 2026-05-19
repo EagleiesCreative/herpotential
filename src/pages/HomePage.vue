@@ -67,7 +67,7 @@
         <div class="section-label">pilihan editor</div>
         <div class="section-title" style="margin-bottom: 0;">Cerita yang Harus Kamu Baca</div>
       </div>
-      <RouterLink to="/semua-cerita" class="btn-ghost">Semua cerita →</RouterLink>
+      <RouterLink to="/semua-cerita" class="btn-ghost">Semua cerita</RouterLink>
     </div>
 
     <div class="featured-grid">
