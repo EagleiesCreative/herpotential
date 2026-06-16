@@ -1,7 +1,11 @@
 import { createApp } from 'vue'
+import { inject } from '@vercel/analytics'
 import { createRouter, createWebHistory } from 'vue-router'
 import './style.css'
 import App from './App.vue'
+
+// Initialize Vercel Analytics
+inject()
 import HomePage from './pages/HomePage.vue'
 import SemuaCerita from './pages/SemuaCerita.vue'
 import Reyva2105102500741 from './pages/post/Reyva-210510250074-1.vue'
