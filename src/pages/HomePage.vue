@@ -71,7 +71,7 @@
     </div>
 
     <div class="featured-grid">
-      <RouterLink to="/post/reyva-210510250074-1" class="article-big">
+      <RouterLink to="/post/nadine-210510250073-1" class="article-big">
         <div class="article-big-img" style="background: linear-gradient(135deg, var(--pink-1), var(--pink-2));">
           👩‍💼
           <span class="badge badge-white">Karier & Ambisi</span>
@@ -82,22 +82,19 @@
             yang tidak setara, hingga akhirnya mengubah budaya perusahaan dari dalam.</p>
           <div class="article-meta">
             <div class="author" style="display:flex;align-items:center;gap:10px;">
-  <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px;">RE</div>
-  <div>
-    <div>Reyva keisya putri s</div>
-    <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
-  </div>
-</div>
-            
-            
-            
+              <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">NA</div>
+              <div>
+                <div style="font-weight: 500;">Nadine Alifya Widiyarto</div>
+                <div style="font-size:0.8em; opacity:0.8;">210510250073</div>
+              </div>
+            </div>
             <span>Mei 2025</span>
           </div>
         </div>
       </RouterLink>
 
       <div class="article-small-stack">
-        <RouterLink to="/post/kayla-210510250072-1" class="article-small">
+        <RouterLink to="/post/kayla-210510250080-1" class="article-small">
           <div class="article-small-thumb thumb-lilac">⚖️</div>
           <div class="article-small-info">
             <span class="badge badge-lilac">Hak & Hukum</span>
@@ -105,7 +102,7 @@
             <p>Panduan Hukum</p>
           </div>
         </RouterLink>
-        <RouterLink to="/post/kayla-210510250072-2" class="article-small">
+        <RouterLink to="/post/kayla-210510250080-4" class="article-small">
           <div class="article-small-thumb thumb-mint">🏥</div>
           <div class="article-small-info">
             <span class="badge badge-mint">Kesehatan</span>
@@ -113,7 +110,7 @@
             <p>Kesehatan</p>
           </div>
         </RouterLink>
-        <RouterLink to="/post/kayla-210510250072-3" class="article-small">
+        <RouterLink to="/post/maira-210510250090-3" class="article-small">
           <div class="article-small-thumb thumb-peach">💰</div>
           <div class="article-small-info">
             <span class="badge badge-peach">Finansial</span>
@@ -121,7 +118,7 @@
             <p>Karier</p>
           </div>
         </RouterLink>
-        <RouterLink to="/post/kayla-210510250072-4" class="article-small">
+        <RouterLink to="/post/maira-210510250090-6" class="article-small">
           <div class="article-small-thumb thumb-pink">🧠</div>
           <div class="article-small-info">
             <span class="badge badge-pink">Mental Health</span>
@@ -146,10 +143,9 @@
     </div>
 
     <div class="story-grid">
-      <RouterLink to="/post/kayla-210510250080-1" class="story-card">
+      <RouterLink to="/post/reyva-210510250074-6" class="story-card">
         <div class="story-card-top top-c1">
           🎓
-          
         </div>
         <div class="story-card-body">
           <span class="badge badge-pink">Pendidikan</span>
@@ -158,42 +154,38 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-  <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px;">KA</div>
-  <div>
-    <div>Kayla Argyana Aziza</div>
-    <div style="font-size:0.8em; opacity:0.8;">210510250080</div>
-  </div>
-</div>
-          
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">RE</div>
+            <div>
+              <div style="font-weight: 500;">Reyva keisya putri s</div>
+              <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
+            </div>
+          </div>
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/maira-210510250090-1" class="story-card">
+      <RouterLink to="/post/reyva-210510250074-4" class="story-card">
         <div class="story-card-top top-c2">
           💔
-          
         </div>
         <div class="story-card-body">
           <span class="badge badge-lilac">Keberanian</span>
           <h3>Saya keluar dari pernikahan yang toxic — ini bukan kegagalan, ini keberanian</h3>
-          <p>Maya berbagi jalan panjang menyadari dan akhirnya memilih dirinya sendiri.</p>
+          <p>Maya berbagi jalan panjang menyadari and akhirnya memilih dirinya sendiri.</p>
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-  <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px;">MA</div>
-  <div>
-    <div>Maira Aurel Khairunissa</div>
-    <div style="font-size:0.8em; opacity:0.8;">210510250090</div>
-  </div>
-</div>
-          
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">RE</div>
+            <div>
+              <div style="font-weight: 500;">Reyva keisya putri s</div>
+              <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
+            </div>
+          </div>
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/nadine-210510250073-1" class="story-card">
+      <RouterLink to="/post/reyva-210510250074-2" class="story-card">
         <div class="story-card-top top-c3">
           🌾
-          
         </div>
         <div class="story-card-body">
           <span class="badge badge-peach">UMKM</span>
@@ -202,20 +194,18 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-  <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px;">NA</div>
-  <div>
-    <div>Nadine Alifya Widiyarto</div>
-    <div style="font-size:0.8em; opacity:0.8;">210510250073</div>
-  </div>
-</div>
-          
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">RE</div>
+            <div>
+              <div style="font-weight: 500;">Reyva keisya putri s</div>
+              <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
+            </div>
+          </div>
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/kayla-210510250072-1" class="story-card">
+      <RouterLink to="/post/reyva-210510250074-5" class="story-card">
         <div class="story-card-top top-c4">
           🩺
-          
         </div>
         <div class="story-card-body">
           <span class="badge badge-mint">Kesehatan</span>
@@ -224,20 +214,18 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-  <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px;">KA</div>
-  <div>
-    <div>Kayla Rahma Rissyaputri</div>
-    <div style="font-size:0.8em; opacity:0.8;">210510250072</div>
-  </div>
-</div>
-          
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">RE</div>
+            <div>
+              <div style="font-weight: 500;">Reyva keisya putri s</div>
+              <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
+            </div>
+          </div>
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/kesya-210510250069-1" class="story-card">
+      <RouterLink to="/post/reyva-210510250074-3" class="story-card">
         <div class="story-card-top top-c5">
           🗳️
-          
         </div>
         <div class="story-card-body">
           <span class="badge badge-pink">Politik & Advokasi</span>
@@ -246,20 +234,18 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-  <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px;">KE</div>
-  <div>
-    <div>Kesya Gokma</div>
-    <div style="font-size:0.8em; opacity:0.8;">210510250069</div>
-  </div>
-</div>
-          
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">RE</div>
+            <div>
+              <div style="font-weight: 500;">Reyva keisya putri s</div>
+              <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
+            </div>
+          </div>
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/nayfa-210510250055-1" class="story-card">
+      <RouterLink to="/post/reyva-210510250074-1" class="story-card">
         <div class="story-card-top top-c6">
           🧕
-          
         </div>
         <div class="story-card-body">
           <span class="badge badge-sky">Identitas</span>
@@ -268,13 +254,12 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-  <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px;">NA</div>
-  <div>
-    <div>Nayfa Ariana Putri S</div>
-    <div style="font-size:0.8em; opacity:0.8;">210510250055</div>
-  </div>
-</div>
-          
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">RE</div>
+            <div>
+              <div style="font-weight: 500;">Reyva keisya putri s</div>
+              <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
+            </div>
+          </div>
         </div>
       </RouterLink>
     </div>
@@ -301,7 +286,7 @@
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/kayla-210510250080-2" class="info-card info-card-lilac">
+      <RouterLink to="/post/kayla-210510250080-4" class="info-card info-card-lilac">
         <div class="info-icon">🏥</div>
         <h3>Kesehatan Reproduksi & Tubuhmu</h3>
         <p>Semua yang perlu kamu tahu tentang siklus menstruasi, PCOS, endometriosis, kontrasepsi, dan cara berbicara
@@ -327,7 +312,7 @@
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/kayla-210510250080-4" class="info-card info-card-mint">
+      <RouterLink to="/post/kayla-210510250080-2" class="info-card info-card-mint">
         <div class="info-icon">🛡️</div>
         <h3>Keamanan & Perlindungan Diri</h3>
         <p>Panduan keamanan digital, cara melindungi diri dari kekerasan berbasis gender online, hingga self-defense
@@ -350,7 +335,7 @@
       sehari-hari.</p>
 
     <div class="hacks-grid">
-      <RouterLink to="/post/kayla-210510250080-5" class="hack-card">
+      <RouterLink to="/post/maira-210510250090-1" class="hack-card">
         <div class="hack-num">01</div>
         <h3>Cara menolak dengan tegas tanpa merasa bersalah</h3>
         <p>Script siap pakai untuk menolak permintaan yang tidak wajar — di kantor, keluarga, maupun hubungan
@@ -358,14 +343,14 @@
         <span class="badge badge-pink">Boundaries</span>
       </RouterLink>
 
-      <RouterLink to="/post/kayla-210510250080-6" class="hack-card">
+      <RouterLink to="/post/maira-210510250090-3" class="hack-card">
         <div class="hack-num">02</div>
         <h3>Negosiasi gaji: template kalimat yang terbukti berhasil</h3>
         <p>Data riset menunjukkan perempuan yang negosiasi gaji 85% berhasil naik minimal 10% — ini caranya.</p>
         <span class="badge badge-peach">Karier</span>
       </RouterLink>
 
-      <RouterLink to="/post/maira-210510250090-1" class="hack-card">
+      <RouterLink to="/post/kayla-210510250080-5" class="hack-card">
         <div class="hack-num">03</div>
         <h3>Cara dokumentasi kekerasan untuk laporan hukum</h3>
         <p>Step-by-step cara menyimpan bukti, screenshot, dan catatan yang valid secara hukum bila kamu mengalami
@@ -373,7 +358,7 @@
         <span class="badge badge-lilac">Perlindungan</span>
       </RouterLink>
 
-      <RouterLink to="/post/maira-210510250090-2" class="hack-card">
+      <RouterLink to="/post/kayla-210510250080-6" class="hack-card">
         <div class="hack-num">04</div>
         <h3>Mulai investasi dengan Rp 10.000 per hari</h3>
         <p>Panduan reksa dana, saham, dan tabungan emas untuk pemula — khusus buat kamu yang merasa "nanti dulu kalau
@@ -381,7 +366,7 @@
         <span class="badge badge-mint">Finansial</span>
       </RouterLink>
 
-      <RouterLink to="/post/maira-210510250090-3" class="hack-card">
+      <RouterLink to="/post/reyva-210510250074-4" class="hack-card">
         <div class="hack-num">05</div>
         <h3>Red flags hubungan yang sering diabaikan perempuan</h3>
         <p>Bukan tentang drama, tapi tentang mengenali pola kontrol halus sebelum jadi lebih parah — dari perspektif
@@ -389,28 +374,28 @@
         <span class="badge badge-pink">Relasi</span>
       </RouterLink>
 
-      <RouterLink to="/post/maira-210510250090-4" class="hack-card">
+      <RouterLink to="/post/maira-210510250090-5" class="hack-card">
         <div class="hack-num">06</div>
         <h3>Self-advocacy di fasilitas kesehatan: cara ngomongnya</h3>
         <p>Kalimat yang efektif saat dokter meremehkan gejalamu, plus hak-hak pasien yang bisa kamu gunakan.</p>
         <span class="badge badge-sky">Kesehatan</span>
       </RouterLink>
 
-      <RouterLink to="/post/maira-210510250090-5" class="hack-card">
+      <RouterLink to="/post/maira-210510250090-4" class="hack-card">
         <div class="hack-num">07</div>
         <h3>Bangun personal branding tanpa kehilangan dirimu</h3>
         <p>Tips LinkedIn, portofolio, dan networking untuk perempuan yang tidak mau "fake it till you make it."</p>
         <span class="badge badge-peach">Karier</span>
       </RouterLink>
 
-      <RouterLink to="/post/maira-210510250090-6" class="hack-card">
+      <RouterLink to="/post/maira-210510250090-2" class="hack-card">
         <div class="hack-num">08</div>
         <h3>Cara bicara soal menstruasi di tempat kerja</h3>
         <p>Hak cuti haid ada di UU Ketenagakerjaan — tapi banyak yang tidak tahu cara mengaksesnya tanpa judgement.</p>
         <span class="badge badge-mint">Hak Kerja</span>
       </RouterLink>
 
-      <RouterLink to="/post/nadine-210510250073-1" class="hack-card">
+      <RouterLink to="/post/maira-210510250090-6" class="hack-card">
         <div class="hack-num">09</div>
         <h3>Membangun support system yang benar-benar support</h3>
         <p>Cara memilih orang-orang di sekitarmu, menetapkan ekspektasi, dan tahu kapan perlu bantuan profesional.</p>
@@ -427,7 +412,7 @@
       Indonesia.</p>
 
     <div class="emp-grid">
-      <RouterLink to="/post/reyva-210510250074-2" class="emp-card">
+      <RouterLink to="/post/nadine-210510250073-3" class="emp-card">
         <div class="emp-card-img" style="background: linear-gradient(135deg, var(--pink-1), var(--pink-2));">
           ✊
           <span class="badge badge-white">Politik</span>
@@ -438,18 +423,17 @@
             dan siapa yang harus mendorongnya?</p>
           <div class="article-meta">
             <div class="author" style="display:flex;align-items:center;gap:10px;">
-  <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px;">RE</div>
-  <div>
-    <div>Reyva keisya putri s</div>
-    <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
-  </div>
-</div>
-            
+              <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">NA</div>
+              <div>
+                <div style="font-weight: 500;">Nadine Alifya Widiyarto</div>
+                <div style="font-size:0.8em; opacity:0.8;">210510250073</div>
+              </div>
+            </div>
           </div>
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/kayla-210510250080-2" class="emp-card">
+      <RouterLink to="/post/nadine-210510250073-5" class="emp-card">
         <div class="emp-card-img" style="background: linear-gradient(135deg, var(--accent-lilac), #d4b8f0);">
           📚
           <span class="badge badge-lilac">Pendidikan</span>
@@ -460,18 +444,17 @@
             perempuan tetap rentan.</p>
           <div class="article-meta">
             <div class="author" style="display:flex;align-items:center;gap:10px;">
-  <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px;">KA</div>
-  <div>
-    <div>Kayla Argyana Aziza</div>
-    <div style="font-size:0.8em; opacity:0.8;">210510250080</div>
-  </div>
-</div>
-            
+              <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">NA</div>
+              <div>
+                <div style="font-weight: 500;">Nadine Alifya Widiyarto</div>
+                <div style="font-size:0.8em; opacity:0.8;">210510250073</div>
+              </div>
+            </div>
           </div>
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/maira-210510250090-2" class="emp-card">
+      <RouterLink to="/post/nadine-210510250073-2" class="emp-card">
         <div class="emp-card-img" style="background: linear-gradient(135deg, var(--accent-mint), #a8e0d0);">
           🌿
           <span class="badge badge-mint">Ekonomi</span>
@@ -482,18 +465,17 @@
             ketidakadilan yang sudah terlalu lama dinormalkan.</p>
           <div class="article-meta">
             <div class="author" style="display:flex;align-items:center;gap:10px;">
-  <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px;">MA</div>
-  <div>
-    <div>Maira Aurel Khairunissa</div>
-    <div style="font-size:0.8em; opacity:0.8;">210510250090</div>
-  </div>
-</div>
-            
+              <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">NA</div>
+              <div>
+                <div style="font-weight: 500;">Nadine Alifya Widiyarto</div>
+                <div style="font-size:0.8em; opacity:0.8;">210510250073</div>
+              </div>
+            </div>
           </div>
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/nadine-210510250073-2" class="emp-card">
+      <RouterLink to="/post/nadine-210510250073-4" class="emp-card">
         <div class="emp-card-img" style="background: linear-gradient(135deg, var(--accent-peach), #ffc9a8);">
           💻
           <span class="badge badge-peach">Teknologi</span>
@@ -504,13 +486,12 @@
             komunitas yang benar-benar membantu.</p>
           <div class="article-meta">
             <div class="author" style="display:flex;align-items:center;gap:10px;">
-  <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px;">NA</div>
-  <div>
-    <div>Nadine Alifya Widiyarto</div>
-    <div style="font-size:0.8em; opacity:0.8;">210510250073</div>
-  </div>
-</div>
-            
+              <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">NA</div>
+              <div>
+                <div style="font-weight: 500;">Nadine Alifya Widiyarto</div>
+                <div style="font-size:0.8em; opacity:0.8;">210510250073</div>
+              </div>
+            </div>
           </div>
         </div>
       </RouterLink>
@@ -569,19 +550,19 @@
     <div class="section-title">Kamu Mau Baca Apa?</div>
 
     <div class="topic-pills">
-      <RouterLink to="/post/kayla-210510250080-2" class="topic-pill"><span class="emoji">💪</span> Pemberdayaan </RouterLink>
-      <RouterLink to="/post/kayla-210510250080-3" class="topic-pill"><span class="emoji">⚖️</span> Hak & Hukum </RouterLink>
-      <RouterLink to="/post/kayla-210510250080-4" class="topic-pill"><span class="emoji">💸</span> Finansial </RouterLink>
+      <RouterLink to="/post/nadine-210510250073-1" class="topic-pill"><span class="emoji">💪</span> Pemberdayaan </RouterLink>
+      <RouterLink to="/post/kayla-210510250080-1" class="topic-pill"><span class="emoji">⚖️</span> Hak & Hukum </RouterLink>
+      <RouterLink to="/post/kayla-210510250080-3" class="topic-pill"><span class="emoji">💸</span> Finansial </RouterLink>
 
-      <RouterLink to="/post/kayla-210510250080-5" class="topic-pill"><span class="emoji">🏥</span> Kesehatan </RouterLink>
-      <RouterLink to="/post/kayla-210510250080-6" class="topic-pill"><span class="emoji">🧠</span> Mental Health </RouterLink>
-      <RouterLink to="/post/kayla-210510250080-1" class="topic-pill"><span class="emoji">👩‍💼</span> Karier </RouterLink>
-      <RouterLink to="/post/kesya-210510250069-1" class="topic-pill"><span class="emoji">🎓</span> Pendidikan </RouterLink>
-      <RouterLink to="/post/kesya-210510250069-2" class="topic-pill"><span class="emoji">🤝</span> Komunitas </RouterLink>
-      <RouterLink to="/post/kesya-210510250069-3" class="topic-pill"><span class="emoji">🌿</span> UMKM & Wirausaha </RouterLink>
-      <RouterLink to="/post/kesya-210510250069-4" class="topic-pill"><span class="emoji">💌</span> Relasi </RouterLink>
-      <RouterLink to="/post/kesya-210510250069-5" class="topic-pill"><span class="emoji">🛡️</span> Keamanan </RouterLink>
-      <RouterLink to="/post/kesya-210510250069-6" class="topic-pill"><span class="emoji">🌺</span> Budaya & Identitas </RouterLink>
+      <RouterLink to="/post/kayla-210510250080-4" class="topic-pill"><span class="emoji">🏥</span> Kesehatan </RouterLink>
+      <RouterLink to="/post/maira-210510250090-6" class="topic-pill"><span class="emoji">🧠</span> Mental Health </RouterLink>
+      <RouterLink to="/post/maira-210510250090-3" class="topic-pill"><span class="emoji">👩‍💼</span> Karier </RouterLink>
+      <RouterLink to="/post/reyva-210510250074-6" class="topic-pill"><span class="emoji">🎓</span> Pendidikan </RouterLink>
+      <RouterLink to="/post/reyva-210510250074-3" class="topic-pill"><span class="emoji">🤝</span> Komunitas </RouterLink>
+      <RouterLink to="/post/reyva-210510250074-2" class="topic-pill"><span class="emoji">🌿</span> UMKM & Wirausaha </RouterLink>
+      <RouterLink to="/post/reyva-210510250074-4" class="topic-pill"><span class="emoji">💌</span> Relasi </RouterLink>
+      <RouterLink to="/post/kayla-210510250080-2" class="topic-pill"><span class="emoji">🛡️</span> Keamanan </RouterLink>
+      <RouterLink to="/post/reyva-210510250074-1" class="topic-pill"><span class="emoji">🌺</span> Budaya & Identitas </RouterLink>
     </div>
   </section>
 
