@@ -113,28 +113,6 @@
     </div>
   </article>
 
-  <section class="related">
-    <div style="max-width:760px;margin:0 auto">
-      <h3>Baca Juga</h3>
-      <div class="related-grid">
-        <RouterLink to="/tips/investasi" class="related-card">
-          <span class="badge badge-mint">Finansial</span>
-          <h4>Mulai investasi dengan Rp 10.000 per hari</h4>
-          <p>Tim Redaksi · 6 mnt</p>
-        </RouterLink>
-        <RouterLink to="/tips/negosiasi-gaji" class="related-card">
-          <span class="badge badge-peach">Karier</span>
-          <h4>Negosiasi gaji: template kalimat yang terbukti berhasil</h4>
-          <p>Tim Redaksi · 5 mnt</p>
-        </RouterLink>
-        <RouterLink to="/artikel/ekonomi-perawatan" class="related-card">
-          <span class="badge badge-mint">Ekonomi</span>
-          <h4>Ekonomi perawatan: pekerjaan perempuan yang tidak kelihatan</h4>
-          <p>Dr. Dina Marlina · 11 mnt</p>
-        </RouterLink>
-      </div>
-    </div>
-  </section>
   </ArticleLayout>
 </template>
 

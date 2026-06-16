@@ -133,28 +133,6 @@
     </div>
   </article>
 
-  <section class="related">
-    <div style="max-width:760px;margin:0 auto">
-      <h3>Baca Juga</h3>
-      <div class="related-grid">
-        <RouterLink to="/tips/dokumentasi-kekerasan" class="related-card">
-          <span class="badge badge-lilac">Perlindungan</span>
-          <h4>Cara dokumentasi kekerasan untuk laporan hukum</h4>
-          <p>Tim Redaksi · 6 mnt</p>
-        </RouterLink>
-        <RouterLink to="/info/hak-hukum" class="related-card">
-          <span class="badge badge-pink">Hukum</span>
-          <h4>Hak hukum perempuan Indonesia: panduan lengkap</h4>
-          <p>Tim Redaksi · 8 mnt</p>
-        </RouterLink>
-        <RouterLink to="/tips/red-flags" class="related-card">
-          <span class="badge badge-pink">Relasi</span>
-          <h4>Red flags hubungan yang sering diabaikan perempuan</h4>
-          <p>Tim Redaksi · 4 mnt</p>
-        </RouterLink>
-      </div>
-    </div>
-  </section>
   </ArticleLayout>
 </template>
 

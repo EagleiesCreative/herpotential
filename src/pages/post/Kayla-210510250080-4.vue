@@ -116,28 +116,6 @@
     </div>
   </article>
 
-  <section class="related">
-    <div style="max-width:760px;margin:0 auto">
-      <h3>Baca Juga</h3>
-      <div class="related-grid">
-        <RouterLink to="/cerita/rahma" class="related-card">
-          <span class="badge badge-lilac">Kesehatan</span>
-          <h4>Didiagnosis PCOS di usia 24 — dan tidak ada yang mau menjelaskan apa itu</h4>
-          <p>Rahma A. · 9 mnt</p>
-        </RouterLink>
-        <RouterLink to="/tips/self-advocacy-kesehatan" class="related-card">
-          <span class="badge badge-mint">Kesehatan</span>
-          <h4>Self-advocacy di fasilitas kesehatan: cara ngomongnya</h4>
-          <p>Tim Redaksi · 4 mnt</p>
-        </RouterLink>
-        <RouterLink to="/tips/menstruasi-kerja" class="related-card">
-          <span class="badge badge-pink">Hak Kerja</span>
-          <h4>Cara bicara soal menstruasi di tempat kerja</h4>
-          <p>Tim Redaksi · 4 mnt</p>
-        </RouterLink>
-      </div>
-    </div>
-  </section>
   </ArticleLayout>
 </template>
 

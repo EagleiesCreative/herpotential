@@ -123,28 +123,6 @@
     </div>
   </article>
 
-  <section class="related">
-    <div style="max-width:760px;margin:0 auto">
-      <h3>Baca Juga</h3>
-      <div class="related-grid">
-        <RouterLink to="/tips/dokumentasi-kekerasan" class="related-card">
-          <span class="badge badge-lilac">Perlindungan</span>
-          <h4>Cara dokumentasi kekerasan untuk laporan hukum</h4>
-          <p>Tim Redaksi · 6 mnt</p>
-        </RouterLink>
-        <RouterLink to="/tips/menstruasi-kerja" class="related-card">
-          <span class="badge badge-pink">Hak Kerja</span>
-          <h4>Cara bicara soal menstruasi di tempat kerja</h4>
-          <p>Tim Redaksi · 4 mnt</p>
-        </RouterLink>
-        <RouterLink to="/artikel/parlemen" class="related-card">
-          <span class="badge badge-pink">Politik</span>
-          <h4>Keterwakilan perempuan di parlemen Indonesia</h4>
-          <p>Nur Priyanti · 14 mnt</p>
-        </RouterLink>
-      </div>
-    </div>
-  </section>
   </ArticleLayout>
 </template>
 

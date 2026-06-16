@@ -109,29 +109,7 @@
 
 </article>
 
-<section class="related">
-  <div style="max-width:720px;margin:0 auto">
-    <h3>Artikel Terkait</h3>
-    <div class="related-grid">
-      <RouterLink to="/artikel/parlemen" class="related-card">
-        <span class="badge badge-pink">Politik</span>
-        <h4>Keterwakilan perempuan di parlemen Indonesia</h4>
-        <p>Nur Priyanti · 14 mnt</p>
-      </RouterLink>
-      <RouterLink to="/artikel/ekonomi-perawatan" class="related-card">
-        <span class="badge badge-mint">Ekonomi</span>
-        <h4>Ekonomi perawatan: pekerjaan perempuan yang tidak kelihatan</h4>
-        <p>Dr. Dina Marlina · 11 mnt</p>
-      </RouterLink>
-      <RouterLink to="/cerita/sari" class="related-card">
-        <span class="badge badge-lilac">Cerita</span>
-        <h4>Saya kuliah sambil kerja 2 shift — dan tidak ada yang percaya saya bisa lulus cumlaude</h4>
-        <p>Sari R. · 8 mnt</p>
-      </RouterLink>
-    </div>
-  </div>
-</section>
-  </ArticleLayout>
+</ArticleLayout>
 </template>
 
 <script setup>

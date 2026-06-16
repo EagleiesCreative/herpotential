@@ -77,9 +77,8 @@
           <span class="badge badge-white">Karier & Ambisi</span>
         </div>
         <div class="article-big-body">
-          <h2>Saya perempuan pertama yang jadi direktur di perusahaan ini — inilah yang benar-benar terjadi</h2>
-          <p>Bukan cerita Cinderella. Perjalanan Dewi Kusuma penuh benturan nyata — dari diremehkan dalam rapat, gaji
-            yang tidak setara, hingga akhirnya mengubah budaya perusahaan dari dalam.</p>
+          <h2>Kepemimpinan Perempuan di Sektor Korporat: Menembus Glass Ceiling & Mengubah Budaya Kerja</h2>
+          <p>Meskipun partisipasi perempuan terus meningkat, persentase perempuan di posisi kepemimpinan puncak masih minim. Apa hambatan strukturalnya dan bagaimana mengatasinya?</p>
           <div class="article-meta">
             <div class="author" style="display:flex;align-items:center;gap:10px;">
               <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">NA</div>
@@ -143,7 +142,7 @@
     </div>
 
     <div class="story-grid">
-      <RouterLink to="/post/reyva-210510250074-6" class="story-card">
+      <RouterLink to="/post/anonymous-6" class="story-card">
         <div class="story-card-top top-c1">
           🎓
         </div>
@@ -154,16 +153,15 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">RE</div>
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">A</div>
             <div>
-              <div style="font-weight: 500;">Reyva keisya putri s</div>
-              <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
+              <div style="font-weight: 500;">Anonymus</div>
             </div>
           </div>
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/reyva-210510250074-4" class="story-card">
+      <RouterLink to="/post/anonymous-4" class="story-card">
         <div class="story-card-top top-c2">
           💔
         </div>
@@ -174,16 +172,15 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">RE</div>
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">A</div>
             <div>
-              <div style="font-weight: 500;">Reyva keisya putri s</div>
-              <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
+              <div style="font-weight: 500;">Anonymus</div>
             </div>
           </div>
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/reyva-210510250074-2" class="story-card">
+      <RouterLink to="/post/anonymous-2" class="story-card">
         <div class="story-card-top top-c3">
           🌾
         </div>
@@ -194,16 +191,15 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">RE</div>
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">A</div>
             <div>
-              <div style="font-weight: 500;">Reyva keisya putri s</div>
-              <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
+              <div style="font-weight: 500;">Anonymus</div>
             </div>
           </div>
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/reyva-210510250074-5" class="story-card">
+      <RouterLink to="/post/anonymous-5" class="story-card">
         <div class="story-card-top top-c4">
           🩺
         </div>
@@ -214,16 +210,15 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">RE</div>
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">A</div>
             <div>
-              <div style="font-weight: 500;">Reyva keisya putri s</div>
-              <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
+              <div style="font-weight: 500;">Anonymus</div>
             </div>
           </div>
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/reyva-210510250074-3" class="story-card">
+      <RouterLink to="/post/anonymous-3" class="story-card">
         <div class="story-card-top top-c5">
           🗳️
         </div>
@@ -234,16 +229,15 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">RE</div>
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">A</div>
             <div>
-              <div style="font-weight: 500;">Reyva keisya putri s</div>
-              <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
+              <div style="font-weight: 500;">Anonymus</div>
             </div>
           </div>
         </div>
       </RouterLink>
 
-      <RouterLink to="/post/reyva-210510250074-1" class="story-card">
+      <RouterLink to="/post/anonymous-1" class="story-card">
         <div class="story-card-top top-c6">
           🧕
         </div>
@@ -254,10 +248,9 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">RE</div>
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">A</div>
             <div>
-              <div style="font-weight: 500;">Reyva keisya putri s</div>
-              <div style="font-size:0.8em; opacity:0.8;">210510250074</div>
+              <div style="font-weight: 500;">Anonymus</div>
             </div>
           </div>
         </div>

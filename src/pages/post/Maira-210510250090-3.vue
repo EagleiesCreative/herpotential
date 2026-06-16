@@ -100,28 +100,6 @@
 
   </article>
 
-  <section class="related">
-    <div style="max-width:720px;margin:0 auto">
-      <h3>Baca Juga</h3>
-      <div class="related-grid">
-        <RouterLink to="/tips/personal-branding" class="related-card">
-          <span class="badge badge-peach">Karier</span>
-          <h4>Bangun personal branding tanpa kehilangan dirimu</h4>
-          <p>Tim Redaksi · 4 mnt</p>
-        </RouterLink>
-        <RouterLink to="/tips/menolak" class="related-card">
-          <span class="badge badge-pink">Boundaries</span>
-          <h4>Cara menolak dengan tegas tanpa merasa bersalah</h4>
-          <p>Tim Redaksi · 5 mnt</p>
-        </RouterLink>
-        <RouterLink to="/artikel/direktur" class="related-card">
-          <span class="badge badge-pink">Karier & Ambisi</span>
-          <h4>Saya perempuan pertama yang jadi direktur di perusahaan ini</h4>
-          <p>Dewi Kusuma · 12 mnt</p>
-        </RouterLink>
-      </div>
-    </div>
-  </section>
   </ArticleLayout>
 </template>
 

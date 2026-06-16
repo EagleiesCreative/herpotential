@@ -1,175 +1,78 @@
 <template>
   <ArticleLayout>
     <!-- HERO -->
-  <header class="article-hero">
-    <div class="hero-badge">👩‍💼 Karier & Ambisi</div>
-    <h1>Saya Perempuan Pertama yang Jadi Direktur di Perusahaan Ini — Inilah yang Benar-Benar Terjadi</h1>
-    <p class="lead">Bukan cerita Cinderella. Perjalanan Dewi Kusuma penuh benturan nyata — dari diremehkan dalam rapat,
-      gaji yang tidak setara, hingga akhirnya mengubah budaya perusahaan dari dalam.</p>
-    <div class="author-row">
-      <div class="avatar">NA</div>
-      <div class="author-info">
-        <div class="author-name" style="line-height:1.2">Nadine Alifya Widiyarto<br><span style="font-size:0.85em; opacity:0.75; font-weight:normal;">210510250073</span></div>
-        
+    <header class="article-hero">
+      <div class="hero-badge">👩‍💼 Karier & Ambisi</div>
+      <h1>Kepemimpinan Perempuan di Sektor Korporat: Menembus Glass Ceiling & Mengubah Budaya Kerja</h1>
+      <p class="lead">Meskipun partisipasi perempuan terus meningkat, persentase perempuan di posisi kepemimpinan puncak masih minim. Apa hambatan strukturalnya dan bagaimana mengatasinya?</p>
+      <div class="author-row">
+        <div class="avatar">NA</div>
+        <div class="author-info">
+          <div class="author-name" style="line-height:1.2">Nadine Alifya Widiyarto<br><span style="font-size:0.85em; opacity:0.75; font-weight:normal;">210510250073</span></div>
+        </div>
+        <div class="divider"></div>
       </div>
-      <div class="divider"></div>
-      
-    </div>
-    
       <div class="author-meta" style="margin-top:1.5rem; color:var(--text-dark); font-size:0.9em; text-align:center;">Bandung,May 2026</div>
     </header>
 
-  <!-- BODY -->
-  <article class="article-wrap">
+    <!-- BODY -->
+    <article class="article-wrap">
+      <p>Keterwakilan perempuan di jajaran kepemimpinan puncak (C-suite dan direksi) masih menjadi salah satu isu kesetaraan gender paling krusial di dunia korporasi modern. Fenomena yang dikenal sebagai <em>glass ceiling</em>—hambatan tak terlihat namun kokoh yang menghalangi perempuan untuk naik ke posisi eksekutif—masih nyata terjadi di berbagai industri.</p>
+      <p>Mendorong kepemimpinan perempuan bukan sekadar masalah keadilan representasi, melainkan strategi bisnis yang esensial. Berbagai riset menunjukkan bahwa perusahaan dengan keberagaman gender yang baik di tingkat manajemen memiliki kinerja finansial, inovasi, dan tata kelola yang lebih unggul.</p>
 
-    <p>Saya masih ingat dengan jelas hari ketika nama saya disebutkan dalam rapat dewan direksi sebagai calon Direktur
-      Operasional. Bukan karena momennya terasa seperti adegan film — justru sebaliknya. Reaksi pertama salah satu
-      komisaris adalah, "Apa kita sudah cukup siap untuk ini?" Dia tidak menyebut nama saya. Dia menyebut <em>ini.</em>
-    </p>
-
-    <p>Saya adalah perempuan pertama di posisi direksi dalam sejarah 34 tahun perusahaan ini. Dan dalam tiga tahun
-      pertama, saya belajar bahwa jadi yang pertama bukan berarti menjadi yang diterima.</p>
-
-    <div class="stat-row">
-      <div class="stat-box">
-        <div class="stat-num">21%</div>
-        <div class="stat-label">perempuan di posisi direksi perusahaan Fortune 500 Asia</div>
+      <div class="stat-row">
+        <div class="stat-box">
+          <div class="stat-num">21%</div>
+          <div class="stat-label">perempuan di posisi direksi perusahaan Fortune 500 Asia</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">34 thn</div>
+          <div class="stat-label">rata-rata usia perusahaan sebelum mengangkat direktur perempuan pertama</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">3x</div>
+          <div class="stat-label">lebih sering perempuan diinterupsi dalam rapat dibanding kolega laki-laki</div>
+        </div>
       </div>
-      <div class="stat-box">
-        <div class="stat-num">34 thn</div>
-        <div class="stat-label">usia perusahaan sebelum punya direktur perempuan pertama</div>
+
+      <h2>Hambatan Struktural Menuju Puncak Kepemimpinan</h2>
+      <p>Perjalanan perempuan menuju posisi eksekutif sering kali dihadapkan pada hambatan berlapis yang bersifat kultural maupun institusional. Salah satu faktor utama adalah kurangnya program sponsor dan mentorship formal di dalam organisasi yang secara aktif mempersiapkan talenta perempuan untuk jalur kepemimpinan eksekutif.</p>
+      <p>Selain itu, ekspektasi sosial tradisional mengenai pembagian peran domestik (beban ganda) memaksa banyak perempuan profesional terhambat perkembangannya di tengah masa produktif mereka, tepat saat promosi ke tingkat manajerial puncak biasanya ditawarkan.</p>
+
+      <div class="pullquote">
+        "Keberagaman gender di tingkat eksekutif bukan sekadar indikator etis, melainkan katalis utama bagi inovasi dan ketahanan finansial perusahaan di era disrupsi."
+        <cite>— Laporan McKinsey & Company: Women in the Workplace</cite>
       </div>
-      <div class="stat-box">
-        <div class="stat-num">3x</div>
-        <div class="stat-label">lebih sering diinterupsi dalam rapat dibanding kolega laki-laki</div>
+
+      <h2>Bias Gender dan Microaggression di Tempat Kerja</h2>
+      <p>Bentuk hambatan yang lebih halus namun berdampak besar pada kesehatan psikologis dan rasa percaya diri perempuan adalah bias implisit dan tindakan <em>microaggression</em> di ruang rapat. Beberapa bentuk yang paling umum terjadi antara lain:</p>
+
+      <div class="highlight-box">
+        <h4>🔍 Bentuk-bentuk microaggression yang dihadapi perempuan di posisi kepemimpinan:</h4>
+        <ul>
+          <li><strong>Manterrupting</strong> — Diinterupsi oleh rekan kerja laki-laki sebelum selesai menyampaikan gagasan secara utuh.</li>
+          <li><strong>Bropriating</strong> — Ide yang diusulkan perempuan diabaikan, namun mendapat apresiasi tinggi ketika diutarakan kembali oleh laki-laki.</li>
+          <li><strong>Pelabelan Emosional</strong> — Pernyataan tegas dan lugas dari pemimpin perempuan sering disalahartikan sebagai tindakan 'agresif' atau 'emosional'.</li>
+          <li><strong>Kesenjangan Briefing</strong> — Pengambilan keputusan informal yang sering terjadi di luar ruang rapat formal (misalnya saat makan malam atau aktivitas sosial yang didominasi laki-laki).</li>
+        </ul>
       </div>
-    </div>
 
-    <h2>Tahun Pertama: Belajar Bahwa Kompetensi Saja Tidak Cukup</h2>
+      <h2>Kesenjangan Pengupahan Gender (Gender Wage Gap)</h2>
+      <p>Fakta empiris menunjukkan bahwa kesenjangan upah berbasis gender masih menjadi isu yang belum tuntas di banyak korporasi. Perempuan di posisi manajerial yang setara sering kali menerima kompensasi finansial yang lebih rendah dibandingkan rekan sejawat laki-laki dengan kualifikasi yang sama.</p>
+      <p>Untuk mengatasi masalah ini, transparansi pengupahan dan pelaksanaan audit berkala terhadap struktur kompensasi berdasarkan analisis gender menjadi langkah penting yang wajib diambil oleh departemen sumber daya manusia (SDM) perusahaan.</p>
 
-    <p>Saya bergabung dengan perusahaan ini 11 tahun lalu sebagai manajer produksi tingkat menengah. Selama satu dekade,
-      saya membangun track record — menekan biaya operasional 23%, memimpin ekspansi ke tiga kota baru, dan menavigasi
-      krisis COVID-19 yang hampir menghancurkan lini manufaktur kami.</p>
-
-    <p>Tapi ketika posisi direktur terbuka, nama saya tidak ada dalam daftar kandidat awal. Seorang kolega laki-laki
-      dengan pengalaman 6 tahun lebih sedikit ada di sana. Ketika saya tanyakan langsung ke atasan saya, jawabannya
-      adalah: "Kamu sudah sangat baik di posisi sekarang, Dewi. Kami tidak mau kehilangan kamu di sini."</p>
-
-    <div class="pullquote">
-      "Ternyata saya bukan tidak layak. Saya terlalu nyaman sebagai alat — efisien, dapat diandalkan, dan cukup junior
-      untuk tidak mengancam siapapun."
-      <cite>— Dewi Kusuma</cite>
-    </div>
-
-    <p>Butuh satu tahun, seorang mentor eksternal, dan laporan audit kinerja yang saya susun sendiri sebelum manajemen
-      senior benar-benar mempertimbangkan saya. Saya tidak menunggu — saya membangun kasus untuk diri saya sendiri,
-      dengan data.</p>
-
-    <h2>Microaggression di Ruang Rapat: Yang Tidak Pernah Ada di Buku Teks</h2>
-
-    <p>Hari pertama sebagai direktur, saya hadir dalam rapat direksi dengan agenda strategi lima tahunan. Saya
-      menyiapkan presentasi 40 halaman. Dua menit setelah saya mulai bicara, salah satu direktur lain menginterupsi
-      dengan pertanyaan yang seharusnya dijawab di slide berikutnya — slide yang tidak pernah dia beri waktu untuk saya
-      tunjukkan.</p>
-
-    <p>Ini terjadi bukan sekali. Bukan dua kali. Ini terjadi di hampir setiap rapat selama enam bulan pertama. Saya
-      mulai mendokumentasikannya — bukan karena paranoid, tapi karena saya perlu data. Dari 38 rapat yang saya catat,
-      saya diinterupsi sebelum selesai berbicara dalam 29 di antaranya.</p>
-
-    <div class="highlight-box">
-      <h4>🔍 Bentuk-bentuk microaggression yang umum dialami perempuan di posisi kepemimpinan:</h4>
-      <ul>
-        <li><strong>Manterrupting</strong> — diinterupsi oleh kolega laki-laki sebelum selesai berbicara</li>
-        <li><strong>Bropriating</strong> — ide kamu disampaikan ulang oleh kolega laki-laki dan diapresiasi seperti ide
-          baru</li>
-        <li><strong>"Kamu terlalu emosional"</strong> — pernyataan tegas dibingkai sebagai respons emosional, bukan
-          profesional</li>
-        <li><strong>Dipanggil dengan nama depan</strong> saat semua direktur lain dipanggil dengan gelar atau titel
-          jabatan</li>
-        <li><strong>Dilewati dalam briefing</strong> — informasi penting tidak tersampai atau tersampai terlambat</li>
-      </ul>
-    </div>
-
-    <h2>Soal Gaji: Satu Percakapan yang Mengubah Segalanya</h2>
-
-    <p>Empat bulan setelah menjabat, saya tidak sengaja melihat slip gaji seorang direktur lain yang tertinggal di
-      printer. Gaji saya 18% lebih rendah. Dengan pengalaman yang lebih panjang dan divisi yang lebih besar.</p>
-
-    <p>Saya bisa marah. Saya bisa diam. Saya memilih untuk membuat janji dengan CEO besok paginya.</p>
-
-    <p>"Pak, saya menemukan ada kesenjangan yang signifikan dalam kompensasi antar direktur. Saya minta waktu 30 menit
-      untuk membahasnya." Bukan tuduhan. Bukan emosi. Hanya fakta dan permintaan untuk bicara.</p>
-
-    <p>Tiga minggu kemudian, gaji saya disetarakan. Dan dua bulan setelahnya, perusahaan mulai melakukan audit
-      kompensasi berbasis gender — untuk pertama kalinya dalam sejarahnya.</p>
-
-    <div class="pullquote">
-      "Negosiasi terbaik bukan yang paling agresif. Tapi yang paling siap dengan data dan paling jelas dengan
-      ekspektasi."
-      <cite>— Dewi Kusuma</cite>
-    </div>
-
-    <h2>Mengubah Budaya dari Dalam: Tiga Tahun Kemudian</h2>
-
-    <p>Hari ini, tiga tahun setelah menjabat, perusahaan kami memiliki kebijakan cuti melahirkan yang diperpanjang untuk
-      semua gender, program mentoring khusus perempuan di jalur manajerial, dan — yang paling saya banggakan — dua
-      direktur perempuan lainnya yang bergabung dalam 18 bulan terakhir.</p>
-
-    <p>Ini bukan karena saya luar biasa. Ini karena saya tidak mau menjadi yang terakhir.</p>
-
-    <p>Perubahan budaya korporat tidak terjadi melalui satu kebijakan atau satu kampanye kesadaran. Ia terjadi ketika
-      ada orang yang bersedia terlihat tidak nyaman, mengajukan pertanyaan sulit, dan tetap bertahan cukup lama untuk
-      melihat perubahan kecil itu terakumulasi menjadi sesuatu yang nyata.</p>
-
-    <h2>Yang Ingin Saya Katakan kepada Kamu yang Ada di Posisi Ini Sekarang</h2>
-
-    <div class="highlight-box">
-      <h4>💡 Lima hal yang saya pelajari menjadi pemimpin perempuan pertama:</h4>
-      <ul>
-        <li><strong>Dokumentasikan segalanya.</strong> Bukan untuk paranoia, tapi untuk data. Data tidak bisa dibantah
-          dengan "kamu terlalu sensitif."</li>
-        <li><strong>Cari sekutu, bukan hanya mentor.</strong> Kamu perlu orang yang mau berbicara untukmu ketika kamu
-          tidak ada di ruangan.</li>
-        <li><strong>Jangan menunggu sempurna.</strong> Laki-laki di sekitarmu tidak menunggu sempurna sebelum melamar
-          atau mengangkat tangan.</li>
-        <li><strong>Kesenjangan gaji bukan kesalahan kamu.</strong> Tapi negosiasi adalah tanggung jawabmu. Minta apa
-          yang kamu layak dapatkan.</li>
-        <li><strong>Jadi yang pertama berarti membuat jalan untuk yang berikutnya.</strong> Gunakan posisimu untuk
-          membuka pintu yang tertutup.</li>
-      </ul>
-    </div>
-
-    <p>Saya tidak selalu benar. Saya membuat kesalahan. Ada hari-hari ketika saya pulang ke rumah dan bertanya-tanya
-      apakah semua ini layak.</p>
-
-    <p>Tapi kemudian saya membayangkan rapat direksi dua tahun dari sekarang, dengan lebih banyak perempuan di meja yang
-      sama. Dan saya tahu: ya, ini layak.</p>
-
-  </article>
-
-  <!-- RELATED -->
-  <section class="related">
-    <div style="max-width:720px;margin:0 auto">
-      <h3>Artikel Terkait</h3>
-      <div class="related-grid">
-        <RouterLink to="/artikel/parlemen" class="related-card">
-          <span class="badge badge-pink">Politik</span>
-          <h4>Keterwakilan perempuan di parlemen Indonesia: angka, hambatan, dan jalan ke depan</h4>
-          <p>Nur Priyanti · 14 mnt</p>
-        </RouterLink>
-        <RouterLink to="/artikel/perempuan-tech" class="related-card">
-          <span class="badge badge-lilac">Teknologi</span>
-          <h4>Perempuan di tech Indonesia: masuk lebih mudah, bertahan yang susah</h4>
-          <p>Rina Lestari · 16 mnt</p>
-        </RouterLink>
-        <RouterLink to="/artikel/ekonomi-perawatan" class="related-card">
-          <span class="badge badge-mint">Ekonomi</span>
-          <h4>Ekonomi perawatan: pekerjaan perempuan yang tidak kelihatan</h4>
-          <p>Dr. Dina Marlina · 11 mnt</p>
-        </RouterLink>
+      <h2>Strategi Membangun Budaya Kerja Inklusif</h2>
+      <div class="highlight-box">
+        <h4>💡 Rekomendasi kebijakan korporat berkelanjutan:</h4>
+        <ul>
+          <li><strong>Program Mentorship dan Sponsorship Aktif</strong> — Memastikan talenta perempuan potensial mendapatkan bimbingan langsung dari eksekutif senior.</li>
+          <li><strong>Kebijakan Kerja Ramah Keluarga</strong> — Penyediaan waktu kerja fleksibel, cuti orang tua yang memadai untuk ayah dan ibu, serta ruang laktasi yang layak di kantor.</li>
+          <li><strong>Pelatihan Bias Implisit</strong> — Mengadakan pelatihan berkala bagi para pengambil keputusan untuk meminimalkan bias gender dalam proses perekrutan dan promosi jabatan.</li>
+        </ul>
       </div>
-    </div>
-  </section>
+
+      <p>Membuka jalan bagi kepemimpinan perempuan yang setara bukan hanya tanggung jawab satu individu, melainkan transformasi sistemik budaya organisasi secara keseluruhan demi keberlanjutan masa depan korporasi yang lebih adil dan produktif.</p>
+    </article>
   </ArticleLayout>
 </template>
 

@@ -95,28 +95,6 @@
 
   </article>
 
-  <section class="related">
-    <div style="max-width:720px;margin:0 auto">
-      <h3>Baca Juga</h3>
-      <div class="related-grid">
-        <RouterLink to="/tips/red-flags" class="related-card">
-          <span class="badge badge-pink">Relasi</span>
-          <h4>Red flags hubungan yang sering diabaikan perempuan</h4>
-          <p>Tim Redaksi · 4 mnt</p>
-        </RouterLink>
-        <RouterLink to="/tips/support-system" class="related-card">
-          <span class="badge badge-lilac">Mental Health</span>
-          <h4>Membangun support system yang benar-benar support</h4>
-          <p>Tim Redaksi · 5 mnt</p>
-        </RouterLink>
-        <RouterLink to="/tips/negosiasi-gaji" class="related-card">
-          <span class="badge badge-peach">Karier</span>
-          <h4>Negosiasi gaji: template kalimat yang terbukti berhasil</h4>
-          <p>Tim Redaksi · 5 mnt</p>
-        </RouterLink>
-      </div>
-    </div>
-  </section>
   </ArticleLayout>
 </template>
 

@@ -14,6 +14,12 @@ import Reyva2105102500743 from './pages/post/Reyva-210510250074-3.vue'
 import Reyva2105102500744 from './pages/post/Reyva-210510250074-4.vue'
 import Reyva2105102500745 from './pages/post/Reyva-210510250074-5.vue'
 import Reyva2105102500746 from './pages/post/Reyva-210510250074-6.vue'
+import Anonymous1 from './pages/post/anonymous-1.vue'
+import Anonymous2 from './pages/post/anonymous-2.vue'
+import Anonymous3 from './pages/post/anonymous-3.vue'
+import Anonymous4 from './pages/post/anonymous-4.vue'
+import Anonymous5 from './pages/post/anonymous-5.vue'
+import Anonymous6 from './pages/post/anonymous-6.vue'
 import Kayla2105102500801 from './pages/post/Kayla-210510250080-1.vue'
 import Kayla2105102500802 from './pages/post/Kayla-210510250080-2.vue'
 import Kayla2105102500803 from './pages/post/Kayla-210510250080-3.vue'
@@ -60,6 +66,12 @@ const routes = [
   { path: '/post/reyva-210510250074-4', component: Reyva2105102500744 },
   { path: '/post/reyva-210510250074-5', component: Reyva2105102500745 },
   { path: '/post/reyva-210510250074-6', component: Reyva2105102500746 },
+  { path: '/post/anonymous-1', component: Anonymous1 },
+  { path: '/post/anonymous-2', component: Anonymous2 },
+  { path: '/post/anonymous-3', component: Anonymous3 },
+  { path: '/post/anonymous-4', component: Anonymous4 },
+  { path: '/post/anonymous-5', component: Anonymous5 },
+  { path: '/post/anonymous-6', component: Anonymous6 },
   { path: '/post/kayla-210510250080-1', component: Kayla2105102500801 },
   { path: '/post/kayla-210510250080-2', component: Kayla2105102500802 },
   { path: '/post/kayla-210510250080-3', component: Kayla2105102500803 },

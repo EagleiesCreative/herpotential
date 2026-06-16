@@ -75,28 +75,6 @@
     </div>
   </article>
 
-  <section class="related">
-    <div style="max-width:720px;margin:0 auto">
-      <h3>Baca Juga</h3>
-      <div class="related-grid">
-        <RouterLink to="/tips/negosiasi-gaji" class="related-card">
-          <span class="badge badge-peach">Karier</span>
-          <h4>Negosiasi gaji: template kalimat yang terbukti berhasil</h4>
-          <p>Tim Redaksi · 5 mnt</p>
-        </RouterLink>
-        <RouterLink to="/artikel/direktur" class="related-card">
-          <span class="badge badge-pink">Karier & Ambisi</span>
-          <h4>Saya perempuan pertama yang jadi direktur di perusahaan ini</h4>
-          <p>Dewi Kusuma · 12 mnt</p>
-        </RouterLink>
-        <RouterLink to="/artikel/perempuan-tech" class="related-card">
-          <span class="badge badge-lilac">Teknologi</span>
-          <h4>Perempuan di tech Indonesia: masuk lebih mudah, bertahan yang susah</h4>
-          <p>Rina Lestari · 16 mnt</p>
-        </RouterLink>
-      </div>
-    </div>
-  </section>
   </ArticleLayout>
 </template>
 
