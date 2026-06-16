@@ -7,6 +7,8 @@
         <div class="author-name" style="line-height:1.2">Kayla Rahma Rissyaputri<br><span style="font-size:0.85em; opacity:0.75; font-weight:normal;">210510250072</span></div>
         <div class="author-id" style="opacity: 0.7; font-size: 0.9em;">210510250072</div>
       </div>
+      
+      
       <div class="author-meta" style="margin-top:1.5rem; color:var(--text-dark); font-size:0.9em; text-align:center;">Bandung,May 2026</div>
     </header>
     <article class="article-wrap">

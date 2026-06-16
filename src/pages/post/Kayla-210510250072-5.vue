@@ -2,31 +2,30 @@
   <ArticleLayout>
     <header class="article-hero">
       <div class="hero-badge" style="display:inline-block; margin-bottom:1rem; padding:0.3rem 0.8rem; background:white; color:var(--pink-5); border-radius:20px; font-size:0.8em; font-weight:bold; letter-spacing:1px; text-transform:uppercase;">Karier & Ambisi</div>
-      <h1 style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); line-height:1.2; margin-bottom:1rem; color: var(--text-dark);">Membangun Percaya Diri di Ruang Rapat yang Didominasi Laki-laki</h1>
+      <h1 style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); line-height:1.2; margin-bottom:1rem; color: var(--text-dark);">Mengenal Glass Ceiling: Tantangan Perempuan Menembus Posisi Kepemimpinan</h1>
       <div class="author-block" style="margin-top: 1rem;">
         <div class="author-name" style="line-height:1.2">Kayla Rahma Rissyaputri<br><span style="font-size:0.85em; opacity:0.75; font-weight:normal;">210510250072</span></div>
         <div class="author-id" style="opacity: 0.7; font-size: 0.9em;">210510250072</div>
       </div>
+      
+      
       <div class="author-meta" style="margin-top:1.5rem; color:var(--text-dark); font-size:0.9em; text-align:center;">Bandung,May 2026</div>
     </header>
     <article class="article-wrap">
 
-      <p>Berapa kali kamu menemukan dirimu sebagai satu-satunya perempuan di ruangan saat meeting penting? Bagi banyak perempuan karier di Indonesia, ini adalah realitas sehari-hari. Saya ingat pertama kali mempresentasikan proyek besar di depan jajaran direksi—suara saya bergetar, bukan karena saya tidak tahu materinya, tapi karena tatapan meragukan dari sekeliling ruangan.</p>
-      <h2>Sindrom Impostor di Tempat Kerja</h2>
-      <p>Kita sering merasa harus membuktikan diri dua kali lebih keras hanya untuk dianggap setara. Ini disebut Impostor Syndrome. Tapi ingatlah: kamu berada di kursi itu karena kamu pantas. Keahlian dan dedikasimu yang membawamu ke sana.</p>
-      <div class="pullquote">
-        "Jangan menunggu diundang untuk berbicara. Ambil ruangmu, karena suaramu penting."
-      </div>
-      <h2>3 Langkah Praktis Menghadapi Meeting Besar</h2>
+      <p>Berkarier setinggi langit adalah impian setiap perempuan profesional. Namun, pernahkah kamu merasa ada batas tak terlihat yang menghalangi langkahmu menuju puncak kepemimpinan? Batas transparan namun kokoh ini dikenal sebagai <em>glass ceiling</em>.</p>
+      <p>Di Indonesia, partisipasi perempuan di tingkat manajerial terus meningkat, tetapi persentase perempuan di posisi C-level atau direksi masih jauh dari kata seimbang. Stereotip gender sering kali menempatkan perempuan pada peran pendukung, bukan pemimpin utama.</p>
+      <h2>Menembus Hambatan Tak Terlihat</h2>
+      <p>Penting bagi perempuan untuk aktif membangun kepercayaan diri dan mengambil inisiatif strategis di tempat kerja untuk meruntuhkan pembatas ini secara perlahan namun pasti.</p>
       <div class="highlight-box">
-        <h4>1. Persiapan Data yang Kuat</h4>
-        <p>Data tidak memiliki gender. Ketika kamu berbicara dengan fakta dan angka, argumenmu tidak bisa dibantah hanya dengan asumsi.</p>
-        <h4>2. Cari Sekutu (Ally)</h4>
-        <p>Temukan rekan kerja yang bisa saling mendukung ide di ruang rapat. Jangan ragu untuk meminta dukungan sebelum rapat dimulai.</p>
-        <h4>3. Latih Bahasa Tubuh</h4>
-        <p>Hindari menyilangkan tangan atau menunduk. Lakukan kontak mata dan bicaralah dengan tempo yang tenang namun tegas.</p>
+        <h4>1. Bangun Personal Branding</h4>
+        <p>Tunjukkan kompetensi, dedikasi, dan kontribusi nyata secara konsisten kepada para pengambil keputusan di perusahaan.</p>
+        <h4>2. Cari Mentor dan Sponsor</h4>
+        <p>Miliki hubungan mentor dengan orang-orang di posisi kunci yang bersedia mendukung dan memberi masukan objektif.</p>
+        <h4>3. Ambil Risiko Strategis</h4>
+        <p>Jangan ragu memimpin proyek besar yang memiliki visibilitas tinggi untuk mendemonstrasikan kapabilitas kepemimpinanmu.</p>
       </div>
-      <p>Perubahan budaya perusahaan mungkin butuh waktu, tapi perubahan bagaimana kita membawa diri bisa dimulai hari ini. Mari saling mengangkat dan memastikan tidak ada lagi perempuan yang merasa suaranya terlalu kecil untuk didengar.</p>
+      <p>Memecahkan glass ceiling bukanlah perjuangan individu semata, melainkan kerja kolektif sistem perusahaan. Namun dengan kesiapan kompetensi dan keberanian diri, kita bisa menjadi retakan pertama yang akhirnya menghancurkan pembatas tersebut.</p>
     
     </article>
   </ArticleLayout>

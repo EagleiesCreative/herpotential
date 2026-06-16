@@ -8,12 +8,14 @@
     <div class="avatar" style="background:#26a69a">NA</div>
     <div class="author-info">
       <div class="author-name" style="line-height:1.2">Nadine Alifya Widiyarto<br><span style="font-size:0.85em; opacity:0.75; font-weight:normal;">210510250073</span></div>
-      <div class="author-meta" style="color:var(--text-mid); font-size:0.85em;">Bandung,May 2026</div>
+      
     </div>
     <div class="divider"></div>
-    <div class="author-meta" style="color:var(--text-mid); font-size:0.85em;">Bandung,May 2026</div>
+    
   </div>
-</header>
+  
+      <div class="author-meta" style="margin-top:1.5rem; color:var(--text-dark); font-size:0.9em; text-align:center;">Bandung,May 2026</div>
+    </header>
 <article class="article-wrap">
 
   <p>Setiap pagi, sebelum matahari benar-benar terbit, jutaan perempuan Indonesia sudah bangun. Mereka memasak, menyiapkan anak berangkat sekolah, membersihkan rumah, merawat anggota keluarga yang sakit atau lansia. Kemudian, sebagian besar dari mereka juga berangkat bekerja. Dan ketika mereka pulang, pekerjaan pertama itu — yang tidak pernah berakhir — menunggu lagi.</p>

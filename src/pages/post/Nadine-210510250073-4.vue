@@ -8,12 +8,14 @@
     <div class="avatar" style="background:#ff8a65">NA</div>
     <div class="author-info">
       <div class="author-name" style="line-height:1.2">Nadine Alifya Widiyarto<br><span style="font-size:0.85em; opacity:0.75; font-weight:normal;">210510250073</span></div>
-      <div class="author-meta" style="color:var(--text-mid); font-size:0.85em;">Bandung,May 2026</div>
+      
     </div>
     <div class="divider"></div>
-    <div class="author-meta" style="color:var(--text-mid); font-size:0.85em;">Bandung,May 2026</div>
+    
   </div>
-</header>
+  
+      <div class="author-meta" style="margin-top:1.5rem; color:var(--text-dark); font-size:0.9em; text-align:center;">Bandung,May 2026</div>
+    </header>
 <article class="article-wrap">
 
   <p>Empat tahun lalu, Dian Pratiwi adalah satu dari tiga perempuan dalam tim engineering beranggotakan 24 orang di sebuah startup unicorn Jakarta. Hari ini, ia adalah satu-satunya yang tersisa dari tiga itu. Yang dua lainnya sudah pindah ke perusahaan lain, atau keluar dari industri sama sekali.</p>

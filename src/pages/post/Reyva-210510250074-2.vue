@@ -8,12 +8,14 @@
     <div class="avatar">RE</div>
     <div class="author-info">
       <div class="author-name" style="line-height:1.2">Reyva keisya putri s<br><span style="font-size:0.85em; opacity:0.75; font-weight:normal;">210510250074</span></div>
-      <div class="author-meta" style="color:var(--text-mid); font-size:0.85em;">Bandung,May 2026</div>
+      
     </div>
     <div class="divider"></div>
     
   </div>
-</header>
+  
+      <div class="author-meta" style="margin-top:1.5rem; color:var(--text-dark); font-size:0.9em; text-align:center;">Bandung,May 2026</div>
+    </header>
 <article class="article-wrap">
 
   <p>Tahun 2019, modal saya adalah satu wajan, satu kompor, dan dua kilogram tepung. Tidak ada investor. Tidak ada pinjaman bank. Tidak ada ilmu bisnis dari universitas. Hanya resep klepon turun-temurun dari almarhumah nenek, dan keyakinan bahwa orang Jogja tidak pernah bisa menolak jajanan pasar yang enak.</p>

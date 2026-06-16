@@ -1,24 +1,39 @@
 <template>
   <ArticleLayout>
     <header class="article-hero">
-      <div class="hero-badge" style="display:inline-block; margin-bottom:1rem; padding:0.3rem 0.8rem; background:white; color:var(--pink-5); border-radius:20px; font-size:0.8em; font-weight:bold; letter-spacing:1px; text-transform:uppercase;">Pendidikan</div>
-      <h1 style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); line-height:1.2; margin-bottom:1rem; color: var(--text-dark);">Melawan Stigma: Perempuan Boleh Mengejar Pendidikan Tinggi</h1>
+      <div class="hero-badge" style="display:inline-block; margin-bottom:1rem; padding:0.3rem 0.8rem; background:white; color:var(--pink-5); border-radius:20px; font-size:0.8em; font-weight:bold; letter-spacing:1px; text-transform:uppercase;">Kesehatan Mental</div>
+      <h1 style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); line-height:1.2; margin-bottom:1rem; color: var(--text-dark);">Detoks Media Sosial: Menjaga Citra Tubuh (Body Image) yang Sehat</h1>
       <div class="author-block" style="margin-top: 1rem;">
         <div class="author-name" style="line-height:1.2">Kesya Gokma<br><span style="font-size:0.85em; opacity:0.75; font-weight:normal;">210510250069</span></div>
         <div class="author-id" style="opacity: 0.7; font-size: 0.9em;">210510250069</div>
       </div>
+      
+      
       <div class="author-meta" style="margin-top:1.5rem; color:var(--text-dark); font-size:0.9em; text-align:center;">Bandung,May 2026</div>
     </header>
     <article class="article-wrap">
 
-      <p>"Ngapain sekolah tinggi-tinggi, toh akhirnya ke dapur juga." Kalimat usang ini masih sering terdengar di berbagai lapisan masyarakat kita. Tekanan untuk segera menikah dan menetap sering kali menghalangi perempuan muda yang memiliki ambisi akademis.</p>
-      <p>Pendidikan tinggi bagi perempuan bukan hanya tentang gelar atau gaji yang lebih besar. Ini tentang memperluas wawasan, melatih pola pikir kritis, dan membangun jaringan yang akan bermanfaat seumur hidup.</p>
-      <h2>Pendidikan Membuka Pintu Pilihan</h2>
-      <p>Seorang perempuan yang berpendidikan akan memiliki lebih banyak pilihan dalam hidupnya. Ia bisa memilih untuk berkarier di perusahaan multinasional, membangun bisnis, atau bahkan memutuskan untuk menjadi ibu rumah tangga yang mendidik anak-anaknya dengan literasi yang luar biasa.</p>
-      <div class="pullquote">
-        "Perempuan yang terdidik tidak hanya mengangkat dirinya sendiri, tetapi juga mengangkat generasi berikutnya."
+      <p>Setiap hari kita dibombardir oleh standar kecantikan yang tidak realistis di media sosial. Filter wajah dan edit foto yang berlebihan sering kali membuat kita merasa minder dengan tubuh kita sendiri.</p>
+      <p>Kesehatan mental kita sangat dipengaruhi oleh apa yang kita konsumsi secara digital. Menjaga body image yang positif adalah perjuangan penting di era digital ini agar kita tidak terus membandingkan diri dengan estetika buatan.</p>
+      <h2>Langkah Detoks Digital Sederhana</h2>
+      <div class="circle-grid">
+        <div class="circle-card">
+          <div class="circle-icon">🚫</div>
+          <h4>Unfollow Akun Toxic</h4>
+          <p>Berhenti mengikuti akun-akun yang membuatmu merasa kurang percaya diri atau minder.</p>
+        </div>
+        <div class="circle-card">
+          <div class="circle-icon">📱</div>
+          <h4>Batasi Screen Time</h4>
+          <p>Kurangi durasi scroll media sosial harian, terutama di malam hari sebelum tidur.</p>
+        </div>
+        <div class="circle-card">
+          <div class="circle-icon">❤️</div>
+          <h4>Apresiasi Tubuhmu</h4>
+          <p>Fokus pada fungsi tubuhmu (seperti bernapas, berjalan, memeluk), bukan sekadar penampilannya.</p>
+        </div>
       </div>
-      <p>Jika kamu saat ini sedang bimbang apakah harus melanjutkan pendidikan S2 atau mengambil beasiswa di luar negeri karena takut "susah cari jodoh", ingatlah ini: Pria yang tepat tidak akan pernah merasa terintimidasi oleh kecerdasan dan ambisimu. Justru, ia akan menjadi pendukung terbesarmu. Jangan kecilkan mimpimu demi ekspektasi orang lain.</p>
+      <p>Tubuhmu adalah rumahmu, bukan pajangan untuk menyenangkan mata orang lain. Cintai keunikan fisikmu dan fokuslah pada kesehatan serta kenyamanan dirimu sendiri.</p>
     
     </article>
   </ArticleLayout>

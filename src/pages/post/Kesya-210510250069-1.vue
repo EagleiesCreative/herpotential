@@ -2,26 +2,24 @@
   <ArticleLayout>
     <header class="article-hero">
       <div class="hero-badge" style="display:inline-block; margin-bottom:1rem; padding:0.3rem 0.8rem; background:white; color:var(--pink-5); border-radius:20px; font-size:0.8em; font-weight:bold; letter-spacing:1px; text-transform:uppercase;">Kesehatan Mental</div>
-      <h1 style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); line-height:1.2; margin-bottom:1rem; color: var(--text-dark);">Mengapa 'Me Time' Bukanlah Keegoisan, Melainkan Kebutuhan</h1>
+      <h1 style="font-family: 'Playfair Display', serif; font-size: clamp(2rem, 4vw, 3rem); line-height:1.2; margin-bottom:1rem; color: var(--text-dark);">Mengatasi Impostor Syndrome: Mengapa Kita Sering Merasa Kurang Kompeten?</h1>
       <div class="author-block" style="margin-top: 1rem;">
         <div class="author-name" style="line-height:1.2">Kesya Gokma<br><span style="font-size:0.85em; opacity:0.75; font-weight:normal;">210510250069</span></div>
         <div class="author-id" style="opacity: 0.7; font-size: 0.9em;">210510250069</div>
       </div>
+      
+      
       <div class="author-meta" style="margin-top:1.5rem; color:var(--text-dark); font-size:0.9em; text-align:center;">Bandung,May 2026</div>
     </header>
     <article class="article-wrap">
 
-      <p>Perempuan sering kali dikondisikan untuk menjadi "pemberi" (caregiver) bagi semua orang: anak, suami, orang tua, rekan kerja. Akibatnya, kita menempatkan kebutuhan diri sendiri di urutan paling bawah dalam daftar prioritas.</p>
-      <p>Berapa kali kamu merasa bersalah hanya karena mengambil waktu satu jam untuk membaca buku atau pergi ke kafe sendirian? Rasa bersalah ini adalah hasil dari ekspektasi sosial yang tidak realistis terhadap perempuan.</p>
-      <h2>Bahaya Burnout pada Perempuan</h2>
-      <p>Mengabaikan kebutuhan diri terus-menerus akan berujung pada kelelahan fisik dan emosional (burnout). Ciri-cirinya antara lain mudah marah, kehilangan minat pada hal yang disukai, dan merasa kosong meskipun sibuk sepanjang hari.</p>
-      <div class="highlight-box">
-        <h4>Validasi Diri</h4>
-        <p>Kebutuhanmu sama pentingnya dengan kebutuhan orang lain. Mengutamakan diri bukan berarti tidak peduli pada orang lain.</p>
-        <h4>Berani Menolak</h4>
-        <p>Kata "Tidak" adalah kalimat yang lengkap. Kamu tidak perlu selalu memberikan penjelasan panjang lebar atas batasan yang kamu buat.</p>
+      <p>Pernahkah kamu merasa bahwa kesuksesan yang kamu raih hanyalah faktor keberuntungan, dan suatu hari nanti orang-orang akan tahu bahwa kamu sebenarnya tidak sehebat itu? Jika ya, kamu sedang mengalami <em>impostor syndrome</em> atau sindrom penyemu.</p>
+      <p>Sindrom ini sangat umum dialami oleh perempuan berprestasi tinggi. Kita cenderung menyalahkan diri sendiri saat terjadi kesalahan, tetapi mengabaikan kontribusi pribadi saat meraih kesuksesan. Hal ini bisa menghambat perkembangan karier kita.</p>
+      <div class="pullquote">
+        "Kamu tidak beruntung, kamu bekerja keras. Akui usahamu seperti kamu mengakui usaha orang lain."
       </div>
-      <p>Merawat diri sendiri (self-care) bukanlah hal yang egois. Sama seperti instruksi di pesawat terbang: "Pasang masker oksigen Anda terlebih dahulu sebelum menolong orang lain." Kamu tidak bisa menuangkan air dari teko yang kosong. Isi kembali energimu, demi dirimu sendiri.</p>
+      <h2>Langkah Menghadapi Sindrom Penyemu</h2>
+      <p>Untuk mengatasinya, mulailah mencatat setiap pencapaian sekecil apa pun. Belajarlah menerima pujian dengan senyuman dan ucapan terima kasih yang tulus, tanpa perlu merendahkan diri sendiri di hadapan orang lain.</p>
     
     </article>
   </ArticleLayout>

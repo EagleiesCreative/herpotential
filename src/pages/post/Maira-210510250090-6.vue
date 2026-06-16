@@ -8,12 +8,14 @@
       <div class="avatar">MA</div>
       <div class="author-info">
         <div class="author-name" style="line-height:1.2">Maira Aurel Khairunissa<br><span style="font-size:0.85em; opacity:0.75; font-weight:normal;">210510250090</span></div>
-        <div class="author-meta" style="color:var(--text-mid); font-size:0.85em;">Bandung,May 2026</div>
+        
       </div>
       <div class="divider"></div>
-      <div class="author-meta" style="color:var(--text-mid); font-size:0.85em;">Bandung,May 2026</div>
+      
     </div>
-  </header>
+    
+      <div class="author-meta" style="margin-top:1.5rem; color:var(--text-dark); font-size:0.9em; text-align:center;">Bandung,May 2026</div>
+    </header>
 
   <article class="article-wrap">
 

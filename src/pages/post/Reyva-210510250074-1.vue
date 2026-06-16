@@ -8,12 +8,14 @@
     <div class="avatar">RE</div>
     <div class="author-info">
       <div class="author-name" style="line-height:1.2">Reyva keisya putri s<br><span style="font-size:0.85em; opacity:0.75; font-weight:normal;">210510250074</span></div>
-      <div class="author-meta" style="color:var(--text-mid); font-size:0.85em;">Bandung,May 2026</div>
+      
     </div>
     <div class="divider"></div>
     
   </div>
-</header>
+  
+      <div class="author-meta" style="margin-top:1.5rem; color:var(--text-dark); font-size:0.9em; text-align:center;">Bandung,May 2026</div>
+    </header>
 <article class="article-wrap">
 
   <p>Hari pertama saya masuk ke kantor perusahaan multinasional tempat saya bekerja sekarang, saya adalah satu-satunya perempuan berhijab di lantai dua belas. Dari 67 karyawan, hanya ada dua Muslim yang terlihat — saya dan seorang staf operasional laki-laki. Saya langsung menghitung ini, bukan karena tidak aman, tapi karena tubuh seorang perempuan yang tumbuh sebagai minoritas di berbagai ruang memang terlatih untuk menghitung.</p>
