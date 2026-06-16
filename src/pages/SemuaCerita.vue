@@ -1,10 +1,15 @@
 <template>
   <ArticleLayout>
     <div style="padding: 4rem 2rem; max-width: 1200px; margin: 0 auto;">
-      <h1 style="margin-bottom: 2rem; font-family: 'Playfair Display', serif; text-align: center; color: var(--text-dark); font-size: 2.5rem;">Semua Cerita</h1>
-      <p style="text-align: center; margin-bottom: 3rem; color: var(--text-mid);">48 cerita & artikel penuh inspirasi dari para perempuan hebat.</p>
-      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem;">
-        <RouterLink to="/post/kayla-210510250072-1" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
+      <h1 style="margin-bottom: 2rem; font-family: 'Playfair Display', serif; text-align: center; color: var(--text-dark); font-size: 2.5rem;">Semua Artikel & Cerita</h1>
+      <p style="text-align: center; margin-bottom: 4rem; color: var(--text-mid);">48 karya penuh inspirasi dari para perempuan hebat di Indonesia.</p>
+
+      <!-- SECTION 1: ARTIKEL PEMBERDAYAAN -->
+      <section style="margin-bottom: 5rem;">
+        <h2 style="font-family: 'Playfair Display', serif; color: var(--text-dark); font-size: 1.8rem; margin-bottom: 0.5rem; border-bottom: 2px solid var(--pink-2); padding-bottom: 0.5rem; display: inline-block;">Artikel Pemberdayaan</h2>
+        <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 0.95rem;">Panduan edukatif, riset, dan analisis informatif seputar hak, karier, dan pemberdayaan perempuan.</p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem;">
+          <RouterLink to="/post/kayla-210510250072-1" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
             <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">Membangun Percaya Diri di Ruang Rapat yang Didominasi Laki-laki</h3>
             <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
               <div style="display: flex; align-items: center; gap: 10px;">
@@ -616,104 +621,6 @@
               </div>
             </div>
           </RouterLink>
-        <RouterLink to="/post/anonymous-1" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
-            <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">"Berhijab di Perusahaan Multinasional — Bukan Hambatan, Ini Cerita Saya"</h3>
-            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
-              <div style="display: flex; align-items: center; gap: 10px;">
-                <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
-                  A
-                </div>
-                <div>
-                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
-                </div>
-              </div>
-              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
-                Bandung,May 2026
-              </div>
-            </div>
-          </RouterLink>
-        <RouterLink to="/post/anonymous-2" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
-            <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">"Dari Dapur Rumah ke 50 Reseller — Bagaimana Saya Membangun Bisnis Tanpa Modal Awal"</h3>
-            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
-              <div style="display: flex; align-items: center; gap: 10px;">
-                <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
-                  A
-                </div>
-                <div>
-                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
-                </div>
-              </div>
-              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
-                Bandung,May 2026
-              </div>
-            </div>
-          </RouterLink>
-        <RouterLink to="/post/anonymous-3" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
-            <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">"Saya Jadi Kepala Desa Perempuan Pertama di Daerah Saya — Apa yang Terjadi Setelahnya"</h3>
-            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
-              <div style="display: flex; align-items: center; gap: 10px;">
-                <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
-                  A
-                </div>
-                <div>
-                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
-                </div>
-              </div>
-              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
-                Bandung,May 2026
-              </div>
-            </div>
-          </RouterLink>
-        <RouterLink to="/post/anonymous-4" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
-            <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">"Saya Keluar dari Pernikahan yang Toxic — Ini Bukan Kegagalan, Ini Keberanian"</h3>
-            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
-              <div style="display: flex; align-items: center; gap: 10px;">
-                <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
-                  A
-                </div>
-                <div>
-                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
-                </div>
-              </div>
-              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
-                Bandung,May 2026
-              </div>
-            </div>
-          </RouterLink>
-        <RouterLink to="/post/anonymous-5" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
-            <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">"Didiagnosis PCOS di Usia 24 — dan Tidak Ada yang Mau Menjelaskan Apa Itu"</h3>
-            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
-              <div style="display: flex; align-items: center; gap: 10px;">
-                <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
-                  A
-                </div>
-                <div>
-                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
-                </div>
-              </div>
-              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
-                Bandung,May 2026
-              </div>
-            </div>
-          </RouterLink>
-        <RouterLink to="/post/anonymous-6" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
-            <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">"Saya Kuliah Sambil Kerja 2 Shift — dan Tidak Ada yang Percaya Saya Bisa Lulus Cumlaude"</h3>
-            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
-              <div style="display: flex; align-items: center; gap: 10px;">
-                <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
-                  A
-                </div>
-                <div>
-                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
-                </div>
-              </div>
-              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
-                Bandung,May 2026
-              </div>
-            </div>
-          </RouterLink>
-
-        <!-- NEW FACTUAL ARTICLES BY REVYA -->
         <RouterLink to="/post/reyva-210510250074-1" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
             <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">Representasi Perempuan di Media Massa & Budaya Populer: Menantang Stereotip</h3>
             <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
@@ -816,10 +723,116 @@
               </div>
             </div>
           </RouterLink>
-      </div>
+        </div>
+      </section>
+
+      <!-- SECTION 2: SUARA MEREKA (CERITA) -->
+      <section>
+        <h2 style="font-family: 'Playfair Display', serif; color: var(--text-dark); font-size: 1.8rem; margin-bottom: 0.5rem; border-bottom: 2px solid var(--pink-2); padding-bottom: 0.5rem; display: inline-block;">Suara Mereka (Cerita)</h2>
+        <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 0.95rem;">Kisah nyata, narasi personal, dan perjuangan inspiratif yang dibagikan secara anonim dari berbagai penjuru negeri.</p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem;">
+          <RouterLink to="/post/anonymous-1" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
+            <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">"Berhijab di Perusahaan Multinasional — Bukan Hambatan, Ini Cerita Saya"</h3>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
+                  A
+                </div>
+                <div>
+                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
+                </div>
+              </div>
+              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
+                Bandung,May 2026
+              </div>
+            </div>
+          </RouterLink>
+        <RouterLink to="/post/anonymous-2" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
+            <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">"Dari Dapur Rumah ke 50 Reseller — Bagaimana Saya Membangun Bisnis Tanpa Modal Awal"</h3>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
+                  A
+                </div>
+                <div>
+                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
+                </div>
+              </div>
+              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
+                Bandung,May 2026
+              </div>
+            </div>
+          </RouterLink>
+        <RouterLink to="/post/anonymous-3" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
+            <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">"Saya Jadi Kepala Desa Perempuan Pertama di Daerah Saya — Apa yang Terjadi Setelahnya"</h3>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
+                  A
+                </div>
+                <div>
+                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
+                </div>
+              </div>
+              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
+                Bandung,May 2026
+              </div>
+            </div>
+          </RouterLink>
+        <RouterLink to="/post/anonymous-4" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
+            <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">"Saya Keluar dari Pernikahan yang Toxic — Ini Bukan Kegagalan, Ini Keberanian"</h3>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
+                  A
+                </div>
+                <div>
+                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
+                </div>
+              </div>
+              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
+                Bandung,May 2026
+              </div>
+            </div>
+          </RouterLink>
+        <RouterLink to="/post/anonymous-5" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
+            <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">"Didiagnosis PCOS di Usia 24 — dan Tidak Ada yang Mau Menjelaskan Apa Itu"</h3>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
+                  A
+                </div>
+                <div>
+                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
+                </div>
+              </div>
+              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
+                Bandung,May 2026
+              </div>
+            </div>
+          </RouterLink>
+        <RouterLink to="/post/anonymous-6" style="display:flex; flex-direction:column; padding: 1.5rem; background: white; border: 1px solid var(--pink-1); border-radius: 12px; text-decoration: none; color: inherit; transition: all 0.2s;">
+            <h3 style="margin-bottom: 1.5rem; font-family: 'Playfair Display', serif; color: var(--text-dark); line-height: 1.4; font-size: 1.25rem;">"Saya Kuliah Sambil Kerja 2 Shift — dan Tidak Ada yang Percaya Saya Bisa Lulus Cumlaude"</h3>
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
+              <div style="display: flex; align-items: center; gap: 10px;">
+                <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
+                  A
+                </div>
+                <div>
+                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
+                </div>
+              </div>
+              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
+                Bandung,May 2026
+              </div>
+            </div>
+          </RouterLink>
+        </div>
+      </section>
     </div>
   </ArticleLayout>
 </template>
+
 <script setup>
 import ArticleLayout from '../components/ArticleLayout.vue'
 </script>
