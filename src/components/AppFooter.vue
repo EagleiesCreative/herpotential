@@ -30,7 +30,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© 2025 HerPotential. Dibuat dengan ♡ untuk perempuan Indonesia</span>
+      <span>© 2026 HerPotential. Dibuat dengan ♡ untuk perempuan Indonesia</span>
       <span>Bandung, Indonesia</span>
     </div>
   </footer>
