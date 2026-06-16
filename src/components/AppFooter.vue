@@ -6,9 +6,9 @@
           <img src="/a.svg" alt="" style="height:2em;width:auto;vertical-align:middle;" /> HerPotential
         </RouterLink>
         <p style="margin-top:1rem;">Platform cerita dan pemberdayaan perempuan Indonesia. Kami percaya setiap perempuan berhak didengar, mengakses informasi yang mereka butuhkan, dan hidup dengan penuh keberanian.</p>
-        <div class="social-links">
-          <a href="#" aria-label="Instagram">ig</a>
-          <a href="#" aria-label="TikTok">tt</a>
+        <div class="social-links" style="margin-top: 1rem;">
+          <a href="https://www.instagram.com/herpotential.id?igsh=MXdxN2p1dmV2dDZyag==" aria-label="Instagram">IG</a>
+          <a href="https://www.tiktok.com/@herpotential.id?_r=1&_t=ZS-97GTJwfPeNQ" aria-label="Tiktok">TT</a>
         </div>
       </div>
       <div class="footer-col">

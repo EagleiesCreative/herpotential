@@ -159,7 +159,7 @@
             </div>
           </div>
           <div style="font-size: 0.75rem; color: var(--pink-4); display: flex; align-items: center; gap: 4px;">
-            <span>♥</span> 1.247
+            <span>♥</span> 17
           </div>
         </div>
       </RouterLink>
@@ -181,7 +181,7 @@
             </div>
           </div>
           <div style="font-size: 0.75rem; color: var(--pink-4); display: flex; align-items: center; gap: 4px;">
-            <span>♥</span> 3.421
+            <span>♥</span> 26
           </div>
         </div>
       </RouterLink>
@@ -203,7 +203,7 @@
             </div>
           </div>
           <div style="font-size: 0.75rem; color: var(--pink-4); display: flex; align-items: center; gap: 4px;">
-            <span>♥</span> 2.143
+            <span>♥</span> 28
           </div>
         </div>
       </RouterLink>
@@ -225,7 +225,7 @@
             </div>
           </div>
           <div style="font-size: 0.75rem; color: var(--pink-4); display: flex; align-items: center; gap: 4px;">
-            <span>♥</span> 4.712
+            <span>♥</span> 44
           </div>
         </div>
       </RouterLink>
@@ -247,7 +247,7 @@
             </div>
           </div>
           <div style="font-size: 0.75rem; color: var(--pink-4); display: flex; align-items: center; gap: 4px;">
-            <span>♥</span> 5.834
+            <span>♥</span> 31
           </div>
         </div>
       </RouterLink>
@@ -269,7 +269,7 @@
             </div>
           </div>
           <div style="font-size: 0.75rem; color: var(--pink-4); display: flex; align-items: center; gap: 4px;">
-            <span>♥</span> 6.221
+            <span>♥</span> 23
           </div>
         </div>
       </RouterLink>
@@ -587,8 +587,8 @@
       <input id="subscribe-email" v-model="subscribeEmail" type="email" placeholder="email@kamu.com" required>
       <button type="submit" id="subscribe-btn">Langganan ♀</button>
     </form>
-    <div id="subscribe-msg"
-      style="display:none; margin-top:1rem; padding:12px 20px; border-radius:8px; font-size:0.9rem; text-align:center;">
+    <div id="subscribe-msg" v-show="subscribeMsg.text" :class="subscribeMsg.error ? 'error-msg' : 'success-msg'">
+      {{ subscribeMsg.text }}
     </div>
   </section>
 
