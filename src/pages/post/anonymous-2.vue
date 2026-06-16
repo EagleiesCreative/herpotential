@@ -5,9 +5,9 @@
   <h1>"Dari Dapur Rumah ke 50 Reseller — Bagaimana Saya Membangun Bisnis Tanpa Modal Awal"</h1>
   <p class="lead">Ina, ibu rumah tangga dari Yogyakarta, kini omzetnya 40 juta per bulan. Ini bukan cerita keberuntungan — ini cerita tentang konsistensi, belajar dari gagal, dan tidak malu mulai dari kecil.</p>
   <div class="author-row">
-    <div class="avatar" style="background:var(--pink-4)">A</div>
+    <div class="avatar" style="background:var(--pink-4)">I</div>
     <div class="author-info">
-      <div class="author-name" style="line-height:1.2">Anonymus</div>
+      <div class="author-name" style="line-height:1.2">Ina</div>
     </div>
     <div class="divider"></div>
   </div>
@@ -78,36 +78,31 @@
 
   <div class="like-section">
     <p>Kisah Ina menginspirasimu? Tunjukkan dukunganmu!</p>
-    <button class="like-btn" onclick="this.textContent='♡ 2.144 ❤️ Semangat Ina!'">♡ 2.143 Suka</button>
+    <button class="like-btn" @click="handleLike">
+      <span v-if="!hasLiked">♡ {{ likes.toLocaleString('id-ID') }} Suka</span>
+      <span v-else>♡ {{ likes.toLocaleString('id-ID') }} ❤️ Semangat Ina!</span>
+    </button>
   </div>
 
 </article>
 
-<section class="related">
-  <div style="max-width:680px;margin:0 auto">
-    <h3>Cerita Lainnya</h3>
-    <div class="related-grid">
-      <RouterLink to="/cerita/lies" class="related-card">
-        <span class="badge badge-pink">Kepemimpinan</span>
-        <h4>Saya jadi kepala desa perempuan pertama — Bu Lies, Jawa Tengah</h4>
-        <p>7 mnt · ♡ 5.8k</p>
-      </RouterLink>
-      <RouterLink to="/cerita/sari" class="related-card">
-        <span class="badge badge-mint">Pendidikan</span>
-        <h4>Kuliah sambil kerja 2 shift — Sari R., Makassar</h4>
-        <p>8 mnt · ♡ 1.2k</p>
-      </RouterLink>
-      <RouterLink to="/artikel/ekonomi-perawatan" class="related-card">
-        <span class="badge badge-peach">Artikel</span>
-        <h4>Ekonomi perawatan: pekerjaan perempuan yang tidak kelihatan</h4>
-        <p>Dr. Dina Marlina · 11 mnt</p>
-      </RouterLink>
-    </div>
-  </div>
-</section>
-  </ArticleLayout>
+</ArticleLayout>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import ArticleLayout from '../../components/ArticleLayout.vue'
+
+const likes = ref(28)
+const hasLiked = ref(false)
+
+const handleLike = () => {
+  if (!hasLiked.value) {
+    likes.value++
+    hasLiked.value = true
+  } else {
+    likes.value--
+    hasLiked.value = false
+  }
+}
 </script>

@@ -5,7 +5,7 @@
       <p style="text-align: center; margin-bottom: 4rem; color: var(--text-mid);">48 karya penuh inspirasi dari para perempuan hebat di Indonesia.</p>
 
       <!-- SECTION 1: ARTIKEL PEMBERDAYAAN -->
-      <section style="margin-bottom: 5rem;">
+      <section id="artikel-pemberdayaan" style="margin-bottom: 5rem;">
         <h2 style="font-family: 'Playfair Display', serif; color: var(--text-dark); font-size: 1.8rem; margin-bottom: 0.5rem; border-bottom: 2px solid var(--pink-2); padding-bottom: 0.5rem; display: inline-block;">Artikel Pemberdayaan</h2>
         <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 0.95rem;">Panduan edukatif, riset, dan analisis informatif seputar hak, karier, dan pemberdayaan perempuan.</p>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem;">
@@ -727,7 +727,7 @@
       </section>
 
       <!-- SECTION 2: SUARA MEREKA (CERITA) -->
-      <section>
+      <section id="suara-mereka">
         <h2 style="font-family: 'Playfair Display', serif; color: var(--text-dark); font-size: 1.8rem; margin-bottom: 0.5rem; border-bottom: 2px solid var(--pink-2); padding-bottom: 0.5rem; display: inline-block;">Suara Mereka (Cerita)</h2>
         <p style="color: var(--text-muted); margin-bottom: 2rem; font-size: 0.95rem;">Kisah nyata, narasi personal, dan perjuangan inspiratif yang dibagikan secara anonim dari berbagai penjuru negeri.</p>
         <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem;">
@@ -736,14 +736,17 @@
             <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
               <div style="display: flex; align-items: center; gap: 10px;">
                 <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
-                  A
+                  F
                 </div>
                 <div>
-                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
+                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Fatimah</div>
                 </div>
               </div>
-              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
-                Bandung,May 2026
+              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 4px;">
+                <div>Bandung,May 2026</div>
+                <div style="color: var(--pink-4); display: flex; align-items: center; gap: 4px; font-weight: 500;">
+                  <span>♥</span> 6.221
+                </div>
               </div>
             </div>
           </RouterLink>
@@ -752,14 +755,17 @@
             <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
               <div style="display: flex; align-items: center; gap: 10px;">
                 <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
-                  A
+                  I
                 </div>
                 <div>
-                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
+                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Ina</div>
                 </div>
               </div>
-              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
-                Bandung,May 2026
+              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 4px;">
+                <div>Bandung,May 2026</div>
+                <div style="color: var(--pink-4); display: flex; align-items: center; gap: 4px; font-weight: 500;">
+                  <span>♥</span> 2.143
+                </div>
               </div>
             </div>
           </RouterLink>
@@ -768,14 +774,17 @@
             <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
               <div style="display: flex; align-items: center; gap: 10px;">
                 <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
-                  A
+                  B
                 </div>
                 <div>
-                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
+                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Bu Lies</div>
                 </div>
               </div>
-              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
-                Bandung,May 2026
+              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 4px;">
+                <div>Bandung,May 2026</div>
+                <div style="color: var(--pink-4); display: flex; align-items: center; gap: 4px; font-weight: 500;">
+                  <span>♥</span> 5.834
+                </div>
               </div>
             </div>
           </RouterLink>
@@ -784,14 +793,17 @@
             <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
               <div style="display: flex; align-items: center; gap: 10px;">
                 <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
-                  A
+                  M
                 </div>
                 <div>
-                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
+                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Maya</div>
                 </div>
               </div>
-              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
-                Bandung,May 2026
+              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 4px;">
+                <div>Bandung,May 2026</div>
+                <div style="color: var(--pink-4); display: flex; align-items: center; gap: 4px; font-weight: 500;">
+                  <span>♥</span> 3.421
+                </div>
               </div>
             </div>
           </RouterLink>
@@ -800,14 +812,17 @@
             <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
               <div style="display: flex; align-items: center; gap: 10px;">
                 <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
-                  A
+                  R
                 </div>
                 <div>
-                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
+                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Rahma</div>
                 </div>
               </div>
-              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
-                Bandung,May 2026
+              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 4px;">
+                <div>Bandung,May 2026</div>
+                <div style="color: var(--pink-4); display: flex; align-items: center; gap: 4px; font-weight: 500;">
+                  <span>♥</span> 4.712
+                </div>
               </div>
             </div>
           </RouterLink>
@@ -816,14 +831,17 @@
             <div style="display: flex; align-items: center; justify-content: space-between; margin-top: auto; padding-top: 1rem; border-top: 1px solid var(--pink-1); opacity: 0.9;">
               <div style="display: flex; align-items: center; gap: 10px;">
                 <div style="background: var(--pink-4); width: 32px; height: 32px; border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 12px; font-weight: bold;">
-                  A
+                  S
                 </div>
                 <div>
-                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Anonymus</div>
+                  <div style="font-size: 0.9em; line-height: 1.2; font-weight: 500;">Sari</div>
                 </div>
               </div>
-              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right;">
-                Bandung,May 2026
+              <div style="font-size: 0.75em; color: var(--text-muted); text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 4px;">
+                <div>Bandung,May 2026</div>
+                <div style="color: var(--pink-4); display: flex; align-items: center; gap: 4px; font-weight: 500;">
+                  <span>♥</span> 1.247
+                </div>
               </div>
             </div>
           </RouterLink>

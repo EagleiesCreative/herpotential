@@ -9,9 +9,9 @@
   <h1>"Saya Keluar dari Pernikahan yang Toxic — Ini Bukan Kegagalan, Ini Keberanian"</h1>
   <p class="lead">Maya berbagi jalan panjang menyadari dan akhirnya memilih dirinya sendiri — sebuah keputusan yang tidak datang dalam satu momen, tapi dalam ribuan momen kecil yang terakumulasi selama bertahun-tahun.</p>
   <div class="author-row">
-    <div class="avatar" style="background:var(--pink-4)">A</div>
+    <div class="avatar" style="background:var(--pink-4)">M</div>
     <div class="author-info">
-      <div class="author-name" style="line-height:1.2">Anonymus</div>
+      <div class="author-name" style="line-height:1.2">Maya</div>
     </div>
     <div class="divider"></div>
   </div>
@@ -79,36 +79,31 @@
 
   <div class="like-section">
     <p>Cerita Maya menyentuh hatimu? Tunjukkan dukunganmu.</p>
-    <button class="like-btn" onclick="this.textContent='♡ 3.422 ❤️ Terima kasih!'">♡ 3.421 Suka</button>
+    <button class="like-btn" @click="handleLike">
+      <span v-if="!hasLiked">♡ {{ likes.toLocaleString('id-ID') }} Suka</span>
+      <span v-else>♡ {{ likes.toLocaleString('id-ID') }} ❤️ Terima kasih!</span>
+    </button>
   </div>
 
 </article>
 
-<section class="related">
-  <div style="max-width:680px;margin:0 auto">
-    <h3>Cerita & Artikel Terkait</h3>
-    <div class="related-grid">
-      <RouterLink to="/cerita/rahma" class="related-card">
-        <span class="badge badge-mint">Kesehatan</span>
-        <h4>Didiagnosis PCOS di usia 24 — Rahma A., Bandung</h4>
-        <p>9 mnt · ♡ 4.7k</p>
-      </RouterLink>
-      <RouterLink to="/cerita/sari" class="related-card">
-        <span class="badge badge-pink">Pendidikan</span>
-        <h4>Kuliah sambil kerja 2 shift — Sari R., Makassar</h4>
-        <p>8 mnt · ♡ 1.2k</p>
-      </RouterLink>
-      <RouterLink to="/cerita/fatimah" class="related-card">
-        <span class="badge badge-lilac">Identitas</span>
-        <h4>Berhijab di perusahaan multinasional — Fatimah H., Surabaya</h4>
-        <p>10 mnt · ♡ 6.2k</p>
-      </RouterLink>
-    </div>
-  </div>
-</section>
-  </ArticleLayout>
+</ArticleLayout>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import ArticleLayout from '../../components/ArticleLayout.vue'
+
+const likes = ref(26)
+const hasLiked = ref(false)
+
+const handleLike = () => {
+  if (!hasLiked.value) {
+    likes.value++
+    hasLiked.value = true
+  } else {
+    likes.value--
+    hasLiked.value = false
+  }
+}
 </script>

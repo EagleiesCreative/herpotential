@@ -5,9 +5,9 @@
   <h1>"Saya Jadi Kepala Desa Perempuan Pertama di Daerah Saya — Apa yang Terjadi Setelahnya"</h1>
   <p class="lead">Bu Lies mencalonkan diri ketika semua orang bilang ini bukan tempatnya. Tiga tahun kemudian, desanya punya posyandu baru, jalan yang diperbaiki, dan yang pertama kalinya: dana desa yang diaudit secara transparan.</p>
   <div class="author-row">
-    <div class="avatar" style="background:var(--pink-4)">A</div>
+    <div class="avatar" style="background:var(--pink-4)">B</div>
     <div class="author-info">
-      <div class="author-name" style="line-height:1.2">Anonymus</div>
+      <div class="author-name" style="line-height:1.2">Bu Lies</div>
     </div>
     <div class="divider"></div>
   </div>
@@ -81,36 +81,31 @@
 
   <div class="like-section">
     <p>Bu Lies menginspirasimu? Tunjukkan apresiasimu!</p>
-    <button class="like-btn" onclick="this.textContent='♡ 5.835 ❤️ Terima kasih Bu Lies!'">♡ 5.834 Suka</button>
+    <button class="like-btn" @click="handleLike">
+      <span v-if="!hasLiked">♡ {{ likes.toLocaleString('id-ID') }} Suka</span>
+      <span v-else>♡ {{ likes.toLocaleString('id-ID') }} ❤️ Terima kasih Bu Lies!</span>
+    </button>
   </div>
 
 </article>
 
-<section class="related">
-  <div style="max-width:680px;margin:0 auto">
-    <h3>Cerita & Artikel Terkait</h3>
-    <div class="related-grid">
-      <RouterLink to="/artikel/parlemen" class="related-card">
-        <span class="badge badge-pink">Politik</span>
-        <h4>Keterwakilan perempuan di parlemen Indonesia</h4>
-        <p>Nur Priyanti · 14 mnt</p>
-      </RouterLink>
-      <RouterLink to="/cerita/fatimah" class="related-card">
-        <span class="badge badge-lilac">Identitas</span>
-        <h4>Berhijab di perusahaan multinasional — Fatimah H.</h4>
-        <p>10 mnt · ♡ 6.2k</p>
-      </RouterLink>
-      <RouterLink to="/artikel/direktur" class="related-card">
-        <span class="badge badge-peach">Karier</span>
-        <h4>Saya perempuan pertama yang jadi direktur di perusahaan ini</h4>
-        <p>Dewi Kusuma · 12 mnt</p>
-      </RouterLink>
-    </div>
-  </div>
-</section>
-  </ArticleLayout>
+</ArticleLayout>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import ArticleLayout from '../../components/ArticleLayout.vue'
+
+const likes = ref(31)
+const hasLiked = ref(false)
+
+const handleLike = () => {
+  if (!hasLiked.value) {
+    likes.value++
+    hasLiked.value = true
+  } else {
+    likes.value--
+    hasLiked.value = false
+  }
+}
 </script>

@@ -5,9 +5,9 @@
   <h1>"Didiagnosis PCOS di Usia 24 — dan Tidak Ada yang Mau Menjelaskan Apa Itu"</h1>
   <p class="lead">Rahma berbagi perjuangan navigasi sistem kesehatan yang sering mengabaikan perempuan — dan bagaimana ia akhirnya belajar menjadi advokat untuk tubuhnya sendiri.</p>
   <div class="author-row">
-    <div class="avatar" style="background:var(--pink-4)">A</div>
+    <div class="avatar" style="background:var(--pink-4)">R</div>
     <div class="author-info">
-      <div class="author-name" style="line-height:1.2">Anonymus</div>
+      <div class="author-name" style="line-height:1.2">Rahma</div>
     </div>
     <div class="divider"></div>
   </div>
@@ -72,36 +72,31 @@
 
   <div class="like-section">
     <p>Cerita Rahma membantumu merasa tidak sendirian?</p>
-    <button class="like-btn" onclick="this.textContent='♡ 4.713 ❤️ Terima kasih Rahma!'">♡ 4.712 Suka</button>
+    <button class="like-btn" @click="handleLike">
+      <span v-if="!hasLiked">♡ {{ likes.toLocaleString('id-ID') }} Suka</span>
+      <span v-else>♡ {{ likes.toLocaleString('id-ID') }} ❤️ Terima kasih Rahma!</span>
+    </button>
   </div>
 
 </article>
 
-<section class="related">
-  <div style="max-width:680px;margin:0 auto">
-    <h3>Artikel & Cerita Terkait</h3>
-    <div class="related-grid">
-      <RouterLink to="/cerita/maya" class="related-card">
-        <span class="badge badge-lilac">Keberanian</span>
-        <h4>Saya keluar dari pernikahan yang toxic — Maya Y., Jakarta</h4>
-        <p>11 mnt · ♡ 3.4k</p>
-      </RouterLink>
-      <RouterLink to="/cerita/fatimah" class="related-card">
-        <span class="badge badge-pink">Identitas</span>
-        <h4>Berhijab di perusahaan multinasional — Fatimah H.</h4>
-        <p>10 mnt · ♡ 6.2k</p>
-      </RouterLink>
-      <RouterLink to="/cerita/ina" class="related-card">
-        <span class="badge badge-peach">UMKM</span>
-        <h4>Dari dapur rumah ke 50 reseller — Ina N.</h4>
-        <p>6 mnt · ♡ 2.1k</p>
-      </RouterLink>
-    </div>
-  </div>
-</section>
-  </ArticleLayout>
+</ArticleLayout>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import ArticleLayout from '../../components/ArticleLayout.vue'
+
+const likes = ref(44)
+const hasLiked = ref(false)
+
+const handleLike = () => {
+  if (!hasLiked.value) {
+    likes.value++
+    hasLiked.value = true
+  } else {
+    likes.value--
+    hasLiked.value = false
+  }
+}
 </script>

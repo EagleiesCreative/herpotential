@@ -67,7 +67,7 @@
         <div class="section-label">pilihan editor</div>
         <div class="section-title" style="margin-bottom: 0;">Cerita yang Harus Kamu Baca</div>
       </div>
-      <RouterLink to="/semua-cerita" class="btn-ghost">Artikel Pemberdayaan</RouterLink>
+      <RouterLink to="/semua-cerita#artikel-pemberdayaan" class="btn-ghost">Artikel Pemberdayaan</RouterLink>
     </div>
 
     <div class="featured-grid">
@@ -138,7 +138,7 @@
         <p class="section-sub" style="margin-top: 0.4rem;">Cerita nyata dari perempuan Indonesia di seluruh penjuru
           negeri.</p>
       </div>
-      <RouterLink to="/semua-cerita" class="btn-ghost">Artikel Pemberdayaan</RouterLink>
+      <RouterLink to="/semua-cerita#suara-mereka" class="btn-ghost">Suara Mereka</RouterLink>
     </div>
 
     <div class="story-grid">
@@ -153,10 +153,13 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">A</div>
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">S</div>
             <div>
-              <div style="font-weight: 500;">Anonymus</div>
+              <div style="font-weight: 500;">Sari</div>
             </div>
+          </div>
+          <div style="font-size: 0.75rem; color: var(--pink-4); display: flex; align-items: center; gap: 4px;">
+            <span>♥</span> 1.247
           </div>
         </div>
       </RouterLink>
@@ -172,10 +175,13 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">A</div>
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">M</div>
             <div>
-              <div style="font-weight: 500;">Anonymus</div>
+              <div style="font-weight: 500;">Maya</div>
             </div>
+          </div>
+          <div style="font-size: 0.75rem; color: var(--pink-4); display: flex; align-items: center; gap: 4px;">
+            <span>♥</span> 3.421
           </div>
         </div>
       </RouterLink>
@@ -191,10 +197,13 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">A</div>
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">I</div>
             <div>
-              <div style="font-weight: 500;">Anonymus</div>
+              <div style="font-weight: 500;">Ina</div>
             </div>
+          </div>
+          <div style="font-size: 0.75rem; color: var(--pink-4); display: flex; align-items: center; gap: 4px;">
+            <span>♥</span> 2.143
           </div>
         </div>
       </RouterLink>
@@ -210,10 +219,13 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">A</div>
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">R</div>
             <div>
-              <div style="font-weight: 500;">Anonymus</div>
+              <div style="font-weight: 500;">Rahma</div>
             </div>
+          </div>
+          <div style="font-size: 0.75rem; color: var(--pink-4); display: flex; align-items: center; gap: 4px;">
+            <span>♥</span> 4.712
           </div>
         </div>
       </RouterLink>
@@ -229,10 +241,13 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">A</div>
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">B</div>
             <div>
-              <div style="font-weight: 500;">Anonymus</div>
+              <div style="font-weight: 500;">Bu Lies</div>
             </div>
+          </div>
+          <div style="font-size: 0.75rem; color: var(--pink-4); display: flex; align-items: center; gap: 4px;">
+            <span>♥</span> 5.834
           </div>
         </div>
       </RouterLink>
@@ -248,10 +263,13 @@
         </div>
         <div class="story-card-footer">
           <div class="author" style="display:flex;align-items:center;gap:10px;">
-            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">A</div>
+            <div class="avatar" style="background: var(--pink-4); width:32px; height:32px; border-radius:50%; display:flex; align-items:center; justify-content:center; color:white; font-size:12px; font-weight:bold;">F</div>
             <div>
-              <div style="font-weight: 500;">Anonymus</div>
+              <div style="font-weight: 500;">Fatimah</div>
             </div>
+          </div>
+          <div style="font-size: 0.75rem; color: var(--pink-4); display: flex; align-items: center; gap: 4px;">
+            <span>♥</span> 6.221
           </div>
         </div>
       </RouterLink>

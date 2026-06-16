@@ -5,9 +5,9 @@
   <h1>"Saya Kuliah Sambil Kerja 2 Shift — dan Tidak Ada yang Percaya Saya Bisa Lulus Cumlaude"</h1>
   <p class="lead">Kisah Sari dari Makassar yang membuktikan bahwa kemiskinan bukan penghalang mimpi — hanya peta yang berbeda untuk sampai ke tujuan yang sama.</p>
   <div class="author-row">
-    <div class="avatar" style="background:var(--pink-4)">A</div>
+    <div class="avatar" style="background:var(--pink-4)">S</div>
     <div class="author-info">
-      <div class="author-name" style="line-height:1.2">Anonymus</div>
+      <div class="author-name" style="line-height:1.2">Sari</div>
     </div>
     <div class="divider"></div>
   </div>
@@ -76,36 +76,31 @@
 
   <div class="like-section">
     <p>Cerita ini menyentuh hatimu? Berikan apresiasi untuk Sari.</p>
-    <button class="like-btn" onclick="this.textContent='♡ 1.248 ❤️ Terima kasih!'">♡ 1.247 Suka</button>
+    <button class="like-btn" @click="handleLike">
+      <span v-if="!hasLiked">♡ {{ likes.toLocaleString('id-ID') }} Suka</span>
+      <span v-else>♡ {{ likes.toLocaleString('id-ID') }} ❤️ Terima kasih!</span>
+    </button>
   </div>
 
 </article>
 
-<section class="related">
-  <div style="max-width:680px;margin:0 auto">
-    <h3>Cerita Lainnya</h3>
-    <div class="related-grid">
-      <RouterLink to="/cerita/ina" class="related-card">
-        <span class="badge badge-peach">UMKM</span>
-        <h4>Dari dapur rumah ke 50 reseller — Ina N., Yogyakarta</h4>
-        <p>6 mnt · ♡ 2.1k</p>
-      </RouterLink>
-      <RouterLink to="/cerita/maya" class="related-card">
-        <span class="badge badge-lilac">Keberanian</span>
-        <h4>Saya keluar dari pernikahan yang toxic — Maya Y., Jakarta</h4>
-        <p>11 mnt · ♡ 3.4k</p>
-      </RouterLink>
-      <RouterLink to="/artikel/pernikahan-dini" class="related-card">
-        <span class="badge badge-pink">Artikel</span>
-        <h4>Pernikahan dini masih merampas masa depan jutaan perempuan</h4>
-        <p>18 mnt · Annisa Syahputri</p>
-      </RouterLink>
-    </div>
-  </div>
-</section>
-  </ArticleLayout>
+</ArticleLayout>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import ArticleLayout from '../../components/ArticleLayout.vue'
+
+const likes = ref(17)
+const hasLiked = ref(false)
+
+const handleLike = () => {
+  if (!hasLiked.value) {
+    likes.value++
+    hasLiked.value = true
+  } else {
+    likes.value--
+    hasLiked.value = false
+  }
+}
 </script>

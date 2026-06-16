@@ -5,9 +5,9 @@
   <h1>"Berhijab di Perusahaan Multinasional — Bukan Hambatan, Ini Cerita Saya"</h1>
   <p class="lead">Fatimah berbagi perjalanan membangun karier di lingkungan korporat internasional tanpa harus memilih antara identitas dan ambisi — dan mengapa pertanyaan itu seharusnya tidak pernah perlu ditanyakan.</p>
   <div class="author-row">
-    <div class="avatar" style="background:var(--pink-4)">A</div>
+    <div class="avatar" style="background:var(--pink-4)">F</div>
     <div class="author-info">
-      <div class="author-name" style="line-height:1.2">Anonymus</div>
+      <div class="author-name" style="line-height:1.2">Fatimah</div>
     </div>
     <div class="divider"></div>
   </div>
@@ -74,36 +74,31 @@
 
   <div class="like-section">
     <p>Kisah Fatimah menginspirasimu?</p>
-    <button class="like-btn" onclick="this.textContent='♡ 6.222 ❤️ Terima kasih Fatimah!'">♡ 6.221 Suka</button>
+    <button class="like-btn" @click="handleLike">
+      <span v-if="!hasLiked">♡ {{ likes.toLocaleString('id-ID') }} Suka</span>
+      <span v-else>♡ {{ likes.toLocaleString('id-ID') }} ❤️ Terima kasih Fatimah!</span>
+    </button>
   </div>
 
 </article>
 
-<section class="related">
-  <div style="max-width:680px;margin:0 auto">
-    <h3>Cerita & Artikel Terkait</h3>
-    <div class="related-grid">
-      <RouterLink to="/artikel/direktur" class="related-card">
-        <span class="badge badge-pink">Karier</span>
-        <h4>Saya perempuan pertama yang jadi direktur di perusahaan ini</h4>
-        <p>Dewi Kusuma · 12 mnt</p>
-      </RouterLink>
-      <RouterLink to="/cerita/maya" class="related-card">
-        <span class="badge badge-lilac">Keberanian</span>
-        <h4>Saya keluar dari pernikahan yang toxic — Maya Y.</h4>
-        <p>11 mnt · ♡ 3.4k</p>
-      </RouterLink>
-      <RouterLink to="/cerita/lies" class="related-card">
-        <span class="badge badge-mint">Kepemimpinan</span>
-        <h4>Saya jadi kepala desa perempuan pertama — Bu Lies</h4>
-        <p>7 mnt · ♡ 5.8k</p>
-      </RouterLink>
-    </div>
-  </div>
-</section>
-  </ArticleLayout>
+</ArticleLayout>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import ArticleLayout from '../../components/ArticleLayout.vue'
+
+const likes = ref(34)
+const hasLiked = ref(false)
+
+const handleLike = () => {
+  if (!hasLiked.value) {
+    likes.value++
+    hasLiked.value = true
+  } else {
+    likes.value--
+    hasLiked.value = false
+  }
+}
 </script>
