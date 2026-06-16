@@ -621,7 +621,12 @@ const submitStory = async () => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(storyForm.value)
     })
-    const data = await res.json()
+    let data
+    try {
+      data = await res.json()
+    } catch (e) {
+      throw new Error(`Server error (${res.status}). Coba lagi nanti.`)
+    }
     if (!res.ok) throw new Error(data.error || 'Terjadi kesalahan')
     storyMsg.value = { text: '💌 ' + data.message, error: false }
     storyForm.value = { name: '', email: '', category: '', story: '' }
@@ -637,7 +642,12 @@ const subscribeNewsletter = async () => {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ email: subscribeEmail.value })
     })
-    const data = await res.json()
+    let data
+    try {
+      data = await res.json()
+    } catch (e) {
+      throw new Error(`Server error (${res.status}). Coba lagi nanti.`)
+    }
     if (!res.ok) throw new Error(data.error || 'Terjadi kesalahan')
     subscribeMsg.value = { text: '🌸 ' + data.message, error: false }
     subscribeEmail.value = ''

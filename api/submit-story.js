@@ -1,6 +1,5 @@
 const { Resend } = require('resend');
 
-const resend = new Resend(process.env.RESEND_API_KEY);
 const FROM_EMAIL = process.env.FROM_EMAIL || 'noreply@herpotential.id';
 const ADMIN_EMAIL = process.env.ADMIN_EMAIL || 'redaksi@herpotential.id';
 
@@ -41,6 +40,11 @@ module.exports = async function handler(req, res) {
   }
 
   try {
+    if (!process.env.RESEND_API_KEY) {
+      throw new Error('Konfigurasi server salah: RESEND_API_KEY tidak ditemukan di environment variables.');
+    }
+    const resend = new Resend(process.env.RESEND_API_KEY);
+
     // 1️⃣ Notify admin about new story submission
     await resend.emails.send({
       from: FROM_EMAIL,
